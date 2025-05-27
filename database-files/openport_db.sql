@@ -8,6 +8,11 @@ CREATE TABLE IF NOT EXISTS Country (
   CountryName VARCHAR(50)
   );
 
+CREATE TABLE IF NOT EXISTS Religion(
+  ReligionID int PRIMARY KEY,
+  ReligionName VARCHAR(50)
+);
+
 CREATE TABLE IF NOT EXISTS CountryReligion (
   ReligionID int,
   CountryID int,
@@ -17,11 +22,6 @@ CREATE TABLE IF NOT EXISTS CountryReligion (
   FOREIGN KEY (ReligionID) REFERENCES Religion (ReligionID),
   PRIMARY KEY (CountryID, ReligionID)
   
-);
-
-CREATE TABLE IF NOT EXISTS Religion(
-  ReligionID int PRIMARY KEY,
-  ReligionName VARCHAR(50)
 );
 
 CREATE TABLE IF NOT EXISTS ProBonoOpportunity (
@@ -58,6 +58,16 @@ CREATE TABLE IF NOT EXISTS Diplomat(
   FOREIGN KEY (UserID) REFERENCES User (userID)
 );
 
+CREATE TABLE IF NOT EXISTS Lawyer (
+  LawyerID int PRIMARY KEY,
+  UserID int,
+  Nationality int,
+  PrefferedRegion int,
+  Specialization VarChar(100),
+  FOREIGN KEY (Nationality) REFERENCES Country (CountryID),
+  FOREIGN KEY (USerID) REFERENCES User (UserID)
+);
+
 CREATE TABLE IF NOT EXISTS AsylumSeeker (
   ApplicantID int PRIMARY KEY,
   UserID int,
@@ -74,14 +84,9 @@ CREATE TABLE IF NOT EXISTS AsylumSeeker (
   FOREIGN KEY (Religion) REFERENCES Religion (ReligionID)
 );
 
-CREATE TABLE IF NOT EXISTS Lawyer (
-  LawyerID int PRIMARY KEY,
-  UserID int,
-  Nationality int,
-  PrefferedRegion int,
-  Specialization VarChar(100),
-  FOREIGN KEY (Nationality) REFERENCES Country (CountryID),
-  FOREIGN KEY (USerID) REFERENCES User (UserID)
+CREATE TABLE IF NOT EXISTS EducationLevel(
+  LevelID int PRIMARY KEY,
+  EducationName VarChar(100);
 );
 
 CREATE TABLE IF NOT EXISTS Education (
@@ -96,23 +101,6 @@ CREATE TABLE IF NOT EXISTS Education (
   PRIMARY KEY (CountryID, LevelID)
 );
 
-CREATE TABLE IF NOT EXISTS EducationLevel(
-  LevelID int PRIMARY KEY,
-  EducationName VarChar(100);
-);
-
-CREATE TABLE IF NOT EXISTS Decision (
-  DecisionID int,
-  DecidingCountry int,
-  ApplicantGroup int,
-  Count int, 
-  DecisionType VARCHAR(1), /*maybe set a binary for this one?*/
-  DecisionYear YEAR,
-  FOREIGN KEY (DecidingCountry) REFERENCES Country (CountryID),
-  FOREIGN KEY (ApplicantGroup) REFERENCES ApplicantGroup (GroupID),
-  PRIMARY KEY (DecisionID, CountryID, ApplicantGroup)
-);
-
 CREATE TABLE IF NOT EXISTS ApplicantGroup(
   GroupID int PRIMARY KEY,
   CountryID int,
@@ -120,6 +108,18 @@ CREATE TABLE IF NOT EXISTS ApplicantGroup(
   maybe add a min and max age for age groups?*/
   Sex VARCHAR(1),
   FOREIGN KEY (CountryID) REFERENCES Country (CountryID) 
+);
+
+CREATE TABLE IF NOT EXISTS Decision (
+  DecisionID int,
+  DecidingCountry int,
+  ApplicantGroup int,
+  Total int, 
+  DecisionType VARCHAR(1), /*maybe set a binary for this one?*/
+  DecisionYear YEAR,
+  FOREIGN KEY (DecidingCountry) REFERENCES Country (CountryID),
+  FOREIGN KEY (ApplicantGroup) REFERENCES ApplicantGroup (GroupID),
+  PRIMARY KEY (DecisionID, CountryID, ApplicantGroup)
 );
 
 INSERT INTO Country (CountryID, CountryName) VALUES 
@@ -182,15 +182,15 @@ VALUES
 (1,1,'Higher',9,2,10000),
 (2,2,'Post Grad',6,1,2000);
 
-INSErt INtO EducationLevel (LevelID, EducationName)
+INSERT INtO EducationLevel (LevelID, EducationName)
 VALUES
-(1,"higher"),
-(2,"post grad");
+(1,'Higher'),
+(2,"Post Grad");
 
-INSERT INTO Decision (DecisionID, DecidingCountry, ApplicantGroup, Count, DecisionType, DecisionYear)
+INSERT INTO Decision (DecisionID, DecidingCountry, ApplicantGroup, Total, DecisionType, DecisionYear)
 VALUES
-(1,1,1,1000, 'y','2021'),
-(2,3,2,500, 'n','2001');
+(1,1,1,1000, 'Geneva Convention Status','2021'),
+(2,3,2,500, 'Subsidiary Protection Status','2001');
 
 INSERT INtO ApplicantGroup(GroupID, CountryID, AgeRange, Sex)
 VALUES
