@@ -221,10 +221,4 @@ INSERT INTO LegalAidApplication (ApplicantID, USerID, AidDescription, Submission
 VALUES
 (1,1,'Applicaton aid', '2025-06-30'),
 (2,2,'Sue for discrimination', '2024-07-21');
-=======
-VALUES
-(1,1,'18-25','M'),
-(2,2,'26-32','F');
-
-
 
