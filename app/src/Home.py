@@ -50,10 +50,9 @@ if st.button("Act as Mohammed, a 17 year old refugee from Syria ",
     # when user clicks the button, they are now considered authenticated
     st.session_state['authenticated'] = True
     # we set the role of the current user
-    st.session_state['role'] = 'AsylumSeeker'
+    st.session_state['role'] = 'pol_strat_advisor'
     # we add the first name of the user (so it can be displayed on 
     # subsequent pages). 
-    st.session_state['first_name'] = 'Mohammed'
     st.session_state['first_name'] = 'Mohammed'
     # finally, we ask streamlit to switch to another page, in this case, the 
     # landing page for this particular user type

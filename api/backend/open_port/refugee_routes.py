@@ -20,10 +20,10 @@ def get_education_ranks(country):
 def get_religion(country):
     return
 
-# From Mock Data
-@refugees.route("/available_lawyers/<uid>", methods=["GET"])
-def get_lawyers(uid):
-    return
+# # From Mock Data
+# @refugees.route("/available_lawyers/<uid>", methods=["GET"])
+# def get_lawyers(uid):
+#     return
 
 # From Mock Data
 @refugees.route("/available_lawyers/<uid>", methods=["PUT"])
