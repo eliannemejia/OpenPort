@@ -7,13 +7,25 @@ import streamlit as st
 
 #### ------------------------ General ------------------------
 def HomeNav():
-    st.sidebar.page_link("Home.py", label="Home", icon="🏠")
+    st.sidebar.page_link("../Home.py", label="Home", icon="🏠")
 
 
 def AboutPageNav():
-    st.sidebar.page_link("pages/30_About.py", label="About", icon="🧠")
+    st.sidebar.page_link("../pages/30_About.py", label="About", icon="🧠")
+    
+    
+### -------------------------- Refugee Sidebar -------------------------------------------
+def AcceptanceProbStats():
+    st.sidebar.page_link()
 
-
+def EducationSysData():
+    st.sidebar.page_link()
+    
+def ReligDemographics():
+    st.sidebar.page_link()
+    
+def LegalAidHome():
+    st.sidebar.page_link()
 #### ------------------------ Examples for Role of pol_strat_advisor ------------------------
 def PolStratAdvHomeNav():
     st.sidebar.page_link(
