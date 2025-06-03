@@ -50,7 +50,7 @@ if st.button("Act as Mohammed, a 17 year old refugee from Syria ",
     # when user clicks the button, they are now considered authenticated
     st.session_state['authenticated'] = True
     # we set the role of the current user
-    st.session_state['role'] = 'AsylumSeeker'
+    st.session_state['role'] = 'pol_strat_advisorr'
     # we add the first name of the user (so it can be displayed on 
     # subsequent pages). 
     st.session_state['first_name'] = 'Mohammed'
@@ -63,7 +63,7 @@ if st.button('Act as Eric, an EU diplomat ',
             type = 'primary', 
             use_container_width=True):
     st.session_state['authenticated'] = True
-    st.session_state['role'] = 'Diplomat'
+    st.session_state['role'] = 'usaid_worker'
     st.session_state['first_name'] = 'Eric'
     st.switch_page('pages/10EuDiplomatHome.py')
 
@@ -71,7 +71,7 @@ if st.button('Act as Mark, a German lawyer ',
             type = 'primary', 
             use_container_width=True):
     st.session_state['authenticated'] = True
-    st.session_state['role'] = 'Lawyer'
+    st.session_state['role'] = 'administrator'
     st.session_state['first_name'] = 'Mark'
     st.switch_page('pages/20_Admin_Home.py')
 
