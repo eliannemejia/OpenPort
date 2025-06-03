@@ -64,7 +64,7 @@ if st.button('Act as Mark, a German Lawyer',
             use_container_width=True):
     st.session_state['authenticated'] = True
     st.session_state['role'] = 'usaid_worker'
-    st.session_state['first_name'] = 'Eric'
+    st.session_state['first_name'] = 'Mark'
     st.switch_page('pages/10_USAID_Worker_Home.py')
 
 if st.button('Act as Eric, An EU Diplomat', 
