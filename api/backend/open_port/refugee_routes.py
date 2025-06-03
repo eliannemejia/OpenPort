@@ -36,5 +36,4 @@ def submit_application(uid):
 
 @refugees.route("/legal_aid_application/<uid>", methods=["DELETE"])
 def assign_lawyer(uid):
-    return
-
+    return  
