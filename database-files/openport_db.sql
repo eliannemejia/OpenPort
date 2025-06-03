@@ -120,6 +120,20 @@ CREATE TABLE IF NOT EXISTS Decision (
   FOREIGN KEY (ApplicantGroup) REFERENCES ApplicantGroup (GroupID)
 );
 
+CREATE TABLE IF NOT EXISTS FamilyMemeber(
+  FamilyID int PRIMARY KEY,
+  DOB DATE,
+  FOREIGN KEY (FamilyID) REFERENCES AsylumSeeker (ApplicantID)
+)
+
+CREATE TABLE IF NOT EXISTS LegalAidApplication (
+  ApplicantID int PRIMARY KEY,
+  UserID int,
+  AidDescription VARCHAR(100),
+  SubmissionDate DATE,
+  FOREIGN KEY (UserID) REFERENCES AsylumSeeker (ApplicantID)
+)
+
 INSERT INTO Country (CountryID, CountryName) VALUES
 (1,'Belgium'),
 (2, 'Bulgaria'),
@@ -197,4 +211,14 @@ INSERT INTO Decision (DecisionID, DecidingCountry, ApplicantGroup, Total, Decisi
 VALUES
 (1,1,1,1000, 'Geneva Convention Status','2021'),
 (2,3,2,500, 'Subsidiary Protection Status','2001');
+
+INSERT INTO FamilyMemeber(FamilyID, DOB)
+VALUES
+(1,'2000-04-01'),
+(2,'1987-10-13');
+
+INSERT INTO LegalAidApplication (ApplicantID, USerID, AidDescription, SubmissionDate)
+VALUES
+(1,1,'Applicaton aid', '2025-06-30'),
+(2,2,'Sue for discrimination', '2024-07-21');
 
