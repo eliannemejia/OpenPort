@@ -5,4 +5,3 @@ from flask import current_app
 
 # Create a Blueprint for NGO routes
 diplomats = Blueprint("diplomats", __name__)
-
