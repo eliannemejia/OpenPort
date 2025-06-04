@@ -12,8 +12,20 @@ def HomeNav():
 
 def AboutPageNav():
     st.sidebar.page_link("pages/30_About.py", label="About", icon="🧠")
+    
+    
+### -------------------------- Refugee Sidebar -------------------------------------------
+def AcceptanceProbStats():
+    st.sidebar.page_link("pages/01_App_Prob_Stats.py", label="Find Best Asylum Option", icon="✅")
 
-
+def EducationSysData():
+    st.sidebar.page_link("pages/03_Education_Data.py", label="See Education Stats", icon="📚")
+    
+def ReligDemographics():
+    st.sidebar.page_link("pages/04_Religious_Demo.py", label="See Religious Demographics", icon="📊")
+    
+def LegalAidHome():
+    st.sidebar.page_link("pages/02_Legal_Aid_App.py", label="Seek Legal Aid", icon="👨🏽‍⚖️")
 #### ------------------------ Examples for Role of pol_strat_advisor ------------------------
 def PolStratAdvHomeNav():
     st.sidebar.page_link(
@@ -92,6 +104,13 @@ def SideBarLinks(show_home=False):
     # Show the other page navigators depending on the users' role.
     if st.session_state["authenticated"]:
 
+        # Show Asylum Acceptance Probability, Education Data, Religious Demographics and Legal Application Links
+        if st.session_state["role"] == "asylum_seeker":
+            AcceptanceProbStats()
+            EducationSysData()
+            ReligDemographics()
+            LegalAidHome()
+            
         # Show World Bank Link and Map Demo Link if the user is a political strategy advisor role.
         if st.session_state["role"] == "pol_strat_advisor":
             PolStratAdvHomeNav()
