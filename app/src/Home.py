@@ -73,4 +73,4 @@ if st.button('Act as Eric, An EU Diplomat',
     st.session_state['authenticated'] = True
     st.session_state['role'] = 'administrator'
     st.session_state['first_name'] = 'Eric'
-    st.switch_page('pages/20_Admin_Home.py')
+    st.switch_page('pages/20_Diplomat_Home.py')
