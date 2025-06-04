@@ -133,6 +133,15 @@ CREATE TABLE IF NOT EXISTS LegalAidApplication (
   FOREIGN KEY (ApplicantID) REFERENCES AsylumSeeker (ApplicantID)
 );
 
+CREATE TABLE IF NOT EXISTS AidProject (
+  ProjectID INT AUTO_INCREMENT PRIMARY KEY,
+  CountryID INT,
+  StartDate DATE,
+  Title VARCHAR(100),
+  Proj_Description VARCHAR(300),
+  FOREIGN KEY (CountryID) REFERENCES Country(CountryID)
+);
+
 INSERT INTO Country (CountryName) VALUES
 ('Belgium'),
 ('Bulgaria'),
