@@ -3,6 +3,7 @@ from backend.db_connection import db
 from mysql.connector import Error
 from flask import current_app
 
+
 # Create a Blueprint for NGO routes
 refugees = Blueprint("refugees", __name__)
 
@@ -65,6 +66,26 @@ def create_user():
     except Error as e:
         return jsonify({"error": str(e)}), 500
     
+def get_country_by_name(cname):
+    try:
+        current_app.logger.info('Starting get_all_countries request')
+        cursor = db.get_db().cursor()
+
+        cursor.execute("SELECT * FROM Country WHERE CountryName = %s", (cname,))
+        
+        country = cursor.fetchone()
+        
+        if not country:
+            return jsonify({"error": "NGO not found"}), 404
+        
+        cursor.close()
+    
+        current_app.logger.info(f'Successfully retrieved Country: {cname}')
+        return country
+    except Error as e:
+        current_app.logger.error(f'Database error in get_all_countries: {str(e)}')
+        return jsonify({"error": str(e)}), 500
+    
 @refugees.route("/new_user/<int:uid>", methods=["POST"])
 def new_asylum_seeker(uid):
     try:
@@ -76,6 +97,13 @@ def new_asylum_seeker(uid):
                 return jsonify({"error": f"Missing required field: {field}"}), 400
         
         cursor = db.get_db().cursor()
+        c_loc = data["CurrentLocation"]
+        cit = data["Citizenship"]
+        current_loc_response = get_country_by_name(c_loc)
+        citizenship_response = get_country_by_name(cit)
+        
+        current_loc_id = current_loc_response["CountryID"]
+        citizenship_id = citizenship_response["CountryID"]
         
         query = """
         INSERT INTO AsylumSeeker (UserID, DOB, SEX, CurrentLocation, Citizenship)
@@ -88,8 +116,8 @@ def new_asylum_seeker(uid):
                 uid,
                 data["DOB"],
                 data["SEX"],
-                data["CurrentLocation"],
-                data["Citizenship"],
+                current_loc_id,
+                citizenship_id,
             ),
         )
         
@@ -117,7 +145,7 @@ def submit_application(uid):
         cursor = db.get_db().cursor()
         
         query = """
-        INSERT INTO LegalAidApplication (UserID, AidDescription, SubmissionDate)
+        INSERT INTO LegalAidApplication (ApplicantID, AidDescription, SubmissionDate)
         VALUES (%s, %s, CURRENT_DATE())
         """
         
@@ -206,6 +234,7 @@ def add_family_member(fid):
         
         for field in required_fields:
             if field not in data:
+                print(data)
                 return jsonify({"error": f"Missing required field: {field}"}), 400
         
         cursor = db.get_db().cursor()
@@ -235,4 +264,25 @@ def add_family_member(fid):
             201,
         )
     except Error as e:
+        return jsonify({"error": str(e)}), 500
+    
+@refugees.route("/legal_aid_applications", methods=["GET"])
+def get_applications():
+    try:
+        current_app.logger.info('Starting get_applications request')
+        cursor = db.get_db().cursor()
+
+
+        # Prepare the Base query
+        query = "SELECT * FROM LegalAidApplication"
+        
+        current_app.logger.debug(f'Executing query: {query}')
+        cursor.execute(query)
+        users = cursor.fetchall()
+        cursor.close()
+
+        current_app.logger.info(f'Successfully retrieved {len(users)} Users')
+        return jsonify(users), 200
+    except Error as e:
+        current_app.logger.error(f'Database error in get_all_users: {str(e)}')
         return jsonify({"error": str(e)}), 500

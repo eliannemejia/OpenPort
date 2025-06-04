@@ -113,22 +113,24 @@ CREATE TABLE IF NOT EXISTS Decision (
   FOREIGN KEY (ApplicantGroup) REFERENCES ApplicantGroup (GroupID)
 );
 
-CREATE TABLE IF NOT EXISTS FamilyMemeber (
+CREATE TABLE IF NOT EXISTS FamilyMember (
   UserID INT AUTO_INCREMENT PRIMARY KEY,
   FamilyID INT,
   FirstName varchar(50),
   LastName varchar(50),
   Sex ENUM('Male', 'Female', 'Other'),
+  CurrentLocation int,
+  Citizenship int,
   DOB DATE,
   FOREIGN KEY (FamilyID) REFERENCES AsylumSeeker (ApplicantID)
 );
 
 CREATE TABLE IF NOT EXISTS LegalAidApplication (
-  ApplicantionID INT AUTO_INCREMENT PRIMARY KEY,
-  UserID int,
+  ApplicationID INT AUTO_INCREMENT PRIMARY KEY,
+  ApplicantID int,
   AidDescription VARCHAR(100),
   SubmissionDate DATE,
-  FOREIGN KEY (UserID) REFERENCES AsylumSeeker (ApplicantID)
+  FOREIGN KEY (ApplicantID) REFERENCES AsylumSeeker (ApplicantID)
 );
 
 INSERT INTO Country (CountryName) VALUES
@@ -210,13 +212,13 @@ VALUES
 (1,1,1,1000, 'GENCONV','2021'),
 (2,3,2,500, 'SUB_PROT','2001');
 
-INSERT INTO FamilyMemeber(FamilyID, DOB, FirstName, LastName, Sex)
+INSERT INTO FamilyMember(FamilyID, DOB, FirstName, LastName, Sex, CurrentLocation, Citizenship)
 VALUES
-(1, '2000-04-01', 'Amin', 'Mohammed', 'Male'),
-(4, '1987-10-13', 'Elexa', 'Neukirch', 'Female');
+(1, '2000-04-01', 'Amin', 'Mohammed', 'Male', 2, 1),
+(2, '1987-10-13', 'Elexa', 'Neukirch', 'Female', 1, 2);
 
-INSERT INTO LegalAidApplication (ApplicantID, USerID, AidDescription, SubmissionDate)
+INSERT INTO LegalAidApplication (ApplicantID, AidDescription, SubmissionDate)
 VALUES
-(1,1,'Applicaton aid', '2025-06-30'),
-(2,2,'Sue for discrimination', '2024-07-21');
+(1,'Applicaton aid', '2025-06-30'),
+(2,'Sue for discrimination', '2024-07-21');
 
