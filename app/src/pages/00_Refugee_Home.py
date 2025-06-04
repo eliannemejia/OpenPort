@@ -32,4 +32,4 @@ if st.button('See Religious Demographics',
 if st.button('Seek Legal Aid', 
              type='primary',
              use_container_width=True):
-  st.switch_page('pages/02_Map_Demo.py')
+  st.switch_page('pages/02_Legal_Aid_App.py')
