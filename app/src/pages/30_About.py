@@ -4,16 +4,17 @@ from modules.nav import SideBarLinks
 
 SideBarLinks()
 
-st.write("# About this App")
+st.write("# About Open Port")
 
 st.markdown(
     """
-    This is a demo app for Data and Software in International Government and Politics Dialogue 2025 Project Course.  
-
-    The goal of this demo is to provide information on the tech stack 
-    being used as well as demo some of the features of the various platforms. 
-
-    Stay tuned for more information and features to come!
+    In a world increasingly torn by conflict, Open Port is a digital lifeline for those navigating the asylum process. 
+    
+    Whether you're a displaced refugee, a diplomat allocating aid, or a lawyer offering pro bono support, our platform delivers tailored insights from our extensive global asylum database. 
+    
+    Refugees can discover the most welcoming countries based on acceptance rates, cultural fit, and legal resources. Diplomats get actionable data to direct humanitarian aid where it matters most. 
+    
+    Legal professionals can identify where their impact will be greatest. Open Port turns complex, fragmented asylum systems into a guided, informed journey toward safety and support.
     """
 )
 

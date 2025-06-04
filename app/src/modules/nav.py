@@ -7,25 +7,25 @@ import streamlit as st
 
 #### ------------------------ General ------------------------
 def HomeNav():
-    st.sidebar.page_link("../Home.py", label="Home", icon="🏠")
+    st.sidebar.page_link("Home.py", label="Home", icon="🏠")
 
 
 def AboutPageNav():
-    st.sidebar.page_link("../pages/30_About.py", label="About", icon="🧠")
+    st.sidebar.page_link("pages/30_About.py", label="About", icon="🧠")
     
     
 ### -------------------------- Refugee Sidebar -------------------------------------------
 def AcceptanceProbStats():
-    st.sidebar.page_link()
+    st.sidebar.page_link("pages/01_App_Prob_Stats.py", label="Find Best Asylum Option", icon="✅")
 
 def EducationSysData():
-    st.sidebar.page_link()
+    st.sidebar.page_link("pages/03_Education_Data.py", label="See Education Stats", icon="📚")
     
 def ReligDemographics():
-    st.sidebar.page_link()
+    st.sidebar.page_link("pages/04_Religious_Demo.py", label="See Religious Demographics", icon="📊")
     
 def LegalAidHome():
-    st.sidebar.page_link()
+    st.sidebar.page_link("pages/02_Legal_Aid_App.py", label="Seek Legal Aid", icon="👨🏽‍⚖️")
 #### ------------------------ Examples for Role of pol_strat_advisor ------------------------
 def PolStratAdvHomeNav():
     st.sidebar.page_link(
@@ -74,6 +74,13 @@ def AdminPageNav():
     st.sidebar.page_link(
         "pages/21_ML_Model_Mgmt.py", label="ML Model Management", icon="🏢"
     )
+def DiplomatNav():
+    st.sidebar.page_link("pages/20_Diplomat_Home.py", label="Diplomat Home", icon="👤")
+    st.sidebar.page_link("pages/21_pending_to_aid.py", label="Pending/Aid", icon="⛑️")
+    st.sidebar.page_link("pages/22_Low_Acpt.py", label="Low Acceptance Countries", icon="📉")
+    st.sidebar.page_link("pages/23_Group_Acpt.py", label="Inclusion Index", icon="🤝")
+    st.sidebar.page_link("pages/24_Find_Aid_Projects.py", label="Humanitarian Aid Dashboard", icon="📦")
+
 
 
 # --------------------------------Links Function -----------------------------------------------
@@ -97,6 +104,13 @@ def SideBarLinks(show_home=False):
     # Show the other page navigators depending on the users' role.
     if st.session_state["authenticated"]:
 
+        # Show Asylum Acceptance Probability, Education Data, Religious Demographics and Legal Application Links
+        if st.session_state["role"] == "asylum_seeker":
+            AcceptanceProbStats()
+            EducationSysData()
+            ReligDemographics()
+            LegalAidHome()
+            
         # Show World Bank Link and Map Demo Link if the user is a political strategy advisor role.
         if st.session_state["role"] == "pol_strat_advisor":
             PolStratAdvHomeNav()
@@ -114,6 +128,9 @@ def SideBarLinks(show_home=False):
         # If the user is an administrator, give them access to the administrator pages
         if st.session_state["role"] == "administrator":
             AdminPageNav()
+        
+        if st.session_state["role"] == "diplomat":
+            DiplomatNav()
 
     # Always show the About page at the bottom of the list of links
     AboutPageNav()
