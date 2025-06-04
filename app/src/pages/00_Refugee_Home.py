@@ -17,17 +17,17 @@ st.write('### What would you like to do today?')
 if st.button('Find Your Best Asylum Location', 
              type='primary',
              use_container_width=True):
-  st.switch_page('pages/01_World_Bank_Viz.py')
+  st.switch_page('pages/01_App_Prob_Stats.py')
 
 if st.button('See Education Data', 
              type='primary',
              use_container_width=True):
-  st.switch_page('pages/02_Map_Demo.py')
+  st.switch_page('pages/03_Education_Data.py')
   
 if st.button('See Religious Demographics', 
              type='primary',
              use_container_width=True):
-  st.switch_page('pages/02_Map_Demo.py')
+  st.switch_page('pages/04_Religious_Demo.py')
   
 if st.button('Seek Legal Aid', 
              type='primary',
