@@ -160,34 +160,41 @@ def create_aid_project():
     try:
         data = request.get_json()
 
-        # Validate required fields
-        required_fields = ["title", "description", "country_name"]
+        # Validate required fields (including start_date)
+        required_fields = ["title", "description", "country", "start_date"]
         for field in required_fields:
             if field not in data:
                 return jsonify({"error": f"Missing required field: {field}"}), 400
 
-        cursor = db.get_db().cursor() 
+        # Optional: Validate date format (simple check)
+        from datetime import datetime
+        try:
+            datetime.strptime(data["start_date"], "%Y-%m-%d")
+        except ValueError:
+            return jsonify({"error": "start_date must be in YYYY-MM-DD format"}), 400
 
-        # Get the CountryID from the country_name
-        cursor.execute("SELECT CountryID FROM Country WHERE CountryName = %s", (data["country_name"],))
-        country = cursor.fetchone()
+        cursor = db.get_db().cursor()
 
-        if not country:
-            return jsonify({"error": "Country not found"}), 404
-        
-        country_id = country[0]
+        # Get CountryID from CountryName
+        cursor.execute("SELECT CountryID FROM Country WHERE CountryName = %s", (data["country"],))
+        country_row = cursor.fetchone()
+        if not country_row:
+            return jsonify({"error": "Country not found"}), 400
+        country_id = country_row['CountryID']
 
-        # Insert new aid project suggestion
+
+        # Insert new AidProject with StartDate
         query = """
-        INSERT INTO AidProject (Title, Description, CountryID)
-        VALUES (%s, %s, %s)
+        INSERT INTO AidProject (CountryID, StartDate, Title, Proj_Description)
+        VALUES (%s, %s, %s, %s)
         """
         cursor.execute(
             query,
             (
+                country_id,
+                data["start_date"],
                 data["title"],
                 data["description"],
-                country_id,
             ),
         )
 
@@ -201,7 +208,6 @@ def create_aid_project():
         )
     except Error as e:
         return jsonify({"error": str(e)}), 500
-  
   
   
 @diplomats.route("/group_data", methods=["GET"])
