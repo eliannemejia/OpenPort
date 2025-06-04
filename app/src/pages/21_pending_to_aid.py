@@ -19,27 +19,38 @@ st.header('Pending Cases to aid ratio')
 #st.write(f"### Hi, {st.session_state['first_name']}.")
 st.write("not done, fix api")
 
-countries = wb.get_countries()
+# Load countries
+df = pd.read_csv("assets/list_of_countries.csv")
+countries = sorted(df["Country"].dropna().unique())
+
+# Random x and y placeholder data
+np.random.seed(42)
+placeholder_data = pd.DataFrame({
+    "Country": countries,
+    "x": np.random.rand(len(countries)) * 100,
+    "y": np.random.rand(len(countries)) * 100
+})
 
 # Create a dropdown (multi-select) for country names
 selected_countries = st.multiselect(
     'Select up to 10 countries to plot:',
-    options=countries['name'].tolist(),
-    default=countries['name'].iloc[:10].tolist(),  # default to first 10
-    max_selections=10  # optional limit
+    options=countries,
+    default=countries[:10],  # default to first 10
+    max_selections=10
 )
 
-# Filter the data to only selected countries
-scatter_data = countries[countries['name'].isin(selected_countries)]
+# Filter placeholder data to selected countries
+scatter_data = placeholder_data[placeholder_data["Country"].isin(selected_countries)]
 
+# Plot
 if not scatter_data.empty:
     fig = px.scatter(
         scatter_data,
-        x='longitude',
-        y='latitude',
-        text='name',
-        title='Scatter Plot of Selected Countries (Latitude vs Longitude)',
-        labels={'longitude': 'Longitude', 'latitude': 'Latitude'}
+        x='x',
+        y='y',
+        text='Country',
+        title='Scatter Plot of Selected Countries (Random Data)',
+        labels={'x': 'X Axis (placeholder)', 'y': 'Y Axis (placeholder)'}
     )
     fig.update_traces(textposition='top center')
     st.plotly_chart(fig)
