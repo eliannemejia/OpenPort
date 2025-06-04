@@ -8,6 +8,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
 from modules.nav import SideBarLinks
+import requests
+import datetime
+
 
 # Call the SideBarLinks from the nav module in the modules directory
 SideBarLinks()
@@ -19,50 +22,76 @@ st.header('Find Countries in need of Aid Projects')
 #st.write(f"### Hi, {st.session_state['first_name']}.")
 st.write("not done, fix api")
 
-# Get country data
-countries = wb.get_countries()
+  
+# Load countries from CSV
+df_countries = pd.read_csv("assets/list_of_countries.csv")
+countries = sorted(df_countries["Country"].dropna().unique())
 
-# --- Create placeholder 'project counts' ---
-# For now, use a random integer to simulate the number of suggested aid projects per country
-np.random.seed(42)  # for consistent results
-project_counts = np.random.randint(0, 50, size=len(countries))  # Placeholder range from 0 to 49
+# API endpoint for aid recommendations
+API_URL = "http://web-api:4000/diplomats/aid_recommendations"
 
-# Add to dataframe
-plot_df = countries.copy()
-plot_df['projects'] = project_counts
+# Fetch aid recommendations from API
+def fetch_aid_recommendations():
+    try:
+        response = requests.get(API_URL)
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        st.error(f"Error fetching aid recommendations: {e}")
+        return []
 
-# Sort by number of projects descending (optional for better visuals)
-plot_df = plot_df.sort_values(by='projects', ascending=True)  # ascending for horizontal bar chart
+aid_data = fetch_aid_recommendations()
 
-# Horizontal bar chart: Countries on Y-axis, placeholder project counts on X-axis
+# aid_data expected format: list of dicts with keys CountryName, NumAidProjects
+# Filter to only countries in CSV list (optional)
+aid_df = pd.DataFrame(aid_data)
+if not aid_df.empty:
+    aid_df = aid_df[aid_df['CountryName'].isin(countries)]
+else:
+    aid_df = pd.DataFrame(columns=["CountryName", "NumAidProjects"])
+
+# Sort ascending for horizontal bar chart
+aid_df = aid_df.sort_values(by='NumAidProjects', ascending=True)
+
+# Plot horizontal bar chart
 fig = px.bar(
-    plot_df,
-    x='projects',
-    y='name',
+    aid_df,
+    x='NumAidProjects',
+    y='CountryName',
     orientation='h',
-    labels={'projects': 'Number of Aid Projects (Placeholder)', 'name': 'Country'},
-    title='Aid Project Placeholder Counts by Country'
+    labels={'NumAidProjects': 'Number of Aid Projects', 'CountryName': 'Country'},
+    title='Number of Aid Projects by Country'
 )
 
-# Show chart
 st.plotly_chart(fig)
+
 
 # --- Suggest a Project Section ---
 st.markdown("## Suggest a Project")
 
-# Project Name input
 project_name = st.text_input("Project Name")
-
-# Description input (expandable)
 project_description = st.text_area("Describe your project")
+selected_country = st.selectbox("Select a Country", options=countries)
 
-# Country dropdown
-selected_country = st.selectbox(
-    "Select a Country",
-    options=countries['name'].tolist()
-)
+# Add date input here — default to today
+project_date = st.date_inpssssut("Project Date", value=datetime.date.today())
 
-if st.button("Post (finish with post request)",
-            type='primary',
-            use_container_width=True):
-  st.switch_page('pages/24_Find_Aid_Projects.py')
+if st.button("Post (finish with post request)", type='primary', use_container_width=True):
+    if not project_name or not project_description:
+        st.error("Please fill in all required fields.")
+    else:
+        payload = {
+            "project_name": project_name,
+            "project_description": project_description,
+            "country": selected_country,
+            "project_date": project_date.strftime("%Y-%m-%d")
+        }
+        try:
+            response = requests.post("http://web-api:4000/diplomats/aid_projects", json=payload)
+            response.raise_for_status()
+            st.success("Project posted successfully!")
+            st.experimental_rerun()  # Optionally rerun or switch page after success
+            # Or use switch_page if you prefer:
+            # st.switch_page('pages/24_Find_Aid_Projects.py')
+        except requests.RequestException as e:
+            st.error(f"Failed to post project: {e}")
