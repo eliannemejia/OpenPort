@@ -216,8 +216,8 @@ VALUES
 
 INSERT INTO Decision (DecisionID, DecidingCountry, ApplicantGroup, Total, DecisionType, DecisionYear)
 VALUES
-(1,1,1,1000, 'GENCONV','2021'),
-(2,3,2,500, 'SUB_PROT','2001');
+(1,1,1,1000, 'TOTAL_POS','2021'),
+(2,3,2,500, 'REJECTED','2001');
 
 INSERT INTO FamilyMemeber(FamilyID, DOB, FirstName, LastName, Sex)
 VALUES
