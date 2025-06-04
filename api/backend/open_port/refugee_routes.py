@@ -7,7 +7,52 @@ from flask import current_app
 # Create a Blueprint for NGO routes
 refugees = Blueprint("refugees", __name__)
 
-@refugees.route("/application_stats/<uid>", methods=["GET"]) 
+    
+@refugees.route("/application_stats", methods=["GET"])
+def get_top_three():
+    try:
+        current_app.logger.info('Starting get_all_countries request')
+        cursor = db.get_db().cursor()
+
+        geo = request.args.get("geo")
+        sex = request.args.get("sex")
+        citizen = request.args.get("citizen")
+        age = request.args.get("age")
+        
+        query = "SELECT DISTINCT geo, acceptance_rate FROM AverageAcceptanceRates WHERE 1=1"
+        params = []
+
+        # Add filters if provided
+        if sex:
+            query += " AND sex = %s"
+            params.append(sex)
+        if citizen:
+            query += " AND citizen = %s"
+            params.append(citizen)
+        if age: 
+            query += " AND age = %s"
+            params.append(age)
+        
+        query += " ORDER BY acceptance_rate DESC"
+        query += " LIMIT 3"
+        
+        cursor.execute(query, params)
+        top_three = cursor.fetchall()
+        cursor.close()
+        
+        if not top_three:
+            return jsonify({"error": "NGO not found"}), 404
+        
+        cursor.close()
+    
+        current_app.logger.info(f'Successfully retrieved top three countries')
+        return jsonify(top_three), 200
+    except Error as e:
+        current_app.logger.error(f'Database error in get_top_three: {str(e)}')
+        return jsonify({"error": str(e)}), 500
+    
+    
+@refugees.route("/application_stats/probability/<uid>", methods=["GET"]) 
 def get_acceptance_prob(uid):
     return
 
