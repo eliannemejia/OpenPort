@@ -20,7 +20,7 @@ st.header('Low acceptance rate countries')
 
 # You can access the session state to make a more customized/personalized app experience
 #st.write(f"### Hi, {st.session_state['first_name']}.")
-st.write("not done, fix api")
+st.write("not done, fix api!")
 
 # Load countries
 df = pd.read_csv("assets/list_of_countries.csv")
@@ -43,7 +43,7 @@ with col3:
 def fetch_accepted_applications():
     """
     Call the API to get accepted applications per country.
-    Returns a DataFrame with CountryName and AcceptedTotal.
+    Returns a DataFrame with CountryName and NormAcceptance.
     """
     try:
         # We get data for all countries (no filters)
@@ -55,17 +55,17 @@ def fetch_accepted_applications():
         df_api = pd.DataFrame(data)
         if df_api.empty:
             st.warning("No acceptance data returned from API.")
-            return pd.DataFrame(columns=['CountryName', 'AcceptedTotal'])
+            return pd.DataFrame(columns=['CountryName', 'NormAcceptance'])
         
         # Keep only relevant columns
-        df_api = df_api[['CountryName', 'AcceptedTotal']]
-        # Convert AcceptedTotal to numeric (sometimes it might be string)
-        df_api['AcceptedTotal'] = pd.to_numeric(df_api['AcceptedTotal'], errors='coerce').fillna(0)
+        df_api = df_api[['CountryName', 'NormAcceptance']]
+        # Convert NormAcceptance to numeric (sometimes it might be string)
+        df_api['NormAcceptance'] = pd.to_numeric(df_api['NormAcceptance'], errors='coerce').fillna(0)
         
         return df_api
     except Exception as e:
         st.error(f"Error fetching data from API: {e}")
-        return pd.DataFrame(columns=['CountryName', 'AcceptedTotal'])
+        return pd.DataFrame(columns=['CountryName', 'NormAcceptance'])
 
 if selection:
     accepted_df = fetch_accepted_applications()
@@ -76,8 +76,8 @@ if selection:
         # Filter only countries from our CSV list (some may not be in CSV)
         accepted_df = accepted_df[accepted_df['CountryName'].isin(countries)]
         
-        # Sort ascending by AcceptedTotal
-        accepted_df = accepted_df.sort_values(by='AcceptedTotal', ascending=True)
+        # Sort ascending by NormAcceptance
+        accepted_df = accepted_df.sort_values(by='NormAcceptance', ascending=True)
         
         if selection == 'top':
             plot_data = accepted_df.tail(10)
@@ -90,9 +90,9 @@ if selection:
         fig = px.bar(
             plot_data,
             x='CountryName',
-            y='AcceptedTotal',
+            y='NormAcceptance',
             title=f"{selection.capitalize()} Countries by Accepted Applications",
-            labels={'CountryName': 'Country', 'AcceptedTotal': 'Number of Accepted Applications'}
+            labels={'CountryName': 'Country', 'NormAcceptance': 'Number of Accepted Applications'}
         )
         fig.update_layout(xaxis_tickangle=-45)
         st.plotly_chart(fig)
