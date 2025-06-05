@@ -77,23 +77,6 @@ CREATE TABLE IF NOT EXISTS AsylumSeeker (
   FOREIGN KEY (Religion) REFERENCES Religion (ReligionID)
 );
 
-CREATE TABLE IF NOT EXISTS EducationLevel(
-  LevelID int PRIMARY KEY,
-  LevelName ENUM('Primary', 'Secondary', 'Tertiary')
-);
-
-CREATE TABLE IF NOT EXISTS Education (
-  LevelID int,
-  CountryID int,
-  EducationType VARCHAR (50),
-  AccessScore int,
-  Ranking int,
-  TotalStudents int,
-  FOREIGN KEY (CountryID) REFERENCES Country (CountryID),
-  FOREIGN KEY (LevelID) REFERENCES EducationLevel (LevelID),
-  PRIMARY KEY (CountryID, LevelID)
-);
-
 CREATE TABLE IF NOT EXISTS ApplicantGroup(
   GroupID int AUTO_INCREMENT PRIMARY KEY,
   CountryID int,
@@ -199,12 +182,6 @@ INSERT INTO AsylumSeeker (UserID, DOB, SEX, CurrentLocation, Citizenship, Assign
 VALUES
 (1, '2001-05-01', 'Female', 2,1,1,3),
 (4, '2003-04-14', 'Male', 1,2,2,1);
-
-INSERT INtO EducationLevel (LevelID, LevelName)
-VALUES
-(1,'Primary'),
-(2,'Secondary'),
-(3,'Tertiary');
 
 INSERT INTO Education (LevelID, CountryID, EducationType, AccessScore, Ranking, TotalStudents)
 VALUES
