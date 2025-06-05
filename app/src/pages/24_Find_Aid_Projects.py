@@ -77,16 +77,35 @@ st.plotly_chart(fig)
 # --- Suggest a Project Section ---
 st.markdown("## Suggest a Project")
 
-project_name = st.text_input("Project Name")
-project_description = st.text_area("Describe your project")
-selected_country = st.selectbox("Select a Country", options=countries)
-
-# Fix: Use correct Streamlit function for date
-project_date = st.date_input("Project Date", value=datetime.date.today())
-
 if 'posted_projects' not in st.session_state:
     st.session_state['posted_projects'] = []
 
+project_ids = [proj.get('project_id') for proj in st.session_state['posted_projects']]
+
+# Select project to update
+selected_project_id = None
+if project_ids:
+    selected_project_id = st.selectbox("Select Project to Update", options=project_ids)
+else:
+    st.selectbox("Select Project to Update", options=["No projects posted yet"], disabled=True)
+
+# Pre-fill form with selected project data or blank for new project
+def get_project_by_id(project_id):
+    for proj in st.session_state['posted_projects']:
+        if proj.get('project_id') == project_id:
+            return proj
+    return None
+
+selected_project = get_project_by_id(selected_project_id) if selected_project_id else None
+
+# Form inputs with pre-filled data or empty if new
+project_name = st.text_input("Project Name", value=selected_project['title'] if selected_project else "")
+project_description = st.text_area("Describe your project", value=selected_project['description'] if selected_project else "")
+selected_country = st.selectbox("Select a Country", options=countries, index=countries.index(selected_project['country']) if selected_project else 0)
+
+project_date = st.date_input("Project Date", value=datetime.datetime.strptime(selected_project['start_date'], "%Y-%m-%d").date() if selected_project else datetime.date.today())
+
+# Post new project
 if st.button("Post (finish with post request)", type='primary', use_container_width=True):
     if not project_name or not project_description:
         st.error("Please fill in all required fields.")
@@ -98,23 +117,71 @@ if st.button("Post (finish with post request)", type='primary', use_container_wi
             "start_date": project_date.strftime("%Y-%m-%d")
         }
         
-        st.write("Payload to send:", payload)  # Debug output
+        st.write("Payload to send:", payload)
 
         try:
             response = requests.post("http://web-api:4000/diplomats/aid_projects", json=payload)
             response.raise_for_status()
+            
+            resp_json = response.json()
+            project_id = resp_json.get("project_id", "N/A")
+
+            created_project = {
+                "project_id": project_id,
+                "title": project_name,
+                "description": project_description,
+                "country": selected_country,
+                "start_date": project_date.strftime("%Y-%m-%d"),
+            }
+
             st.success("Project posted successfully!")
 
-            # Store the posted project locally
-            st.session_state['posted_projects'].append(payload)
+            st.session_state['posted_projects'].append(created_project)
 
         except requests.RequestException as e:
             st.error(f"Failed to post project: {e}")
 
-# Display posted projects
+# Update existing project
+if selected_project_id and st.button("Update", use_container_width=True):
+    if not project_name or not project_description:
+        st.error("Please fill in all required fields.")
+    else:
+        payload = {
+            "title": project_name,
+            "description": project_description,
+            "country": selected_country,
+            "start_date": project_date.strftime("%Y-%m-%d")
+        }
+
+        update_url = f"http://web-api:4000/diplomats/aid_projects/{selected_project_id}"
+        try:
+            response = requests.put(update_url, json=payload)
+            response.raise_for_status()
+
+            # Update session state project in place
+            for proj in st.session_state['posted_projects']:
+                if proj.get('project_id') == selected_project_id:
+                    proj['title'] = project_name
+                    proj['description'] = project_description
+                    proj['country'] = selected_country
+                    proj['start_date'] = project_date.strftime("%Y-%m-%d")
+                    break
+
+            st.success("Project updated successfully!")
+
+        except requests.RequestException as e:
+            st.error(f"Failed to update project: {e}")
+    
+# Display posted projects with their IDs
 if st.session_state['posted_projects']:
     st.markdown("### Recently Posted Projects")
     for project in reversed(st.session_state['posted_projects']):
-        with st.expander(f"📌 {project['title']} ({project['country']})"):
-            st.write(f"**Description:** {project['description']}")
-            st.write(f"**Start Date:** {project['start_date']}")
+        project_id = project.get('project_id', 'N/A')  # fallback if no id
+        title = project.get('title', 'Untitled')
+        country = project.get('country', 'Unknown')
+        description = project.get('description', '')
+        start_date = project.get('start_date', '')
+        
+        with st.expander(f"📌 [{project_id}] {title} ({country})"):
+            st.write(f"**Description:** {description}")
+            st.write(f"**Start Date:** {start_date}")

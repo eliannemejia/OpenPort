@@ -208,7 +208,63 @@ def create_aid_project():
         )
     except Error as e:
         return jsonify({"error": str(e)}), 500
-  
+
+@diplomats.route("/aid_projects/<int:project_id>", methods=["PUT"])
+def update_aid_project(project_id):
+    try:
+        data = request.get_json()
+
+        # Validate required fields
+        required_fields = ["title", "description", "country", "start_date"]
+        for field in required_fields:
+            if field not in data:
+                return jsonify({"error": f"Missing required field: {field}"}), 400
+
+        # Validate date format
+        from datetime import datetime
+        try:
+            datetime.strptime(data["start_date"], "%Y-%m-%d")
+        except ValueError:
+            return jsonify({"error": "start_date must be in YYYY-MM-DD format"}), 400
+
+        cursor = db.get_db().cursor()
+
+        # Get CountryID from CountryName
+        cursor.execute("SELECT CountryID FROM Country WHERE CountryName = %s", (data["country"],))
+        country_row = cursor.fetchone()
+        if not country_row:
+            return jsonify({"error": "Country not found"}), 400
+        country_id = country_row["CountryID"]
+
+        # Update query
+        update_query = """
+            UPDATE AidProject
+            SET Title = %s,
+                Proj_Description = %s,
+                CountryID = %s,
+                StartDate = %s
+            WHERE ProjectID = %s
+        """
+
+        cursor.execute(update_query, (
+            data["title"],
+            data["description"],
+            country_id,
+            data["start_date"],
+            project_id
+        ))
+
+        if cursor.rowcount == 0:
+            return jsonify({"error": "Project not found or no changes made"}), 404
+
+        db.get_db().commit()
+        cursor.close()
+
+        return jsonify({"message": "Aid project updated successfully"}), 200
+
+    except Error as e:
+        return jsonify({"error": str(e)}), 500
+
   
 @diplomats.route("/group_data", methods=["GET"])
 def get_group_data():
