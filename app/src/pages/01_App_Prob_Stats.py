@@ -16,8 +16,6 @@ SideBarLinks()
 
 API_URL = "http://web-api:4000/refugees"
 
-
-
 def get_age_range(age):
     if age >= 65:
         return f"65 years or over"
