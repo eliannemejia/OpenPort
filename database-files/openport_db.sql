@@ -77,23 +77,6 @@ CREATE TABLE IF NOT EXISTS AsylumSeeker (
   FOREIGN KEY (Religion) REFERENCES Religion (ReligionID)
 );
 
-CREATE TABLE IF NOT EXISTS EducationLevel(
-  LevelID int PRIMARY KEY,
-  LevelName ENUM('Primary', 'Secondary', 'Tertiary')
-);
-
-CREATE TABLE IF NOT EXISTS Education (
-  LevelID int,
-  CountryID int,
-  EducationType VARCHAR (50),
-  AccessScore int,
-  Ranking int,
-  TotalStudents int,
-  FOREIGN KEY (CountryID) REFERENCES Country (CountryID),
-  FOREIGN KEY (LevelID) REFERENCES EducationLevel (LevelID),
-  PRIMARY KEY (CountryID, LevelID)
-);
-
 CREATE TABLE IF NOT EXISTS ApplicantGroup(
   GroupID int AUTO_INCREMENT PRIMARY KEY,
   CountryID int,
@@ -113,18 +96,20 @@ CREATE TABLE IF NOT EXISTS Decision (
   FOREIGN KEY (ApplicantGroup) REFERENCES ApplicantGroup (GroupID)
 );
 
-CREATE TABLE IF NOT EXISTS FamilyMemeber (
+CREATE TABLE IF NOT EXISTS FamilyMember (
   UserID INT AUTO_INCREMENT PRIMARY KEY,
   FamilyID INT,
   FirstName varchar(50),
   LastName varchar(50),
   Sex ENUM('Male', 'Female', 'Other'),
+  CurrentLocation int,
+  Citizenship int,
   DOB DATE,
   FOREIGN KEY (FamilyID) REFERENCES AsylumSeeker (ApplicantID)
 );
 
 CREATE TABLE IF NOT EXISTS LegalAidApplication (
-  ApplicantionID INT AUTO_INCREMENT PRIMARY KEY,
+  ApplicationID INT AUTO_INCREMENT PRIMARY KEY,
   ApplicantID int,
   AidDescription VARCHAR(100),
   SubmissionDate DATE,
@@ -190,17 +175,6 @@ VALUES
 (1, '2001-05-01', 'Female', 2,1,1,3),
 (4, '2003-04-14', 'Male', 1,2,2,1);
 
-INSERT INtO EducationLevel (LevelID, LevelName)
-VALUES
-(1,'Primary'),
-(2,'Secondary'),
-(3,'Tertiary');
-
-INSERT INTO Education (LevelID, CountryID, EducationType, AccessScore, Ranking, TotalStudents)
-VALUES
-(1,1,'Primary',9,2,10000),
-(2,2,'Secondary',6,1,2000);
-
 INSERT INtO ApplicantGroup(GroupID, CountryID, AgeRange, Sex)
 VALUES
 (1,1,'14-17','Male'),
@@ -211,10 +185,10 @@ VALUES
 (1,1,1,1000, 'TOTAL_POS','2021'),
 (2,3,2,500, 'REJECTED','2001');
 
-INSERT INTO FamilyMemeber(FamilyID, DOB, FirstName, LastName, Sex)
+INSERT INTO FamilyMember(FamilyID, DOB, FirstName, LastName, Sex, CurrentLocation, Citizenship)
 VALUES
-(1, '2000-04-01', 'Amin', 'Mohammed', 'Male'),
-(2, '1987-10-13', 'Elexa', 'Neukirch', 'Female');
+(1, '2000-04-01', 'Amin', 'Mohammed', 'Male', 2, 1),
+(2, '1987-10-13', 'Elexa', 'Neukirch', 'Female', 1, 2);
 
 INSERT INTO LegalAidApplication (ApplicantID, AidDescription, SubmissionDate)
 VALUES

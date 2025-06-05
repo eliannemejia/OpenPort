@@ -10,7 +10,7 @@ from backend.ngos.ngo_routes import ngos
 from backend.open_port.diplomat_routes import diplomats
 from backend.open_port.refugee_routes import refugees
 from backend.open_port.lawyer_routes import lawyers
-from backend.open_port.test_routes import testing
+from backend.open_port.country_routes import countries
 
 def create_app():
     app = Flask(__name__)
@@ -54,7 +54,7 @@ def create_app():
     app.register_blueprint(refugees, url_prefix="/refugees")
     app.register_blueprint(diplomats, url_prefix="/diplomats")
     app.register_blueprint(lawyers, url_prefix="/lawyers")
-    app.register_blueprint(testing, url_prefix="/testing")
+    app.register_blueprint(countries, url_prefix="/countries")
 
     # Don't forget to return the app object
     return app

@@ -2,11 +2,57 @@ from flask import Blueprint, jsonify, request
 from backend.db_connection import db
 from mysql.connector import Error
 from flask import current_app
+from backend.ml_models.log_reg import predict_acceptance
 
 # Create a Blueprint for NGO routes
 refugees = Blueprint("refugees", __name__)
 
-@refugees.route("/application_stats/<uid>", methods=["GET"]) 
+    
+@refugees.route("/application_stats", methods=["GET"])
+def get_top_three():
+    try:
+        current_app.logger.info('Starting get_all_countries request')
+        cursor = db.get_db().cursor()
+
+        geo = request.args.get("geo")
+        sex = request.args.get("sex")
+        citizen = request.args.get("citizen")
+        age = request.args.get("age")
+        
+        query = "SELECT DISTINCT geo, acceptance_rate FROM AverageAcceptanceRates WHERE 1=1"
+        params = []
+
+        # Add filters if provided
+        if sex:
+            query += " AND sex = %s"
+            params.append(sex)
+        if citizen:
+            query += " AND citizen = %s"
+            params.append(citizen)
+        if age: 
+            query += " AND age = %s"
+            params.append(age)
+        
+        query += " ORDER BY acceptance_rate DESC"
+        query += " LIMIT 3"
+        
+        cursor.execute(query, params)
+        top_three = cursor.fetchall()
+        cursor.close()
+        
+        if not top_three:
+            return jsonify({"error": "NGO not found"}), 404
+        
+        cursor.close()
+    
+        current_app.logger.info(f'Successfully retrieved top three countries')
+        return jsonify(top_three), 200
+    except Error as e:
+        current_app.logger.error(f'Database error in get_top_three: {str(e)}')
+        return jsonify({"error": str(e)}), 500
+    
+    
+@refugees.route("/application_stats/probability/<uid>", methods=["GET"]) 
 def get_acceptance_prob(uid):
     return
 
@@ -65,6 +111,26 @@ def create_user():
     except Error as e:
         return jsonify({"error": str(e)}), 500
     
+def get_country_by_name(cname):
+    try:
+        current_app.logger.info('Starting get_all_countries request')
+        cursor = db.get_db().cursor()
+
+        cursor.execute("SELECT * FROM Country WHERE CountryName = %s", (cname,))
+        
+        country = cursor.fetchone()
+        
+        if not country:
+            return jsonify({"error": "NGO not found"}), 404
+        
+        cursor.close()
+    
+        current_app.logger.info(f'Successfully retrieved Country: {cname}')
+        return country
+    except Error as e:
+        current_app.logger.error(f'Database error in get_all_countries: {str(e)}')
+        return jsonify({"error": str(e)}), 500
+    
 @refugees.route("/new_user/<int:uid>", methods=["POST"])
 def new_asylum_seeker(uid):
     try:
@@ -76,6 +142,13 @@ def new_asylum_seeker(uid):
                 return jsonify({"error": f"Missing required field: {field}"}), 400
         
         cursor = db.get_db().cursor()
+        c_loc = data["CurrentLocation"]
+        cit = data["Citizenship"]
+        current_loc_response = get_country_by_name(c_loc)
+        citizenship_response = get_country_by_name(cit)
+        
+        current_loc_id = current_loc_response["CountryID"]
+        citizenship_id = citizenship_response["CountryID"]
         
         query = """
         INSERT INTO AsylumSeeker (UserID, DOB, SEX, CurrentLocation, Citizenship)
@@ -88,8 +161,8 @@ def new_asylum_seeker(uid):
                 uid,
                 data["DOB"],
                 data["SEX"],
-                data["CurrentLocation"],
-                data["Citizenship"],
+                current_loc_id,
+                citizenship_id,
             ),
         )
         
@@ -117,7 +190,7 @@ def submit_application(uid):
         cursor = db.get_db().cursor()
         
         query = """
-        INSERT INTO LegalAidApplication (UserID, AidDescription, SubmissionDate)
+        INSERT INTO LegalAidApplication (ApplicantID, AidDescription, SubmissionDate)
         VALUES (%s, %s, CURRENT_DATE())
         """
         
@@ -206,6 +279,7 @@ def add_family_member(fid):
         
         for field in required_fields:
             if field not in data:
+                print(data)
                 return jsonify({"error": f"Missing required field: {field}"}), 400
         
         cursor = db.get_db().cursor()
@@ -236,3 +310,64 @@ def add_family_member(fid):
         )
     except Error as e:
         return jsonify({"error": str(e)}), 500
+    
+@refugees.route("/legal_aid_applications", methods=["GET"])
+def get_applications():
+    try:
+        current_app.logger.info('Starting get_applications request')
+        cursor = db.get_db().cursor()
+
+
+        # Prepare the Base query
+        query = "SELECT * FROM LegalAidApplication"
+        
+        current_app.logger.debug(f'Executing query: {query}')
+        cursor.execute(query)
+        users = cursor.fetchall()
+        cursor.close()
+
+        current_app.logger.info(f'Successfully retrieved {len(users)} Users')
+        return jsonify(users), 200
+    except Error as e:
+        current_app.logger.error(f'Database error in get_all_users: {str(e)}')
+        return jsonify({"error": str(e)}), 500
+    
+@refugees.route("/final_prediction/<age>/<sex>/<citizen>", methods=["GET"])
+def get_weight_vector():
+    try:
+        # call sql to get the weight vector table, this also has teh column names
+        current_app.logger.info('Starting get_weights request')
+        cursor = db.get_db().cursor()
+
+        # Prepare the Base query
+        query = "SELECT * FROM Weights"
+        cursor.execute(query)
+        weights = cursor.fetchall()
+        cursor.close()
+        
+        # one_hot_template is teh column name 
+        # the weights are the num py array of the vlaues in that data frame
+        # in sql we have a one row 176 column table 
+        return weights.json()
+    except Error as e:
+        current_app.logger.error(f'Database error in get_prediction: {str(e)}')
+        return jsonify({"error": str(e)}), 500 
+    
+@refugees.route("/final_prediction/<age>/<sex>/<citizen>", methods=["GET"])
+def get_prediction(age, sex, citizen):
+    try:
+        # call sql to get the weight vector table, this also has teh column names
+        current_app.logger.info('Starting get_weights request')
+        cursor = db.get_db().cursor()
+
+        # Prepare the Base query
+        query = "SELECT * FROM Weights"
+        
+        
+        # one_hot_template is teh column name 
+        # the weights are the num py array of the vlaues in that data frame
+        # in sql we have a one row 176 column table 
+        return
+    except Error as e:
+        current_app.logger.error(f'Database error in get_prediction: {str(e)}')
+        return jsonify({"error": str(e)}), 500 
