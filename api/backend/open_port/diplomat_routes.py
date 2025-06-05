@@ -3,7 +3,6 @@ from backend.db_connection import db
 from mysql.connector import Error
 from flask import current_app
 
-# Create a Blueprint for NGO routes
 diplomats = Blueprint("diplomats", __name__)
 
 
@@ -114,15 +113,14 @@ def get_accepted_applications():
 def get_aid_recommendations():
     try:
         current_app.logger.info('Starting get_aid_recommendations request')
-        cursor = db.get_db().cursor()
+        conn = db.get_db()
+        cursor = conn.cursor()  
 
         country_name = request.args.get("country_name")
         country_id = request.args.get("country_id")
-        # year removed since not needed
 
         current_app.logger.debug(f'Query parameters - country_name: {country_name}, country_id: {country_id}')
 
-        # New query: only country info and total aid projects count
         query = """
             SELECT 
                 c.CountryID, 
@@ -153,7 +151,8 @@ def get_aid_recommendations():
 
     except Error as e:
         current_app.logger.error(f'Database error in get_aid_recommendations: {str(e)}')
-        return jsonify({"error": str(e)}), 500  
+        return jsonify({"error": str(e)}), 500
+
 
 @diplomats.route("/aid_projects", methods=["POST"])
 def create_aid_project():
@@ -185,16 +184,17 @@ def create_aid_project():
 
         # Insert new AidProject with StartDate
         query = """
-        INSERT INTO AidProject (CountryID, StartDate, Title, Proj_Description)
+        INSERT INTO AidProject (Title, Proj_Description,CountryID, StartDate)
         VALUES (%s, %s, %s, %s)
         """
         cursor.execute(
             query,
             (
-                country_id,
-                data["start_date"],
+                
                 data["title"],
                 data["description"],
+                country_id,
+                data["start_date"]
             ),
         )
 
