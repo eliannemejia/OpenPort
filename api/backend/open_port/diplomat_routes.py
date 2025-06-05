@@ -65,40 +65,35 @@ def get_accepted_applications():
  
         country_name = request.args.get("country_name")
         country_id = request.args.get("country_id")
-        year = request.args.get("year")
 
-        current_app.logger.debug(f'Query parameters - country_name: {country_name}, country_id: {country_id}, year: {year}')
+        current_app.logger.debug(f'Query parameters - country_name: {country_name}, country_id: {country_id}')
+
 
         # Base query
         query = """
             SELECT 
-                c.CountryID, 
-                c.CountryName, 
-                d.DecisionYear, 
-                d.Total AS AcceptedTotal
-            FROM Decision d
-            JOIN Country c ON d.DecidingCountry = c.CountryID
-            WHERE d.DecisionType = 'TOTAL_POS'
+                CountryID, 
+                CountryName, 
+                NormAcceptance
+            FROM CountryRatePerPop
+            WHERE 1=1
         """
         params = []
 
         # Add filters if provided
         if country_id:
-            query += " AND c.CountryID = %s"
+            query += " AND CountryID = %s"
             params.append(country_id)
         if country_name:
-            query += " AND c.CountryName = %s"
+            query += " AND CountryName = %s"
             params.append(country_name)
-        if year:
-            query += " AND d.DecisionYear = %s"
-            params.append(year)
 
         current_app.logger.debug(f'Executing query: {query} with params: {params}')
         cursor.execute(query, params)
         results = cursor.fetchall()
         cursor.close()
 
-        current_app.logger.info(f'Successfully retrieved {len(results)} accepted applications')
+        current_app.logger.info(f'Successfully retrieved {len(results)} normalized accepted application rates')
         return jsonify(results), 200
 
     except Error as e:

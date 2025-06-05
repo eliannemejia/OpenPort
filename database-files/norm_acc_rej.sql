@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS CountryRatePerPop(
   CountryName VARCHAR(100),
   NormAcceptance FLOAT,
   NormRejection FLOAT
-)
+);
 
 INSERT INTO CountryRatePerPop (CountryName, NormAcceptance, NormRejection) VALUES
 ('Austria', 0.0073468852283803746, 0.003220079894776046),
