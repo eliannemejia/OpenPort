@@ -84,6 +84,9 @@ selected_country = st.selectbox("Select a Country", options=countries)
 # Fix: Use correct Streamlit function for date
 project_date = st.date_input("Project Date", value=datetime.date.today())
 
+if 'posted_projects' not in st.session_state:
+    st.session_state['posted_projects'] = []
+
 if st.button("Post (finish with post request)", type='primary', use_container_width=True):
     if not project_name or not project_description:
         st.error("Please fill in all required fields.")
@@ -101,6 +104,17 @@ if st.button("Post (finish with post request)", type='primary', use_container_wi
             response = requests.post("http://web-api:4000/diplomats/aid_projects", json=payload)
             response.raise_for_status()
             st.success("Project posted successfully!")
-            st.switch_page('pages/24_Find_Aid_Projects.py')
+
+            # Store the posted project locally
+            st.session_state['posted_projects'].append(payload)
+
         except requests.RequestException as e:
             st.error(f"Failed to post project: {e}")
+
+# Display posted projects
+if st.session_state['posted_projects']:
+    st.markdown("### Recently Posted Projects")
+    for project in reversed(st.session_state['posted_projects']):
+        with st.expander(f"📌 {project['title']} ({project['country']})"):
+            st.write(f"**Description:** {project['description']}")
+            st.write(f"**Start Date:** {project['start_date']}")
