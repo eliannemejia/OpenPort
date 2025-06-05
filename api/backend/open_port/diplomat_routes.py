@@ -265,7 +265,27 @@ def update_aid_project(project_id):
     except Error as e:
         return jsonify({"error": str(e)}), 500
 
-  
+@diplomats.route("/aid_project/delete/<int:project_id>", methods=["DELETE"])
+def delete_aid_project(project_id):
+    try:
+        cursor = db.get_db().cursor()
+
+        # Delete the project by project_id
+        delete_query = "DELETE FROM AidProject WHERE ProjectID = %s"
+        cursor.execute(delete_query, (project_id,))
+
+        if cursor.rowcount == 0:
+            # No project was deleted because it doesn't exist
+            return jsonify({"error": "Project not found"}), 404
+
+        db.get_db().commit()
+        cursor.close()
+
+        return jsonify({"message": "Aid project deleted successfully"}), 200
+
+    except Error as e:
+        return jsonify({"error": str(e)}), 500
+
 @diplomats.route("/group_data", methods=["GET"])
 def get_group_data():
     try:
