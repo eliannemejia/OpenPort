@@ -1,5 +1,4 @@
 import json
-import pandas as pd
 import numpy as np
 
 def logistic_regression(X, y, w, alpha = 1, max_iter = None):
