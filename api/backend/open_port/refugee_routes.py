@@ -3,6 +3,7 @@ from backend.db_connection import db
 from mysql.connector import Error
 from flask import current_app
 from backend.ml_models.log_reg import predict_acceptance
+import pandas as pd 
 
 # Create a Blueprint for NGO routes
 refugees = Blueprint("refugees", __name__)
@@ -373,8 +374,8 @@ def get_cols():
         current_app.logger.error(f'Database error in get_prediction: {str(e)}')
         return jsonify({"error": str(e)}), 500 
   
-@refugees.route("/final_prediction/<age>/<sex>/<citizen>", methods=["GET"])
-def get_prediction(age, sex, citizen):
+@refugees.route("/final_prediction/<age>/<sex>/<citizen>/<geo>", methods=["GET"])
+def get_prediction(age, sex, citizen, geo):
     try:
         # call sql to get the weight vector table, this also has teh column names
         current_app.logger.info('Starting get_weights request')
@@ -382,13 +383,20 @@ def get_prediction(age, sex, citizen):
 
         # Prepare the Base query
         weight = get_weight_vector()
-        col_names = cursor.execute("SELECT * FROM Weights WHERE 1=0")
+        all_data = cursor.execute("SELECT * FROM Weights")
+        col_names = [col[0] for col in cursor.description]
         
+        
+        df = pd.DataFrame(columns=col_names).T
+    
+        accpetance_prob = predict_acceptance(age, sex, citizen, geo, df, all_data)
+        cursor.close()
         
         # one_hot_template is teh column name 
         # the weights are the num py array of the vlaues in that data frame
         # in sql we have a one row 176 column table 
-        return
+        current_app.logger.info(f'acceptance_prob = {accpetance_prob}')
+        return accpetance_prob
     except Error as e:
         current_app.logger.error(f'Database error in get_prediction: {str(e)}')
         return jsonify({"error": str(e)}), 500 
