@@ -35,6 +35,22 @@ def get_top_three(sex, citizen, age):
     response = requests.get(url)
     return response.json()
     
+def get_probability(age, sex, citizen, geo):
+    age_range = get_age_range(age)
+    c_name = geo["geo"]
+    prob_url = f"{API_URL}/final_prediction/{age_range}/{sex}/{citizen}/{c_name}"
+    
+    response = requests.get(prob_url)
+    return response.json()
+
+def show_probability(age, sex, citizen, geo):
+    acceptance_prob = get_probability(age, sex, citizen, geo) * 100
+    country = geo["geo"]
+    st.write(f"Proability of Acceptance for {country}: {acceptance_prob}")
+
+def get_button(country, idx, age, sex, origin):
+    acceptance_prob = show_probability(age, sex, origin, country)
+    return st.button(f"{idx}." + country["geo"], acceptance_prob)
     
 df = pd.read_csv("assets/list_of_countries.csv")
 countries = sorted(df["Country"].dropna().unique())
@@ -65,6 +81,13 @@ submit = st.button("Submit")
 if submit:
     top_three = get_top_three(sex, origin, age)
     idx = 1
+    geos = {}
     for country in top_three:
-        geo = st.button(f"{idx}." + country["geo"])
+        geos[country["geo"]] = get_button(country, idx, age, sex, origin)
         idx += 1
+    
+    for country, selected in geos.items():
+        if selected:
+           st.write("YOU HAVE CLICKED THIS BUTTON")
+           #probability = get_probability(age, sex, origin, country)
+           

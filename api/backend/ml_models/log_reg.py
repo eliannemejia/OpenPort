@@ -56,7 +56,7 @@ def predict_logistic(x, w, pred0 = True):
 def predict_acceptance(age, sex, citizen, geo, one_hot_template, w):
     input_vector = np.zeros(one_hot_template.shape[1])
     col_names = one_hot_template.columns
-
+    current_app.logger.info(f'col_names = {col_names}')
     if f"age_{age}" in col_names:
         input_vector[col_names.get_loc(f"age_{age}")] = 1
     if f"sex_{sex}" in col_names:
@@ -66,7 +66,11 @@ def predict_acceptance(age, sex, citizen, geo, one_hot_template, w):
     if f"geo_{geo}" in col_names:
         input_vector[col_names.get_loc(f"geo_{geo}")] = 1
     
-    input_vector = np.insert(input_vector, 0, 1)
+    length = len(one_hot_template.columns)
+    current_app.logger.info(f'length = {length}')
+    current_app.logger.info(f'col_names = {col_names}')
+    #input_vector = np.insert(input_vector, 0, 1)
+    current_app.logger.info(f'input_vector = {input_vector}')
     
     current_app.logger.info(f'input_vector = {input_vector}')
     yhat = predict_logistic(input_vector, w, pred0=False)
