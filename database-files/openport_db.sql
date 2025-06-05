@@ -125,20 +125,12 @@ CREATE TABLE IF NOT EXISTS FamilyMemeber (
 
 CREATE TABLE IF NOT EXISTS LegalAidApplication (
   ApplicantionID INT AUTO_INCREMENT PRIMARY KEY,
-  UserID int,
+  ApplicantID int,
   AidDescription VARCHAR(100),
   SubmissionDate DATE,
-  FOREIGN KEY (UserID) REFERENCES AsylumSeeker (ApplicantID)
+  FOREIGN KEY (ApplicantID) REFERENCES AsylumSeeker (ApplicantID)
 );
 
-CREATE TABLE IF NOT EXISTS AidProject (
-  ProjectID INT AUTO_INCREMENT PRIMARY KEY,
-  CountryID INT,
-  StartDate DATE,
-  Title VARCHAR(100),
-  Proj_Description VARCHAR(300),
-  FOREIGN KEY (CountryID) REFERENCES Country(CountryID)
-);
 
 INSERT INTO Country (CountryName) VALUES
 ('Belgium'),
@@ -222,10 +214,10 @@ VALUES
 INSERT INTO FamilyMemeber(FamilyID, DOB, FirstName, LastName, Sex)
 VALUES
 (1, '2000-04-01', 'Amin', 'Mohammed', 'Male'),
-(4, '1987-10-13', 'Elexa', 'Neukirch', 'Female');
+(2, '1987-10-13', 'Elexa', 'Neukirch', 'Female');
 
-INSERT INTO LegalAidApplication (ApplicantID, USerID, AidDescription, SubmissionDate)
+INSERT INTO LegalAidApplication (ApplicantID, AidDescription, SubmissionDate)
 VALUES
-(1,1,'Applicaton aid', '2025-06-30'),
-(2,2,'Sue for discrimination', '2024-07-21');
+(1,'Applicaton aid', '2025-06-30'),
+(2,'Sue for discrimination', '2024-07-21');
 

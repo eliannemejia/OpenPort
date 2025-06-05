@@ -26,11 +26,11 @@ st.write("not done, fix api")
 # Load countries from CSV
 df_countries = pd.read_csv("assets/list_of_countries.csv")
 countries = sorted(df_countries["Country"].dropna().unique())
+df_all_countries = pd.DataFrame({'CountryName': countries})
 
-# API endpoint for aid recommendations
+# Fetch aid recommendations
 API_URL = "http://web-api:4000/diplomats/aid_recommendations"
 
-# Fetch aid recommendations from API
 def fetch_aid_recommendations():
     try:
         response = requests.get(API_URL)
@@ -42,20 +42,25 @@ def fetch_aid_recommendations():
 
 aid_data = fetch_aid_recommendations()
 
-# aid_data expected format: list of dicts with keys CountryName, NumAidProjects
-# Filter to only countries in CSV list (optional)
+# Create dataframe and merge with full country list to ensure full inclusion
 aid_df = pd.DataFrame(aid_data)
 if not aid_df.empty:
-    aid_df = aid_df[aid_df['CountryName'].isin(countries)]
+    merged_df = df_all_countries.merge(
+        aid_df[['CountryName', 'NumAidProjects']],
+        on='CountryName',
+        how='left'
+    )
+    merged_df['NumAidProjects'] = merged_df['NumAidProjects'].fillna(0).astype(int)
 else:
-    aid_df = pd.DataFrame(columns=["CountryName", "NumAidProjects"])
+    merged_df = df_all_countries.copy()
+    merged_df['NumAidProjects'] = 0
 
-# Sort ascending for horizontal bar chart
-aid_df = aid_df.sort_values(by='NumAidProjects', ascending=True)
+# Sort for chart
+merged_df = merged_df.sort_values(by='NumAidProjects', ascending=True)
 
 # Plot horizontal bar chart
 fig = px.bar(
-    aid_df,
+    merged_df,
     x='NumAidProjects',
     y='CountryName',
     orientation='h',
@@ -63,8 +68,11 @@ fig = px.bar(
     title='Number of Aid Projects by Country'
 )
 
-st.plotly_chart(fig)
+# Ensure x-axis starts at 0
+fig.update_layout(xaxis=dict(range=[0, merged_df['NumAidProjects'].max() + 5]))
 
+
+st.plotly_chart(fig)
 
 # --- Suggest a Project Section ---
 st.markdown("## Suggest a Project")
@@ -73,25 +81,26 @@ project_name = st.text_input("Project Name")
 project_description = st.text_area("Describe your project")
 selected_country = st.selectbox("Select a Country", options=countries)
 
-# Add date input here — default to today
-project_date = st.date_inpssssut("Project Date", value=datetime.date.today())
+# Fix: Use correct Streamlit function for date
+project_date = st.date_input("Project Date", value=datetime.date.today())
 
 if st.button("Post (finish with post request)", type='primary', use_container_width=True):
     if not project_name or not project_description:
         st.error("Please fill in all required fields.")
     else:
         payload = {
-            "project_name": project_name,
-            "project_description": project_description,
+            "title": project_name,
+            "description": project_description,
             "country": selected_country,
-            "project_date": project_date.strftime("%Y-%m-%d")
+            "start_date": project_date.strftime("%Y-%m-%d")
         }
+        
+        st.write("Payload to send:", payload)  # Debug output
+
         try:
             response = requests.post("http://web-api:4000/diplomats/aid_projects", json=payload)
             response.raise_for_status()
             st.success("Project posted successfully!")
-            st.experimental_rerun()  # Optionally rerun or switch page after success
-            # Or use switch_page if you prefer:
-            # st.switch_page('pages/24_Find_Aid_Projects.py')
+            st.switch_page('pages/24_Find_Aid_Projects.py')
         except requests.RequestException as e:
             st.error(f"Failed to post project: {e}")
