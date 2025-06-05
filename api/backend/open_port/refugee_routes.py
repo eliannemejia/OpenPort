@@ -1,4 +1,5 @@
 from flask import Blueprint, jsonify, request
+import numpy as np
 from backend.db_connection import db
 from mysql.connector import Error
 from flask import current_app
@@ -363,7 +364,7 @@ def get_cols():
         # Prepare the Base query
         query = "SELECT columns FROM sys.columns WHERE object_id = OBJECT_ID('Weights')"
         cursor.execute(query)
-        weights = cursor.fetchall()
+        weights = cursor.fetchone()
         cursor.close()
         
         # one_hot_template is teh column name 
@@ -382,21 +383,53 @@ def get_prediction(age, sex, citizen, geo):
         cursor = db.get_db().cursor()
 
         # Prepare the Base query
-        weight = get_weight_vector()
+        current_app.logger.info(f'weight_vector dict: {get_weight_vector()}')
+        #weight = list(get_weight_vector()[0].values())
+        weight = np.array([float(v) for v in get_weight_vector()[0].values()])
+        current_app.logger.info(f'weights = {weight}')
+        
         all_data = cursor.execute("SELECT * FROM Weights")
         col_names = [col[0] for col in cursor.description]
         
         
-        df = pd.DataFrame(columns=col_names).T
-    
-        accpetance_prob = predict_acceptance(age, sex, citizen, geo, df, all_data)
+        df = pd.DataFrame(columns=col_names)
+        current_app.logger.info(f'col_names = {col_names}')
+        length = len(df)
+        current_app.logger.info(f'length = {length}')
+        current_app.logger.info(f'df = {df}')
+        current_app.logger.info(f'age = {age}')
+        current_app.logger.info(f'citizen = {citizen}')
+        current_app.logger.info(f'geo = {geo}')
+        current_app.logger.info(f'all_data = {all_data}')
+        accpetance_prob = predict_acceptance(age, sex, citizen, geo, df, weight)
         cursor.close()
         
         # one_hot_template is teh column name 
         # the weights are the num py array of the vlaues in that data frame
         # in sql we have a one row 176 column table 
         current_app.logger.info(f'acceptance_prob = {accpetance_prob}')
-        return accpetance_prob
+        return jsonify(accpetance_prob)
     except Error as e:
         current_app.logger.error(f'Database error in get_prediction: {str(e)}')
         return jsonify({"error": str(e)}), 500 
+
+# @refugees.route("/final_prediction/<age>/<sex>/<citizen>/<geo>", methods=["GET"])
+# def get_prediction(age, sex, citizen, geo):
+#     try:
+#         current_app.logger.info('Starting get_weights request')
+#         cursor = db.get_db().cursor()
+
+#         cursor.execute("SELECT * FROM Weights")
+#         weight_vector = np.array(cursor.fetchone())
+#         col_names = [col[0] for col in cursor.description]
+
+#         one_hot_template = pd.DataFrame(columns=col_names)
+
+#         acceptance_prob = predict_acceptance(age, sex, citizen, geo, one_hot_template, weight_vector)
+#         cursor.close()
+
+#         current_app.logger.info(f'acceptance_prob = {acceptance_prob}')
+#         return jsonify([acceptance_prob])  # wrap in list if client expects [0]
+#     except Error as e:
+#         current_app.logger.error(f'Database error in get_prediction: {str(e)}')
+#         return jsonify({"error": str(e)}), 500
