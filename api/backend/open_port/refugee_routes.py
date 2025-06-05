@@ -2,7 +2,7 @@ from flask import Blueprint, jsonify, request
 from backend.db_connection import db
 from mysql.connector import Error
 from flask import current_app
-
+from backend.ml_models.log_reg import predict_acceptance
 
 # Create a Blueprint for NGO routes
 refugees = Blueprint("refugees", __name__)
@@ -331,3 +331,43 @@ def get_applications():
     except Error as e:
         current_app.logger.error(f'Database error in get_all_users: {str(e)}')
         return jsonify({"error": str(e)}), 500
+    
+@refugees.route("/final_prediction/<age>/<sex>/<citizen>", methods=["GET"])
+def get_weight_vector():
+    try:
+        # call sql to get the weight vector table, this also has teh column names
+        current_app.logger.info('Starting get_weights request')
+        cursor = db.get_db().cursor()
+
+        # Prepare the Base query
+        query = "SELECT * FROM Weights"
+        cursor.execute(query)
+        weights = cursor.fetchall()
+        cursor.close()
+        
+        # one_hot_template is teh column name 
+        # the weights are the num py array of the vlaues in that data frame
+        # in sql we have a one row 176 column table 
+        return weights.json()
+    except Error as e:
+        current_app.logger.error(f'Database error in get_prediction: {str(e)}')
+        return jsonify({"error": str(e)}), 500 
+    
+@refugees.route("/final_prediction/<age>/<sex>/<citizen>", methods=["GET"])
+def get_prediction(age, sex, citizen):
+    try:
+        # call sql to get the weight vector table, this also has teh column names
+        current_app.logger.info('Starting get_weights request')
+        cursor = db.get_db().cursor()
+
+        # Prepare the Base query
+        query = "SELECT * FROM Weights"
+        
+        
+        # one_hot_template is teh column name 
+        # the weights are the num py array of the vlaues in that data frame
+        # in sql we have a one row 176 column table 
+        return
+    except Error as e:
+        current_app.logger.error(f'Database error in get_prediction: {str(e)}')
+        return jsonify({"error": str(e)}), 500 
