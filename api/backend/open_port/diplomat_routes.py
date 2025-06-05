@@ -56,6 +56,7 @@ def get_rejectd():
         current_app.logger.error(f'Database error in get_rejected: {str(e)}')
         return jsonify({"error": str(e)}), 500
 
+
 @diplomats.route("/accepted_applications", methods=["GET"])
 def get_accepted_applications():
     try:
@@ -103,8 +104,6 @@ def get_accepted_applications():
     except Error as e:
         current_app.logger.error(f'Database error in get_accepted_applications: {str(e)}')
         return jsonify({"error": str(e)}), 500
-
-
 
 
 
