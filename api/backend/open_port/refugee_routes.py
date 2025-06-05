@@ -332,7 +332,7 @@ def get_applications():
         current_app.logger.error(f'Database error in get_all_users: {str(e)}')
         return jsonify({"error": str(e)}), 500
     
-@refugees.route("/final_prediction/<age>/<sex>/<citizen>", methods=["GET"])
+@refugees.route("/weights", methods=["GET"])
 def get_weight_vector():
     try:
         # call sql to get the weight vector table, this also has teh column names
@@ -348,11 +348,31 @@ def get_weight_vector():
         # one_hot_template is teh column name 
         # the weights are the num py array of the vlaues in that data frame
         # in sql we have a one row 176 column table 
-        return weights.json()
+        return weights
     except Error as e:
         current_app.logger.error(f'Database error in get_prediction: {str(e)}')
         return jsonify({"error": str(e)}), 500 
     
+@refugees.route("/columns", methods=["GET"])
+def get_cols():
+    try:
+        # call sql to get the weight vector table, this also has teh column names
+        current_app.logger.info('Starting get_weights request')
+        cursor = db.get_db().cursor()
+        # Prepare the Base query
+        query = "SELECT columns FROM sys.columns WHERE object_id = OBJECT_ID('Weights')"
+        cursor.execute(query)
+        weights = cursor.fetchall()
+        cursor.close()
+        
+        # one_hot_template is teh column name 
+        # the weights are the num py array of the vlaues in that data frame
+        # in sql we have a one row 176 column table 
+        return jsonify(weights)
+    except Error as e:
+        current_app.logger.error(f'Database error in get_prediction: {str(e)}')
+        return jsonify({"error": str(e)}), 500 
+  
 @refugees.route("/final_prediction/<age>/<sex>/<citizen>", methods=["GET"])
 def get_prediction(age, sex, citizen):
     try:
@@ -361,7 +381,8 @@ def get_prediction(age, sex, citizen):
         cursor = db.get_db().cursor()
 
         # Prepare the Base query
-        query = "SELECT * FROM Weights"
+        weight = get_weight_vector()
+        col_names = cursor.execute("SELECT * FROM Weights WHERE 1=0")
         
         
         # one_hot_template is teh column name 

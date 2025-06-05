@@ -1,5 +1,3 @@
-CREATE DATABASE IF NOT EXISTS openport_database;
-
 USE openport_database;
 
 CREATE TABLE IF NOT EXISTS Religion (
