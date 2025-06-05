@@ -183,11 +183,6 @@ VALUES
 (1, '2001-05-01', 'Female', 2,1,1,3),
 (4, '2003-04-14', 'Male', 1,2,2,1);
 
-INSERT INTO Education (LevelID, CountryID, EducationType, AccessScore, Ranking, TotalStudents)
-VALUES
-(1,1,'Primary',9,2,10000),
-(2,2,'Secondary',6,1,2000);
-
 INSERT INtO ApplicantGroup(GroupID, CountryID, AgeRange, Sex)
 VALUES
 (1,1,'14-17','Male'),
