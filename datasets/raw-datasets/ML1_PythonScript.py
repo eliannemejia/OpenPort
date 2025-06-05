@@ -139,7 +139,7 @@ def residualVsX(x, res):
     plt.title("residual plot vs. x values")
     plt.show()
 
-def predict_acceptance(age, sex, citizen, one_hot_template, w):
+def predict_acceptance(age, sex, citizen, geo, one_hot_template, w):
     input_vector = np.zeros(one_hot_template.shape[1])
     col_names = one_hot_template.columns
 
@@ -149,7 +149,8 @@ def predict_acceptance(age, sex, citizen, one_hot_template, w):
         input_vector[col_names.get_loc(f"sex_{sex}")] = 1
     if f"citizen_{citizen}" in col_names:
         input_vector[col_names.get_loc(f"citizen_{citizen}")] = 1
-
+    if f"geo_{geo}" in col_names:
+        input_vector[col_names.get_loc(f"geo_{geo}")] = 1
     input_vector = np.insert(input_vector, 0, 1)
 
     yhat = predict_logistic(input_vector, w, pred0=False)

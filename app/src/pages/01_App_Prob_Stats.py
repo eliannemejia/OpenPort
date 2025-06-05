@@ -66,5 +66,5 @@ if submit:
     top_three = get_top_three(sex, origin, age)
     idx = 1
     for country in top_three:
-        st.button(f"{idx}." + country["geo"])
+        geo = st.button(f"{idx}." + country["geo"])
         idx += 1
