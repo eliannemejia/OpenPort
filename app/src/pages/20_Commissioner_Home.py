@@ -14,7 +14,7 @@ st.write('')
 st.write('')
 st.write('### How would you like to help the world today?')
 
-if st.button('Find Countries with the most pending cases to aid', 
+if st.button('Find Countries with the most rejected cases to aid', 
              type='primary',
              use_container_width=True):
   st.switch_page('pages/21_pending_to_aid.py')
@@ -24,7 +24,7 @@ if st.button('Find low-acceptance countries',
              use_container_width=True):
   st.switch_page('pages/22_Low_Acpt.py')
 
-if st.button("Group acceptance data",
+if st.button("Social Protection Expenditure Projections",
              type='primary',
              use_container_width=True):
   st.switch_page('pages/23_Group_Acpt.py')
