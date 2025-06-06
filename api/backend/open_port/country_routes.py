@@ -11,7 +11,7 @@ def get_all_countries():
         current_app.logger.info('Starting get_all_countries request')
         cursor = db.get_db().cursor()
 
-        query = "SELECT * FROM Country"
+        query = "SELECT CountryName FROM Country"
 
         current_app.logger.debug(f'Executing query: {query}')
         cursor.execute(query)

@@ -4,7 +4,12 @@ from modules.nav import SideBarLinks
 
 SideBarLinks()
 
-st.write("# About Open Port")
+# Create three columns for layout centering
+left, center, right = st.columns([1, 2, 1])
+
+with center:
+    # Use HTML to center-align text within the middle column
+    st.markdown("<h1 style='text-align: center;'>About Open Port</h1>", unsafe_allow_html=True)
 
 st.markdown(
     """

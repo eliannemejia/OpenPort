@@ -26,19 +26,25 @@ st.session_state['authenticated'] = False
 # the links displayed on the left-side panel. 
 # IMPORTANT: ensure src/.streamlit/config.toml sets
 # showSidebarNavigation = false in the [client] section
-SideBarLinks(show_home=True)
+SideBarLinks()
 
 # ***************************************************
 #    The major content of this page
 # ***************************************************
 
-# set the title of the page and provide a simple prompt. 
-logger.info("Loading the Home page of the app")
-st.title('Open Port')
-st.write('\n\n')
-st.write('### Find Your Safe Haven')
-st.write('\n')
-st.write('#### HI! As which user would you like to log in?')
+# Create three columns for layout centering
+left, center, right = st.columns([1, 2, 1])
+
+with center:
+    # Use HTML to center-align text within the middle column
+    st.markdown("<h1 style='text-align: center;'>Open Port</h1>", unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>Find Your Safe Haven</h3>", unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center;'>HI! As which user would you like to log in?</h4>", unsafe_allow_html=True)
+
+# Close the div
+st.markdown('</div>', unsafe_allow_html=True)
 
 # For each of the user personas for which we are implementing
 # functionality, we put a button on the screen that the user 
@@ -57,7 +63,7 @@ if st.button("Act as Mohammed, a 17 year old refugee from Syria ",
     # finally, we ask streamlit to switch to another page, in this case, the 
     # landing page for this particular user type
     logger.info("Logging in as Syrian Refugee Persona")
-    st.switch_page('pages/00_Refugee_Home.py')
+    st.switch_page('pages/01_App_Prob_Stats.py')
 
 if st.button('Act as Mark, a German Lawyer', 
             type = 'primary', 

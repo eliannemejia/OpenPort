@@ -412,24 +412,3 @@ def get_prediction(age, sex, citizen, geo):
     except Error as e:
         current_app.logger.error(f'Database error in get_prediction: {str(e)}')
         return jsonify({"error": str(e)}), 500 
-
-# @refugees.route("/final_prediction/<age>/<sex>/<citizen>/<geo>", methods=["GET"])
-# def get_prediction(age, sex, citizen, geo):
-#     try:
-#         current_app.logger.info('Starting get_weights request')
-#         cursor = db.get_db().cursor()
-
-#         cursor.execute("SELECT * FROM Weights")
-#         weight_vector = np.array(cursor.fetchone())
-#         col_names = [col[0] for col in cursor.description]
-
-#         one_hot_template = pd.DataFrame(columns=col_names)
-
-#         acceptance_prob = predict_acceptance(age, sex, citizen, geo, one_hot_template, weight_vector)
-#         cursor.close()
-
-#         current_app.logger.info(f'acceptance_prob = {acceptance_prob}')
-#         return jsonify([acceptance_prob])  # wrap in list if client expects [0]
-#     except Error as e:
-#         current_app.logger.error(f'Database error in get_prediction: {str(e)}')
-#         return jsonify({"error": str(e)}), 500
