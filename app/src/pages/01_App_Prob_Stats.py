@@ -90,7 +90,7 @@ no_one = None
 with col2:
     if submit:
         st.write("### Top Three Counrties with the Highest Average Acceptance for your age, sex, and nationality")
-        st.write("Click on a country to see more info")
+
         top_three = get_top_three(sex, origin, age)
         
         idx = 1
