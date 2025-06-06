@@ -16,11 +16,10 @@ SideBarLinks()
 API_URL = "http://web-api:4000/diplomats/accepted_applications" 
 
 # set the header of the page
-st.header('Low acceptance rate countries')
+st.header('Acceptance Rate of Countries per cCptia')
 
 # You can access the session state to make a more customized/personalized app experience
 #st.write(f"### Hi, {st.session_state['first_name']}.")
-st.write("not done, fix api!")
 
 # Load countries
 df = pd.read_csv("assets/list_of_countries.csv")
@@ -91,7 +90,7 @@ if selection:
             plot_data,
             x='CountryName',
             y='NormAcceptance',
-            title=f"{selection.capitalize()} Countries by Accepted Applications",
+            title=f"{selection.capitalize()} Countries by Accepted Applications per Capita",
             labels={'CountryName': 'Country', 'NormAcceptance': 'Number of Accepted Applications'}
         )
         fig.update_layout(xaxis_tickangle=-45)

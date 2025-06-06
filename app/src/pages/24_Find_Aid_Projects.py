@@ -20,7 +20,7 @@ st.header('Find Countries in need of Aid Projects')
 
 # You can access the session state to make a more customized/personalized app experience
 #st.write(f"### Hi, {st.session_state['first_name']}.")
-st.write("not done, fix api")
+st.write("not done, fix country display")
 
   
 # Load countries from CSV
