@@ -137,6 +137,7 @@ if st.button("Post (finish with post request)", type='primary', use_container_wi
             st.success("Project posted successfully!")
 
             st.session_state['posted_projects'].append(created_project)
+            st.rerun()
 
         except requests.RequestException as e:
             st.error(f"Failed to post project: {e}")
@@ -168,6 +169,7 @@ if selected_project_id and st.button("Update", use_container_width=True):
                     break
 
             st.success("Project updated successfully!")
+            st.rerun()
 
         except requests.RequestException as e:
             st.error(f"Failed to update project: {e}")

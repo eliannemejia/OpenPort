@@ -73,11 +73,11 @@ if st.button('Act as Mark, a German Lawyer',
     st.session_state['first_name'] = 'Mark'
     st.switch_page('pages/10_Lawyer_Home.py')
 
-if st.button('Act as Eric, An EU Diplomat', 
+if st.button('Act as Eric, An EU Commissioner', 
             type = 'primary', 
             use_container_width=True):
     st.session_state['authenticated'] = True
     st.session_state['role'] = 'diplomat'
     st.session_state['first_name'] = 'Eric'
-    st.switch_page('pages/20_Diplomat_Home.py')
+    st.switch_page('pages/20_Commissioner_Home.py')
 
