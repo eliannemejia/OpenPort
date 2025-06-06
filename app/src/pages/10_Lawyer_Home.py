@@ -14,22 +14,18 @@ st.write('')
 st.write('')
 st.write('### What would you like to do today?')
 
-if st.button('Find Your Best Asylum Location', 
+if st.button('View Historial Trends', 
              type='primary',
              use_container_width=True):
   st.switch_page('pages/01_World_Bank_Viz.py')
 
-if st.button('See Education Data', 
+if st.button('See Pro Bono Opportunities', 
+             type='primary',
+             use_container_width=True):
+  st.switch_page('pages/11_Pro_Bono_Opps.py')
+  
+if st.button('See Decision Statistics', 
              type='primary',
              use_container_width=True):
   st.switch_page('pages/02_Map_Demo.py')
   
-if st.button('See Religious Demographics', 
-             type='primary',
-             use_container_width=True):
-  st.switch_page('pages/02_Map_Demo.py')
-  
-if st.button('Seek Legal Aid', 
-             type='primary',
-             use_container_width=True):
-  st.switch_page('pages/02_Map_Demo.py')

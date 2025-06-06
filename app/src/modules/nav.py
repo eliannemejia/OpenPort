@@ -12,7 +12,20 @@ def HomeNav():
 
 def AboutPageNav():
     st.sidebar.page_link("pages/30_About.py", label="About", icon="🧠")
+
+### ------------------------------- Lawyer Sidebar ---------------------------------------
+def HistTrends():
+    st.sidebar.page_link("pages/01_App_Prob_Stats.py", label="Find Best Asylum Option", icon="✅")
+
+def ProBonoOpps():
+    st.sidebar.page_link("pages/11_Pro_Bono_Opps.py", label="See Pro Bono Opportunities", icon="🙏🏽")
     
+def ReligDemographics():
+    st.sidebar.page_link("pages/04_Religious_Demo.py", label="See Religious Demographics", icon="📊")
+    
+def LegalAidHome():
+    st.sidebar.page_link("pages/02_Legal_Aid_App.py", label="Seek Legal Aid", icon="👨🏽‍⚖️")
+
     
 ### -------------------------- Refugee Sidebar -------------------------------------------
 def AcceptanceProbStats():
@@ -111,19 +124,19 @@ def SideBarLinks(show_home=False):
             ReligDemographics()
             LegalAidHome()
             
-        # Show World Bank Link and Map Demo Link if the user is a political strategy advisor role.
-        if st.session_state["role"] == "pol_strat_advisor":
-            PolStratAdvHomeNav()
-            WorldBankVizNav()
-            MapDemoNav()
+        # # Show World Bank Link and Map Demo Link if the user is a political strategy advisor role.
+        # if st.session_state["role"] == "pol_strat_advisor":
+        #     PolStratAdvHomeNav()
+        #     WorldBankVizNav()
+        #     MapDemoNav()
 
-        # If the user role is usaid worker, show the Api Testing page
-        if st.session_state["role"] == "usaid_worker":
-            PredictionNav()
-            ApiTestNav()
-            ClassificationNav()
-            NgoDirectoryNav()
-            AddNgoNav()
+        # # If the user role is usaid worker, show the Api Testing page
+        # if st.session_state["role"] == "usaid_worker":
+        #     PredictionNav()
+        #     ApiTestNav()
+        #     ClassificationNav()
+        #     NgoDirectoryNav()
+        #     AddNgoNav()
 
         # If the user is an administrator, give them access to the administrator pages
         if st.session_state["role"] == "administrator":
@@ -131,7 +144,12 @@ def SideBarLinks(show_home=False):
         
         if st.session_state["role"] == "diplomat":
             DiplomatNav()
-
+            
+        if st.session_state["role"] == "lawyer":
+            HistTrends()
+            ProBonoOpps()
+            ReligDemographics()
+    
     # Always show the About page at the bottom of the list of links
     AboutPageNav()
 

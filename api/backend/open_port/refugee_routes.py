@@ -313,27 +313,6 @@ def add_family_member(fid):
     except Error as e:
         return jsonify({"error": str(e)}), 500
     
-@refugees.route("/legal_aid_applications", methods=["GET"])
-def get_applications():
-    try:
-        current_app.logger.info('Starting get_applications request')
-        cursor = db.get_db().cursor()
-
-
-        # Prepare the Base query
-        query = "SELECT * FROM LegalAidApplication"
-        
-        current_app.logger.debug(f'Executing query: {query}')
-        cursor.execute(query)
-        users = cursor.fetchall()
-        cursor.close()
-
-        current_app.logger.info(f'Successfully retrieved {len(users)} Users')
-        return jsonify(users), 200
-    except Error as e:
-        current_app.logger.error(f'Database error in get_all_users: {str(e)}')
-        return jsonify({"error": str(e)}), 500
-    
 @refugees.route("/weights", methods=["GET"])
 def get_weight_vector():
     try:
