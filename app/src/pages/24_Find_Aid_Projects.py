@@ -105,7 +105,7 @@ selected_country = st.selectbox("Select a Country", options=countries, index=cou
 
 project_date = st.date_input("Project Date", value=datetime.datetime.strptime(selected_project['start_date'], "%Y-%m-%d").date() if selected_project else datetime.date.today())
 
-# Post new project
+# Post new project  
 if st.button("Post (finish with post request)", type='primary', use_container_width=True):
     if not project_name or not project_description:
         st.error("Please fill in all required fields.")
@@ -185,3 +185,23 @@ if st.session_state['posted_projects']:
         with st.expander(f"📌 [{project_id}] {title} ({country})"):
             st.write(f"**Description:** {description}")
             st.write(f"**Start Date:** {start_date}")
+
+            # DELETE button for each project
+            if st.button(f"❌ Delete Project {project_id}", key=f"delete_{project_id}"):
+                try:
+                    delete_url = f"http://web-api:4000/diplomats/aid_project/delete/{project_id}"
+                    response = requests.delete(delete_url)
+                    response.raise_for_status()
+
+                    st.success(f"Project {project_id} deleted successfully.")
+
+                    # Remove from session state
+                    st.session_state['posted_projects'] = [
+                        proj for proj in st.session_state['posted_projects']
+                        if proj.get("project_id") != project_id
+                    ]
+
+                    st.rerun()  # Refresh the app to reflect deletion
+
+                except requests.RequestException as e:
+                    st.error(f"Failed to delete project: {e}")
