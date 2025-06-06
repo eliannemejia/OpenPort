@@ -45,49 +45,59 @@ def get_probability(age, sex, citizen, geo):
 
 def show_probability(age, sex, citizen, geo):
     acceptance_prob = get_probability(age, sex, citizen, geo) * 100
-    country = geo["geo"]
-    st.write(f"Proability of Acceptance for {country}: {acceptance_prob}")
+    st.write(f"**Proability of Acceptance**: {acceptance_prob}")
 
 def get_button(country, idx, age, sex, origin):
-    acceptance_prob = show_probability(age, sex, origin, country)
-    return st.button(f"{idx}." + country["geo"], acceptance_prob)
+    return st.button(f"{idx}." + country["geo"])
     
-df = pd.read_csv("assets/list_of_countries.csv")
-countries = sorted(df["Country"].dropna().unique())
-
+def get_country_list():
+    countries_url = "http://web-api:4000/countries/countries"
+    countries_get = requests.get(countries_url).json()
+    countries = []
+    for entry in countries_get:
+        name = entry["CountryName"]
+        countries.append(name)
+    
+    return countries
 # set the header of the page
 st.header('Asylum Acceptance Probability')
 
-st.write("### Enter Your Details")
+col1, col2 = st.columns(2)
 
-origin = st.selectbox(
-    "Country of Origin",
-    countries,
-    index=None,
-    placeholder="Select a Country",
-    key="origin"
-)
+with col1:
+    st.write("### Enter Your Details")
 
-sex = st.radio(
-    "Sex", 
-    ["Males", "Females", "Other"],
-    key="applicant_sex"
+    origin = st.selectbox(
+        "Country of Origin",
+        get_country_list(),
+        index=None,
+        placeholder="Select a Country",
+        key="origin"
     )
 
-age = st.slider("Age", 0, 150)
+    sex = st.radio(
+        "Sex", 
+        ["Males", "Females"],
+        key="applicant_sex"
+        )
 
-submit = st.button("Submit")
+    age = st.slider("Age", 0, 150)
 
-if submit:
-    top_three = get_top_three(sex, origin, age)
-    idx = 1
-    geos = {}
-    for country in top_three:
-        geos[country["geo"]] = get_button(country, idx, age, sex, origin)
-        idx += 1
+    submit = st.button("Submit")
     
-    for country, selected in geos.items():
-        if selected:
-           st.write("YOU HAVE CLICKED THIS BUTTON")
-           #probability = get_probability(age, sex, origin, country)
-           
+no_one = None
+
+with col2:
+    if submit:
+        st.write("### Top Three Counrties with the Highest Average Acceptance for your age, sex, and nationality")
+        st.write("Click on a country to see more info")
+        top_three = get_top_three(sex, origin, age)
+        
+        idx = 1
+        
+        for country in top_three:
+            st.write(f"### {idx}." + country["geo"],  key=f"button_{idx}")
+            acceptance_prob = show_probability(age, sex, origin, country)
+            idx += 1
+            
+    
