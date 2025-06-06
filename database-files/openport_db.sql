@@ -123,11 +123,6 @@ CREATE TABLE IF NOT EXISTS AidProject (
   FOREIGN KEY (CountryID) REFERENCES Country(CountryID)
 );
 
-INSERT INTO Country (CountryName) VALUES
-('Belgium'),
-('Bulgaria'),
-('Czechia');
-
 INSERT Into Religion (ReligionName)
 VALUES
 ('Buddhism'),

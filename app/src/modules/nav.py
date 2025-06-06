@@ -88,7 +88,7 @@ def AdminPageNav():
         "pages/21_ML_Model_Mgmt.py", label="ML Model Management", icon="🏢"
     )
 def DiplomatNav():
-    st.sidebar.page_link("pages/20_Diplomat_Home.py", label="Diplomat Home", icon="👤")
+    st.sidebar.page_link("pages/20_Commissioner_Home.py", label="Diplomat Home", icon="👤")
     st.sidebar.page_link("pages/21_pending_to_aid.py", label="Pending/Aid", icon="⛑️")
     st.sidebar.page_link("pages/22_Low_Acpt.py", label="Low Acceptance Countries", icon="📉")
     st.sidebar.page_link("pages/23_Group_Acpt.py", label="Inclusion Index", icon="🤝")
