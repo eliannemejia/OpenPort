@@ -281,61 +281,52 @@ def delete_aid_project(project_id):
     except Error as e:
         return jsonify({"error": str(e)}), 500
 
-@diplomats.route("/group_data", methods=["GET"])
-def get_group_data():
+
+@diplomats.route("/timeseries", methods=["GET"])
+def get_timeseries():
     try:
-        current_app.logger.info('Starting get_group_data request')
         cursor = db.get_db().cursor()
-        
-        # Query parameters
-        country = request.args.get("country")  # maps to CurrentLocation
-        citizenship = request.args.get("citizenship")
-        age = request.args.get("age")  # expected as an integer
-        sex = request.args.get("sex")
-        religion = request.args.get("religion")
-        
-        current_app.logger.debug(f'Params - country: {country}, citizenship: {citizenship}, age: {age}, sex: {sex}, religion: {religion}')
-        
-        # Base query with JOINs to get readable values
+        year = request.args.get("year")
+        country = request.args.get("country")
+
         query = """
-            SELECT 
-                a.ApplicantID, u.FirstName, u.LastName, a.SEX, a.DOB, 
-                TIMESTAMPDIFF(YEAR, a.DOB, CURDATE()) AS Age, c1.CountryName AS CurrentLocation, c2.CountryName AS Citizenship, r.ReligionName               
-            FROM AsylumSeeker a
-            JOIN User u ON a.UserID = u.UserID
-            LEFT JOIN Country c1 ON a.CurrentLocation = c1.CountryID
-            LEFT JOIN Country c2 ON a.Citizenship = c2.CountryID
-            LEFT JOIN Religion r ON a.Religion = r.ReligionID
+            SELECT TimeID, DataYear, Country, TValue
+            FROM TimeSeries
             WHERE 1=1
         """
-
         params = []
-        
-        # Filters
+
+        if year:
+            query += " AND DataYear = %s"
+            params.append(year)
         if country:
-            query += " AND c1.CountryName = %s"
+            query += " AND Country = %s"
             params.append(country)
-        if citizenship:
-            query += " AND c2.CountryName = %s"
-            params.append(citizenship)
-        if age:
-            query += " AND TIMESTAMPDIFF(YEAR, a.DOB, CURDATE()) = %s"
-            params.append(age)
-        if sex:
-            query += " AND a.SEX = %s"
-            params.append(sex)
-        if religion:
-            query += " AND r.ReligionName = %s"
-            params.append(religion)
-        
-        current_app.logger.debug(f'Executing: {query} with {params}')
+
         cursor.execute(query, params)
         result = cursor.fetchall()
         cursor.close()
 
-        current_app.logger.info(f'Retrieved {len(result)} vulnerable group entries')
         return jsonify(result), 200
 
     except Error as e:
-        current_app.logger.error(f'Database error in get_group_data: {str(e)}')
+        return jsonify({"error": str(e)}), 500
+
+
+@diplomats.route("/weights", methods=["GET"])
+def get_weights():
+    try:
+        current_app.logger.info('Starting get_weights request')
+        cursor = db.get_db().cursor()
+        
+        query = "SELECT * FROM Weights"
+        cursor.execute(query)
+        results = cursor.fetchall()
+        cursor.close()
+
+        current_app.logger.info('Successfully retrieved weights data')
+        return jsonify(results), 200
+
+    except Error as e:
+        current_app.logger.error(f'Database error in get_weights: {str(e)}')
         return jsonify({"error": str(e)}), 500
