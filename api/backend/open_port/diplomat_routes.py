@@ -290,7 +290,7 @@ def get_timeseries():
         country = request.args.get("country")
 
         query = """
-            SELECT TimeID, DataYear, Country, TValue
+            SELECT TimeID, DateYear, Country, TValue
             FROM TimeSeries
             WHERE 1=1
         """
