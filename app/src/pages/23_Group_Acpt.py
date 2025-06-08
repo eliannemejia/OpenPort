@@ -22,4 +22,37 @@ st.write("not done, fix api")
 # Load countries from CSV
 df_countries = pd.read_csv("assets/list_of_countries.csv")
 countries = sorted(df_countries["Country"].dropna().unique())
-df_all_countries = pd.DataFrame({'CountryName': countries})
+
+
+
+# Dropdown to select a country
+chosen_country = st.selectbox("Select a country", countries)
+
+# Checkbox for years 2011-2027
+years = list(range(2011, 2028))
+st.write("Select years to display:")
+selected_years = []
+cols = st.columns(5)
+for i, year in enumerate(years):
+    with cols[i % 5]:
+        if st.checkbox(str(year), value=True):
+            selected_years.append(year)
+
+if not selected_years:
+    st.warning("Please select at least one year.")
+else:
+    st.subheader(f"{chosen_country}'s Social Protection Expenditure Projections")
+
+    # Mock data: random values for selected years
+    expenditure_values = np.random.uniform(1, 5, size=len(selected_years))
+
+    # Create dataframe for plotting
+    df_proj = pd.DataFrame({
+        "Year": selected_years,
+        "Expenditure (in % of GDP)": expenditure_values
+    }).sort_values("Year")
+
+    # Plot with Plotly for better interactivity
+    fig = px.line(df_proj, x="Year", y="Expenditure (in % of GDP)", markers=True,
+                  title=f"{chosen_country} Social Protection Expenditure Projections")
+    st.plotly_chart(fig, use_container_width=True)
