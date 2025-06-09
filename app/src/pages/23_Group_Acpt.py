@@ -6,6 +6,7 @@ from streamlit_extras.app_logo import add_logo
 import plotly.express as px
 import requests
 from modules.nav import SideBarLinks
+import numpy as np
 
 # Call the SideBarLinks from the nav module in the modules directory
 SideBarLinks()
@@ -67,11 +68,15 @@ else:
 
         st.dataframe(weights_df)
         def W_df(country):
-            df_W = pd.DataFrame()
-            df_W["country_weight"] = weights_df[(weights_df["feature"] == f"Countries_{country}")]["CountryWeight"]
-            df_W["lag_1"] = weights_df[(weights_df["feature"] == "lag_1")]["CountryWeight"]
-            df_W["lag_2"] = weights_df[(weights_df["feature"] == "lag_2")]["CountryWeight"]
-            return df_W
+          df_W = pd.DataFrame()
+          df_W["country_weight"] = weights_df[(weights_df["feature"] == f"Countries_{country}")]["CountryWeight"].reset_index(drop=True)
+          df_W["lag_1"] = weights_df[(weights_df["feature"] == "lag_1")]["CountryWeight"].reset_index(drop=True)
+          df_W["lag_2"] = weights_df[(weights_df["feature"] == "lag_2")]["CountryWeight"].reset_index(drop=True)
+          df_W["lag_3"] = weights_df[(weights_df["feature"] == "lag_3")]["CountryWeight"].reset_index(drop=True)
+          df_W["lag_4"] = weights_df[(weights_df["feature"] == "lag_4")]["CountryWeight"].reset_index(drop=True)
+          df_W["lag_5"] = weights_df[(weights_df["feature"] == "lag_5")]["CountryWeight"].reset_index(drop=True)
+          return df_W
+
         ml3_df = W_df(chosen_country)
         st.subheader("Weights DataFrame (ml3_df)")
         st.dataframe(ml3_df)
@@ -79,6 +84,20 @@ else:
         ml3_np = ml3_df.to_numpy()
         st.subheader("Weights NumPy Array (ml3_np)")
         st.write(ml3_np)
+        
+        # Remove country_weight for dot product, store it separately
+        country_weight = ml3_df["country_weight"].iloc[0]
+        lag_weights = ml3_df.drop(columns=["country_weight"]).to_numpy().flatten()
+        lag_values = ml2_np.flatten()
+
+        # Compute dot product
+        dot_product = np.dot(lag_values, lag_weights)
+
+        # Final projection
+        projection = dot_product + country_weight
+
+        st.subheader(f"Projected Social Protection Expenditure for {chosen_country} in {end_year}")
+        st.write(round(projection, 2))
 
     
   
