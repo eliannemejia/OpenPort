@@ -54,11 +54,14 @@ def get_country_list():
     countries_url = "http://web-api:4000/countries/countries"
     countries_get = requests.get(countries_url).json()
     countries = []
+    idx = 0
     for entry in countries_get:
-        name = entry["CountryName"]
-        countries.append(name)
-    
+        if idx < 27:
+            name = entry["CountryName"]
+            countries.append(name)
+            idx += 1
     return countries
+
 # set the header of the page
 st.header('Asylum Acceptance Probability')
 
@@ -91,13 +94,12 @@ with col2:
     if submit:
         st.write("### Top Three Counrties with the Highest Average Acceptance for your age, sex, and nationality")
 
-        top_three = get_top_three(sex, origin, age)
-        
+        countries = get_country_list()
+
+        euCountries = countries[:27]
         idx = 1
-        
-        for country in top_three:
+
+        for country in euCountries:
             st.write(f"### {idx}." + country["geo"],  key=f"button_{idx}")
             acceptance_prob = show_probability(age, sex, origin, country)
             idx += 1
-            
-    
