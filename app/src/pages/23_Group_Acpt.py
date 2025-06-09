@@ -51,7 +51,13 @@ else:
             df_X["lag_5"] = timeseries_data[(timeseries_data["Country"] == country) & (timeseries_data["DateYear"] == (year-5))]["TValue"].reset_index(drop = True)
             return df_X
         ml2_df = X_df(chosen_country, end_year)
+        st.subheader("Lag Features DataFrame (ml2_df)")
         st.dataframe(ml2_df)
+
+        ml2_np = ml2_df.to_numpy()
+        st.subheader("Lag Features NumPy Array (ml2_np)")
+        st.write(ml2_np)
+
 
         # Get weights
         weights_resp = requests.get("http://web-api:4000/diplomats/weights")
@@ -65,9 +71,14 @@ else:
             df_W["country_weight"] = weights_df[(weights_df["feature"] == f"Countries_{country}")]["CountryWeight"]
             df_W["lag_1"] = weights_df[(weights_df["feature"] == "lag_1")]["CountryWeight"]
             df_W["lag_2"] = weights_df[(weights_df["feature"] == "lag_2")]["CountryWeight"]
-            return W_df
+            return df_W
         ml3_df = W_df(chosen_country)
-        ml3_df
+        st.subheader("Weights DataFrame (ml3_df)")
+        st.dataframe(ml3_df)
+
+        ml3_np = ml3_df.to_numpy()
+        st.subheader("Weights NumPy Array (ml3_np)")
+        st.write(ml3_np)
 
     
   
