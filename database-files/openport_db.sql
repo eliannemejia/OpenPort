@@ -151,12 +151,12 @@ VALUES
 INSERT INTO User (LastLogin, FirstName, LastName, UserRole, Email)
 VALUES
 ('2025-05-15 10:30:00', 'Layla', 'Hassan', 'AsylumSeeker', 'laylahassan@gmail.com'),
+('2025-05-15 11:30:00', 'Amin', 'Mohammed', 'AsylumSeeker', 'mohammed.amin@gmail.com'),
 ('2025-05-15 09:15:00', 'Mark', 'Weber', 'Diplomat', 'webermark@diplomats.eu'),
 ('2025-05-14 17:45:00', 'Sebastian', 'Vettel', 'Lawyer', 'seb.vettal@lawyers.org');
 
 INSERT INTO User (LastLogin, FirstName, LastName, UserRole, Email)
 VALUES
-('2025-05-15 11:30:00', 'Amin', 'Mohammed', 'AsylumSeeker', 'mohammed.amin@gmail.com'),
 ('2025-05-15 08:10:00', 'Frank', 'De Vries', 'Diplomat', 'frankdev@usa.gov'),
 ('2025-05-13 14:55:00', 'Jackie ', 'Stewart', 'Lawyer', 'stewart.j@mgm.com');
 

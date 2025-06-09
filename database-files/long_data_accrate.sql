@@ -15,7 +15,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','65 years or over','Females','Russia','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','65 years or over','Females','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','65 years or over','Females','Total','0.6285714285714286');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','65 years or over','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','65 years or over','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','65 years or over','Males','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','65 years or over','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','65 years or over','Males','Iran','0.5');
@@ -42,7 +42,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Females','Syria','0.9855072463768116');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Females','Total','0.8703071672354948');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Females','Türkiye','0.23076923076923078');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Females','Turkiye','0.23076923076923078');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Females','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Males','Afghanistan','0.9393939393939394');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Males','Armenia','0.0');
@@ -66,7 +66,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Males','Tajikistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Males','Total','0.9003164556962026');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Males','Türkiye','0.21052631578947367');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Males','Turkiye','0.21052631578947367');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 14 to 17 years','Males','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Afghanistan','0.9497206703910615');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Albania','0.0');
@@ -83,7 +83,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Ethiopia','0.3333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Georgia','0.1');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Ghana','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Guatemala','0.0');
@@ -110,7 +110,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Tajikistan','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Total','0.8293067226890757');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Türkiye','0.1518987341772152');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Turkiye','0.1518987341772152');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Ukraine','0.5714285714285714');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Females','Venezuela','0.6666666666666666');
@@ -134,7 +134,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Egypt','0.004048582995951417');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Eritrea','0.6');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Ethiopia','0.2857142857142857');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Georgia','0.03333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Guinea','0.25');
@@ -168,7 +168,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Total','0.36990748255153383');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Tunisia','0.0015860428231562252');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Turkmenistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Türkiye','0.031413612565445025');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Turkiye','0.031413612565445025');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Ukraine','0.625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 18 to 34 years','Males','Uzbekistan','0.0');
@@ -210,7 +210,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Females','Tajikistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Females','Total','0.7180094786729858');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Females','Türkiye','0.2608695652173913');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Females','Turkiye','0.2608695652173913');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Females','Ukraine','0.5555555555555556');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Females','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Females','Venezuela','0.5555555555555556');
@@ -230,7 +230,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Democratic Republic of the Congo','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Egypt','0.011764705882352941');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Eritrea','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Georgia','0.04');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','India','0.0');
@@ -257,7 +257,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Tajikistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Total','0.43906075288855756');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Türkiye','0.08609271523178808');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Turkiye','0.08609271523178808');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Ukraine','0.5714285714285714');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','From 35 to 64 years','Males','Venezuela','0.75');
@@ -274,7 +274,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Egypt','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Georgia','0.3076923076923077');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Guinea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','India','0.0');
@@ -300,7 +300,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Tajikistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Total','0.9266409266409267');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Türkiye','0.19318181818181818');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Turkiye','0.19318181818181818');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Ukraine','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Females','Unknown','0.9375');
@@ -320,7 +320,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Egypt','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Ethiopia','0.8');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Georgia','0.2857142857142857');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Guinea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','India','0.0');
@@ -346,7 +346,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Tajikistan','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Total','0.927603115085088');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Tunisia','0.058823529411764705');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Türkiye','0.23958333333333334');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Turkiye','0.23958333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Ukraine','0.625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Unknown','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 14 years','Males','Uzbekistan','0.2');
@@ -367,7 +367,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Egypt','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Georgia','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Guinea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','India','0.0');
@@ -393,7 +393,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Tajikistan','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Total','0.92174168873198');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Türkiye','0.19801980198019803');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Turkiye','0.19801980198019803');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Ukraine','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Females','Unknown','0.9375');
@@ -413,7 +413,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Egypt','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Ethiopia','0.8');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Georgia','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Guinea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','India','0.0');
@@ -439,7 +439,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Tajikistan','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Total','0.9233959502317638');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Tunisia','0.05');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Türkiye','0.23275862068965517');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Turkiye','0.23275862068965517');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Ukraine','0.625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Unknown','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Austria','Less than 18 years','Males','Uzbekistan','0.16666666666666666');
@@ -459,14 +459,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Iran','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Iraq','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Moldova','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Palestine*','0.8571428571428571');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Palestine','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Russia','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Serbia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Sri Lanka','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Syria','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Total','0.3867924528301887');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Females','Venezuela','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Afghanistan','0.7777777777777778');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Albania','0.0');
@@ -480,14 +480,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Kosovo*','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Moldova','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Palestine*','0.875');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Palestine','0.875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Serbia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Total','0.47368421052631576');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','65 years or over','Males','Venezuela','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Afghanistan','0.9354838709677419');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Albania','0.0');
@@ -514,7 +514,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Moldova','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Palestine*','0.8214285714285714');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Palestine','0.8214285714285714');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Russia','0.5714285714285714');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Rwanda','0.3333333333333333');
@@ -522,7 +522,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Somalia','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Syria','0.7714285714285715');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Total','0.5985915492957746');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Türkiye','0.8461538461538461');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Turkiye','0.8461538461538461');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Unknown','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Venezuela','0.42857142857142855');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Females','Yemen','1.0');
@@ -554,7 +554,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Morocco','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Palestine*','0.819672131147541');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Palestine','0.819672131147541');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Russia','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Rwanda','0.4');
@@ -564,7 +564,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Syria','0.9166666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Total','0.5449871465295629');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Türkiye','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Turkiye','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Unknown','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Venezuela','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 14 to 17 years','Males','Yemen','1.0');
@@ -594,7 +594,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Eritrea','0.9026548672566371');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Ethiopia','0.4666666666666667');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Gabon','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Georgia','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Guatemala','0.0');
@@ -621,7 +621,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Pakistan','0.4');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Palestine*','0.7922705314009661');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Palestine','0.7922705314009661');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Philippines','0.0');
@@ -639,7 +639,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Total','0.486341059602649');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Tunisia','0.25');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Türkiye','0.6216216216216216');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Turkiye','0.6216216216216216');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Uganda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Ukraine','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Females','Unknown','0.5714285714285714');
@@ -675,7 +675,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Eritrea','0.8918918918918919');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Ethiopia','0.6458333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Gabon','0.6666666666666666');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Gambia, The','0.02564102564102564');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','The Gambia','0.02564102564102564');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Georgia','0.20588235294117646');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Ghana','0.06666666666666667');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Guatemala','0.0');
@@ -705,7 +705,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Nigeria','0.016129032258064516');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','North Macedonia','0.1111111111111111');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Pakistan','0.19148936170212766');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Palestine*','0.6888217522658611');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Palestine','0.6888217522658611');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Russia','0.48717948717948717');
@@ -725,7 +725,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Togo','0.11764705882352941');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Total','0.4180992141453831');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Tunisia','0.05555555555555555');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Türkiye','0.3937007874015748');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Turkiye','0.3937007874015748');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Uganda','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Ukraine','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 18 to 34 years','Males','Unknown','0.42857142857142855');
@@ -760,7 +760,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Eritrea','0.8780487804878049');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Ethiopia','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Gabon','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Georgia','0.02127659574468085');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Guatemala','0.0');
@@ -785,7 +785,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Pakistan','0.36363636363636365');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Palestine*','0.7981651376146789');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Palestine','0.7981651376146789');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Philippines','0.0');
@@ -803,7 +803,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Total','0.4301449275362319');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Türkiye','0.7746478873239436');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Turkiye','0.7746478873239436');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Uganda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Ukraine','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Females','Unknown','0.5555555555555556');
@@ -837,7 +837,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','El Salvador','0.08');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Eritrea','0.7983870967741935');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Ethiopia','0.625');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Georgia','0.02459016393442623');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Guatemala','0.0');
@@ -864,7 +864,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Pakistan','0.14285714285714285');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Palestine*','0.711864406779661');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Palestine','0.711864406779661');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Philippines','0.0');
@@ -883,7 +883,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Togo','0.18181818181818182');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Total','0.392891760904685');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Tunisia','0.125');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Türkiye','0.5454545454545454');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Turkiye','0.5454545454545454');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Uganda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Ukraine','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','From 35 to 64 years','Males','Unknown','0.4090909090909091');
@@ -916,7 +916,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Eritrea','0.8661417322834646');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Ethiopia','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Gabon','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Guatemala','0.0');
@@ -938,7 +938,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Pakistan','0.3333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Palestine*','0.7682926829268293');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Palestine','0.7682926829268293');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Russia','0.48');
@@ -956,7 +956,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Total','0.5686486486486486');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Türkiye','0.6557377049180327');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Turkiye','0.6557377049180327');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Uganda','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Ukraine','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Females','Unknown','0.5849056603773585');
@@ -986,7 +986,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Eritrea','0.8818897637795275');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Ethiopia','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Gabon','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Georgia','0.02127659574468085');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Guatemala','0.25');
@@ -1011,7 +1011,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Pakistan','0.4');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Palestine*','0.7569060773480663');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Palestine','0.7569060773480663');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Russia','0.4827586206896552');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Rwanda','0.25');
@@ -1026,7 +1026,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Syria','0.788235294117647');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Total','0.5356608478802992');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Türkiye','0.6515151515151515');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Turkiye','0.6515151515151515');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Ukraine','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 14 years','Males','Unknown','0.5929203539823009');
@@ -1057,7 +1057,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Eritrea','0.8941176470588236');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Ethiopia','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Gabon','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Gambia, The','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','The Gambia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Georgia','0.0196078431372549');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Guatemala','0.0');
@@ -1080,7 +1080,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Pakistan','0.2857142857142857');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Palestine*','0.7760416666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Palestine','0.7760416666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Peru','0.1111111111111111');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Russia','0.4838709677419355');
@@ -1098,7 +1098,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Total','0.5745054945054945');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Türkiye','0.684931506849315');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Turkiye','0.684931506849315');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Uganda','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Ukraine','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Females','Unknown','0.5855855855855856');
@@ -1128,7 +1128,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Eritrea','0.9170731707317074');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Ethiopia','0.6363636363636364');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Gabon','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Georgia','0.017543859649122806');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Guatemala','0.16666666666666666');
@@ -1154,7 +1154,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Pakistan','0.375');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Palestine*','0.7717842323651453');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Palestine','0.7717842323651453');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Russia','0.47058823529411764');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Rwanda','0.34615384615384615');
@@ -1171,7 +1171,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Total','0.5389221556886228');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Trinidad and Tobago','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Türkiye','0.6470588235294118');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Turkiye','0.6470588235294118');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Ukraine','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Belgium','Less than 18 years','Males','Unknown','0.5966386554621849');
@@ -1221,7 +1221,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 18 to 34 years','Males','Syria','0.8803625377643505');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 18 to 34 years','Males','Total','0.5400797968806674');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 18 to 34 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 18 to 34 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 18 to 34 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 18 to 34 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 18 to 34 years','Males','Yemen','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 35 to 64 years','Females','Afghanistan','1.0');
@@ -1249,7 +1249,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 35 to 64 years','Males','Syria','0.9185393258426966');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 35 to 64 years','Males','Total','0.6716981132075471');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 35 to 64 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 35 to 64 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 35 to 64 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','From 35 to 64 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','Less than 14 years','Females','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Bulgaria','Less than 14 years','Females','Albania','0.0');
@@ -1298,7 +1298,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 14 to 17 years','Females','Total','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 14 to 17 years','Males','Afghanistan','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 14 to 17 years','Males','Total','0.42857142857142855');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 14 to 17 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 14 to 17 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Females','Afghanistan','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Females','Algeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Females','Cuba','0.0');
@@ -1307,7 +1307,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Females','Russia','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Females','Syria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Females','Total','0.2631578947368421');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Males','Afghanistan','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Males','Algeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Males','Bangladesh','0.0');
@@ -1322,7 +1322,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Males','Syria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Males','Total','0.0945945945945946');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 18 to 34 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Females','Afghanistan','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Females','Côte d’Ivoire','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Females','Iran','0.0');
@@ -1330,7 +1330,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Females','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Females','Total','0.26666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Males','Afghanistan','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Males','Bangladesh','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Males','Bosnia and Herzegovina','0.0');
@@ -1346,7 +1346,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Males','Russia','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Males','Syria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Males','Total','0.1111111111111111');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','From 35 to 64 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 14 years','Females','Afghanistan','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 14 years','Females','Iran','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 14 years','Females','Iraq','0.0');
@@ -1367,7 +1367,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Females','Russia','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Females','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Females','Total','0.4090909090909091');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Males','Afghanistan','0.375');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Males','Iran','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Males','Iraq','0.0');
@@ -1376,9 +1376,9 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Males','Syria','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Males','Total','0.4074074074074074');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Croatia','Less than 18 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','65 years or over','Females','Iraq','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','65 years or over','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','65 years or over','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','65 years or over','Females','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','65 years or over','Females','Total','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','65 years or over','Males','Iraq','1.0');
@@ -1392,7 +1392,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Females','Iran','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Females','Iraq','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Females','Nigeria','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Females','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Females','Syria','0.9444444444444444');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Females','Total','0.6923076923076923');
@@ -1403,7 +1403,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Côte d’Ivoire','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Democratic Republic of the Congo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Egypt','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Iran','0.6666666666666666');
@@ -1412,7 +1412,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Lebanon','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Sierra Leone','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Somalia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 14 to 17 years','Males','Syria','0.9772727272727273');
@@ -1441,7 +1441,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Females','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Females','Nigeria','0.11363636363636363');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Females','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Females','Palestine*','0.9285714285714286');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Females','Palestine','0.9285714285714286');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Females','Rwanda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Females','Sierra Leone','0.10256410256410256');
@@ -1464,7 +1464,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Democratic Republic of the Congo','0.028720626631853787');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Egypt','0.005952380952380952');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Ethiopia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Guinea','0.02564102564102564');
@@ -1479,7 +1479,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Nigeria','0.012534818941504178');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Pakistan','0.0013774104683195593');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Palestine*','0.9302325581395349');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Palestine','0.9302325581395349');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Rwanda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Senegal','0.0');
@@ -1491,7 +1491,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Syria','0.9053435114503817');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Total','0.15518274415817854');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Türkiye','0.3');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Turkiye','0.3');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Viet Nam','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 18 to 34 years','Males','Zimbabwe','0.0');
@@ -1521,14 +1521,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Nigeria','0.041666666666666664');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Sierra Leone','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Somalia','0.8888888888888888');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Sri Lanka','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Syria','0.9285714285714286');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Total','0.17159763313609466');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Ukraine','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Viet Nam','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Females','Yemen','1.0');
@@ -1553,7 +1553,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Nigeria','0.010256410256410256');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Pakistan','0.02631578947368421');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Palestine*','0.9230769230769231');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Palestine','0.9230769230769231');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Russia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Sierra Leone','0.0');
@@ -1562,7 +1562,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Syria','0.821656050955414');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Total','0.1693840579710145');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Türkiye','0.3');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Turkiye','0.3');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Males','Viet Nam','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','From 35 to 64 years','Unknown','Bangladesh','0.0');
@@ -1583,14 +1583,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Nigeria','0.07142857142857142');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Pakistan','0.2');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Palestine*','0.9166666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Palestine','0.9166666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Sierra Leone','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Sri Lanka','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Syria','0.8673469387755102');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Total','0.5463917525773195');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Females','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Bangladesh','0.0');
@@ -1611,7 +1611,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Nigeria','0.18181818181818182');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Sierra Leone','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Somalia','1.0');
@@ -1620,7 +1620,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Syria','0.9026548672566371');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Total','0.5606060606060606');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Türkiye','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Males','Turkiye','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Unknown','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 14 years','Unknown','Total','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Afghanistan','1.0');
@@ -1639,7 +1639,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Nigeria','0.07142857142857142');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Pakistan','0.2');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Palestine*','0.9230769230769231');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Palestine','0.9230769230769231');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Sierra Leone','0.42857142857142855');
@@ -1647,7 +1647,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Sri Lanka','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Syria','0.8793103448275862');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Total','0.5742296918767507');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Türkiye','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Turkiye','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Females','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Bangladesh','0.0');
@@ -1656,7 +1656,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Côte d’Ivoire','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Democratic Republic of the Congo','0.07894736842105263');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Egypt','0.3');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Guinea','0.125');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Haiti','0.0');
@@ -1669,7 +1669,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Nigeria','0.15384615384615385');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Sierra Leone','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Somalia','0.6739130434782609');
@@ -1679,14 +1679,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Syria','0.9426229508196722');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Total','0.6160714285714286');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Türkiye','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Males','Turkiye','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Unknown','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Less than 18 years','Unknown','Total','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Females','Cameroon','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Females','Democratic Republic of the Congo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Females','Nigeria','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Females','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Females','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Females','Total','0.6206896551724138');
@@ -1696,7 +1696,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Males','India','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Males','Nigeria','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Males','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Cyprus','Unknown','Males','Total','0.6578947368421053');
@@ -1714,7 +1714,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 14 to 17 years','Males','Armenia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 14 to 17 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 14 to 17 years','Males','Total','0.45454545454545453');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 14 to 17 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 14 to 17 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 14 to 17 years','Males','Ukraine','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Females','Afghanistan','0.875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Females','Armenia','0.0');
@@ -1731,7 +1731,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Females','Russia','0.1111111111111111');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Females','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Females','Total','0.44776119402985076');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Females','Ukraine','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Females','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Females','Viet Nam','0.0');
@@ -1760,7 +1760,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Males','Syria','0.8888888888888888');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Males','Total','0.17647058823529413');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Males','Ukraine','0.5757575757575758');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Males','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 18 to 34 years','Males','Venezuela','0.0');
@@ -1780,7 +1780,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Females','Russia','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Females','Syria','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Females','Total','0.375');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Females','Ukraine','0.5882352941176471');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Females','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Females','Viet Nam','0.0');
@@ -1807,7 +1807,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Males','Total','0.16216216216216217');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Males','Ukraine','0.4594594594594595');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Males','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','From 35 to 64 years','Males','Viet Nam','0.025');
@@ -1819,7 +1819,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Females','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Females','Syria','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Females','Total','0.6341463414634146');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Females','Ukraine','0.8888888888888888');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Females','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Males','Afghanistan','0.7777777777777778');
@@ -1832,7 +1832,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Males','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Males','Total','0.5714285714285714');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 14 years','Males','Ukraine','0.5833333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Females','Afghanistan','0.7692307692307693');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Females','Azerbaijan','0.0');
@@ -1844,7 +1844,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Females','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Females','Syria','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Females','Total','0.6304347826086957');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Females','Ukraine','0.8181818181818182');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Females','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Males','Afghanistan','0.8');
@@ -1858,7 +1858,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Males','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Males','Total','0.5737704918032787');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Males','Ukraine','0.6');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Males','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Czechia','Less than 18 years','Males','Viet Nam','0.0');
@@ -1919,7 +1919,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Democratic Republic of the Congo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Eritrea','0.8333333333333334');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','India','0.0');
@@ -1939,7 +1939,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Syria','0.9230769230769231');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Total','0.41015625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Türkiye','0.2');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Turkiye','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 18 to 34 years','Males','Zimbabwe','0.0');
@@ -1961,7 +1961,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Females','Syria','0.7727272727272727');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Females','Thailand','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Females','Total','0.4962962962962963');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Females','Türkiye','0.3333333333333333');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Females','Turkiye','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Females','Uganda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Males','Afghanistan','0.8333333333333334');
@@ -1996,7 +1996,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Males','Syria','0.7647058823529411');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Males','Total','0.2598870056497175');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Males','Türkiye','0.3333333333333333');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Males','Turkiye','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Males','Uganda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','From 35 to 64 years','Males','Venezuela','0.0');
@@ -2017,7 +2017,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Females','Stateless','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Females','Syria','0.7777777777777778');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Females','Total','0.704');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Females','Türkiye','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Females','Turkiye','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Males','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Males','Armenia','0.0');
@@ -2034,7 +2034,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Males','Stateless','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Males','Syria','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Males','Total','0.7112676056338029');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 14 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Females','Afghanistan','0.972972972972973');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Females','Albania','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Females','Armenia','0.0');
@@ -2053,7 +2053,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Females','Sudan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Females','Syria','0.782608695652174');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Females','Total','0.6993464052287581');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Females','Türkiye','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Females','Turkiye','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Males','Afghanistan','0.9285714285714286');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Males','Algeria','0.0');
@@ -2073,7 +2073,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Males','Stateless','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Males','Syria','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Males','Total','0.700507614213198');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Males','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Denmark','Less than 18 years','Males','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','65 years or over','Females','Total','0.8888888888888888');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','65 years or over','Females','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','65 years or over','Males','Total','1.0');
@@ -2095,7 +2095,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 18 to 34 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 18 to 34 years','Males','Russia','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 18 to 34 years','Males','Total','0.9627329192546584');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 18 to 34 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 18 to 34 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 18 to 34 years','Males','Ukraine','0.9978070175438597');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 35 to 64 years','Females','Russia','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 35 to 64 years','Females','Total','0.9647577092511013');
@@ -2105,7 +2105,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 35 to 64 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 35 to 64 years','Males','Russia','0.2222222222222222');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 35 to 64 years','Males','Total','0.9689655172413794');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 35 to 64 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 35 to 64 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','From 35 to 64 years','Males','Ukraine','0.9945945945945946');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','Less than 14 years','Females','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Estonia','Less than 14 years','Females','Russia','0.6666666666666666');
@@ -2139,7 +2139,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Females','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Females','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Females','Total','0.8360655737704918');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Females','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Females','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Males','Afghanistan','0.9743589743589743');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Males','Democratic Republic of the Congo','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Males','Eritrea','1.0');
@@ -2151,7 +2151,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Males','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Males','Total','0.9181818181818182');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 14 to 17 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Afghanistan','0.90625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Cameroon','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','China','1.0');
@@ -2159,7 +2159,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Cuba','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Ethiopia','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Honduras','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Iran','0.8333333333333334');
@@ -2175,7 +2175,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Syria','0.8461538461538461');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Total','0.6639344262295082');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Türkiye','0.8');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Turkiye','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Unknown','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Females','Venezuela','0.0');
@@ -2192,7 +2192,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','El Salvador','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Eritrea','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Ethiopia','0.3333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Honduras','0.0');
@@ -2215,7 +2215,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Sudan','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Syria','0.9574468085106383');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Total','0.37065052950075644');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Türkiye','0.46875');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Turkiye','0.46875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Uganda','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Unknown','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 18 to 34 years','Males','Venezuela','0.0');
@@ -2240,7 +2240,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Females','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Females','Syria','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Females','Total','0.5279503105590062');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Females','Türkiye','0.9090909090909091');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Females','Turkiye','0.9090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Females','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Females','Venezuela','0.5');
@@ -2254,7 +2254,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Cuba','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Ethiopia','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Iran','0.3125');
@@ -2272,7 +2272,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Syria','0.8947368421052632');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Total','0.31843575418994413');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Türkiye','0.68');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Turkiye','0.68');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','From 35 to 64 years','Males','Yemen','0.8');
@@ -2297,7 +2297,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Females','Sri Lanka','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Females','Syria','0.875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Females','Total','0.6445783132530121');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Females','Türkiye','0.7692307692307693');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Females','Turkiye','0.7692307692307693');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Females','Unknown','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Females','Uzbekistan','1.0');
@@ -2320,7 +2320,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Males','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Males','Syria','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Males','Total','0.65');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Males','Türkiye','0.7857142857142857');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Males','Turkiye','0.7857142857142857');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Males','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 14 years','Males','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Females','Afghanistan','0.8709677419354839');
@@ -2348,7 +2348,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Females','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Females','Syria','0.9');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Females','Total','0.6960352422907489');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Females','Türkiye','0.8');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Females','Turkiye','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Females','Unknown','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Females','Uzbekistan','1.0');
@@ -2377,7 +2377,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Males','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Males','Syria','0.9285714285714286');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Males','Total','0.7564575645756457');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Males','Türkiye','0.8235294117647058');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Males','Turkiye','0.8235294117647058');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Males','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Less than 18 years','Males','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Finland','Unknown','Females','Total','1.0');
@@ -2419,7 +2419,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Mongolia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Pakistan','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Russia','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Rwanda','0.5');
@@ -2430,7 +2430,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Sudan','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Total','0.4230769230769231');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Türkiye','0.2857142857142857');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Turkiye','0.2857142857142857');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Ukraine','0.9141104294478528');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Females','Venezuela','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Males','Afghanistan','0.9');
@@ -2473,7 +2473,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Males','Syria','0.8888888888888888');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Males','Total','0.33766233766233766');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Males','Türkiye','0.16666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Males','Turkiye','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Males','Ukraine','0.8695652173913043');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Males','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','65 years or over','Males','Venezuela','0.3');
@@ -2530,7 +2530,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Nigeria','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','North Macedonia','0.125');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Pakistan','0.3333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Peru','0.2222222222222222');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Russia','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Rwanda','0.5');
@@ -2546,7 +2546,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Syria','0.868421052631579');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Total','0.49969192852741834');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Tunisia','0.3333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Türkiye','0.2830188679245283');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Turkiye','0.2830188679245283');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Ukraine','0.8875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Females','Venezuela','0.4375');
@@ -2604,7 +2604,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Nigeria','0.3076923076923077');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Pakistan','0.3');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Palestine*','0.8');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Palestine','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Peru','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Russia','0.17105263157894737');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Rwanda','0.6363636363636364');
@@ -2621,7 +2621,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Tajikistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Total','0.5577383804504072');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Türkiye','0.24324324324324326');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Turkiye','0.24324324324324326');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Uganda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Ukraine','0.9239130434782609');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 14 to 17 years','Males','Unknown','0.0');
@@ -2666,7 +2666,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Eritrea','0.6578947368421053');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Ethiopia','0.3559322033898305');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Gabon','0.1388888888888889');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Gambia, The','0.13793103448275862');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','The Gambia','0.13793103448275862');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Georgia','0.10646387832699619');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Ghana','0.09090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Guinea','0.12569169960474308');
@@ -2703,7 +2703,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Nigeria','0.03025936599423631');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','North Macedonia','0.04878048780487805');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Pakistan','0.20967741935483872');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Palestine*','0.7368421052631579');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Palestine','0.7368421052631579');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Peru','0.24324324324324326');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Philippines','0.0');
@@ -2728,7 +2728,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Togo','0.09523809523809523');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Total','0.2936297504928955');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Tunisia','0.20689655172413793');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Türkiye','0.23861566484517305');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Turkiye','0.23861566484517305');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Uganda','0.2727272727272727');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Ukraine','0.625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Females','Unknown','0.0');
@@ -2773,7 +2773,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Eritrea','0.5295698924731183');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Ethiopia','0.2532467532467532');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Gabon','0.2413793103448276');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Gambia, The','0.06');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','The Gambia','0.06');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Georgia','0.04681404421326398');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Ghana','0.05');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Guatemala','0.0');
@@ -2812,7 +2812,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Nigeria','0.019417475728155338');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','North Macedonia','0.023255813953488372');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Pakistan','0.05058139534883721');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Palestine*','0.5348837209302325');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Palestine','0.5348837209302325');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Peru','0.17391304347826086');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Russia','0.26128266033254155');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Rwanda','0.38461538461538464');
@@ -2834,7 +2834,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Total','0.2516400765794512');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Tunisia','0.12318840579710146');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Türkiye','0.13107170393215112');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Turkiye','0.13107170393215112');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Uganda','0.2222222222222222');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Ukraine','0.46');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 18 to 34 years','Males','Unknown','0.0');
@@ -2879,7 +2879,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Eritrea','0.7241379310344828');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Ethiopia','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Gabon','0.13333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Georgia','0.08064516129032258');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Guinea','0.1337579617834395');
@@ -2917,7 +2917,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Nigeria','0.02824858757062147');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','North Macedonia','0.06666666666666667');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Pakistan','0.2631578947368421');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Palestine*','0.7222222222222222');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Palestine','0.7222222222222222');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Peru','0.19148936170212766');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Philippines','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Russia','0.25386996904024767');
@@ -2939,7 +2939,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Togo','0.1875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Total','0.29673102237823606');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Tunisia','0.14814814814814814');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Türkiye','0.2898550724637681');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Turkiye','0.2898550724637681');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Uganda','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Ukraine','0.713091922005571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Females','Unknown','0.0');
@@ -2985,7 +2985,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Eritrea','0.5220588235294118');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Ethiopia','0.2826086956521739');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Gabon','0.14285714285714285');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Georgia','0.019623233908948195');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Guatemala','0.0');
@@ -3025,7 +3025,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Nigeria','0.014705882352941176');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Pakistan','0.06417112299465241');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Palestine*','0.4838709677419355');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Palestine','0.4838709677419355');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Peru','0.10909090909090909');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Russia','0.18932038834951456');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Rwanda','0.2916666666666667');
@@ -3046,7 +3046,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Togo','0.1509433962264151');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Total','0.17300874497754667');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Tunisia','0.07058823529411765');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Türkiye','0.13040791100123608');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Turkiye','0.13040791100123608');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Uganda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Ukraine','0.5101214574898786');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','From 35 to 64 years','Males','Unknown','0.0');
@@ -3091,7 +3091,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Eritrea','0.845360824742268');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Ethiopia','0.7419354838709677');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Gabon','0.21212121212121213');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Gambia, The','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','The Gambia','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Georgia','0.06864988558352403');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Ghana','0.09090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Guinea','0.8043795620437956');
@@ -3124,7 +3124,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Nigeria','0.146374829001368');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','North Macedonia','0.045454545454545456');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Pakistan','0.21052631578947367');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Palestine*','0.7142857142857143');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Palestine','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Peru','0.19230769230769232');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Russia','0.2908496732026144');
@@ -3146,7 +3146,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Togo','0.2857142857142857');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Total','0.5074987905176584');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Tunisia','0.1');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Türkiye','0.27181208053691275');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Turkiye','0.27181208053691275');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Uganda','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Ukraine','0.895397489539749');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Females','Unknown','0.0');
@@ -3192,7 +3192,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Eritrea','0.8373205741626795');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Ethiopia','0.576271186440678');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Gabon','0.16666666666666666');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Gambia, The','0.16666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','The Gambia','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Georgia','0.09090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Guinea','0.299860529986053');
@@ -3226,7 +3226,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Nigeria','0.18340611353711792');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','North Macedonia','0.08695652173913043');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Pakistan','0.2753623188405797');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Palestine*','0.7222222222222222');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Palestine','0.7222222222222222');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Peru','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Russia','0.2819767441860465');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Rwanda','0.4666666666666667');
@@ -3247,7 +3247,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Togo','0.2222222222222222');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Total','0.39980704293294744');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Tunisia','0.08');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Türkiye','0.24776119402985075');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Turkiye','0.24776119402985075');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Uganda','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Ukraine','0.8618181818181818');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 14 years','Males','Unknown','0.0');
@@ -3291,7 +3291,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Eritrea','0.8609865470852018');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Ethiopia','0.7538461538461538');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Gabon','0.2564102564102564');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Gambia, The','0.6857142857142857');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','The Gambia','0.6857142857142857');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Georgia','0.08076923076923077');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Ghana','0.09090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Guinea','0.7998590556730092');
@@ -3325,7 +3325,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Nigeria','0.14953271028037382');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','North Macedonia','0.057692307692307696');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Pakistan','0.2361111111111111');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Palestine*','0.7777777777777778');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Palestine','0.7777777777777778');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Peru','0.21621621621621623');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Russia','0.2845303867403315');
@@ -3347,7 +3347,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Togo','0.2857142857142857');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Total','0.5066657161189135');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Tunisia','0.125');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Türkiye','0.2727272727272727');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Turkiye','0.2727272727272727');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Uganda','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Ukraine','0.8885448916408669');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Females','Unknown','0.0');
@@ -3393,7 +3393,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Eritrea','0.8489795918367347');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Ethiopia','0.6060606060606061');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Gabon','0.18421052631578946');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Gambia, The','0.16666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','The Gambia','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Georgia','0.09271523178807947');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Guinea','0.32189973614775724');
@@ -3427,7 +3427,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Nigeria','0.1812366737739872');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','North Macedonia','0.08771929824561403');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Pakistan','0.28888888888888886');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Palestine*','0.72');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Palestine','0.72');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Peru','0.24242424242424243');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Russia','0.26066350710900477');
@@ -3449,7 +3449,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Togo','0.2222222222222222');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Total','0.42623082483334673');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Tunisia','0.06451612903225806');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Türkiye','0.2469437652811736');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Turkiye','0.2469437652811736');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Uganda','0.375');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Ukraine','0.8815426997245179');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('France','Less than 18 years','Males','Unknown','0.0');
@@ -3484,7 +3484,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Females','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Females','Syria','0.9508196721311475');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Females','Total','0.5542857142857143');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Females','Ukraine','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Females','Unknown','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Females','Venezuela','0.6666666666666666');
@@ -3517,7 +3517,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Males','Syria','0.9492753623188406');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Males','Total','0.5789473684210527');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Males','Türkiye','0.3333333333333333');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Males','Turkiye','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Males','Ukraine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Males','Unknown','0.875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','65 years or over','Males','Venezuela','0.6923076923076923');
@@ -3539,7 +3539,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','El Salvador','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Eritrea','0.9634146341463414');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Gambia, The','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','The Gambia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Guinea','0.9230769230769231');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Iran','0.45588235294117646');
@@ -3558,7 +3558,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Nigeria','0.375');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Pakistan','0.2777777777777778');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Palestine*','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Palestine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Russia','0.15789473684210525');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Serbia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Sierra Leone','1.0');
@@ -3570,7 +3570,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Total','0.6106505102040817');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Tunisia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Türkiye','0.22813688212927757');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Turkiye','0.22813688212927757');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Ukraine','0.09090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Unknown','0.8641975308641975');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Females','Uzbekistan','0.0');
@@ -3599,7 +3599,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','El Salvador','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Eritrea','0.9157894736842105');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Ethiopia','0.6');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Gambia, The','0.3333333333333333');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','The Gambia','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Guinea','0.42857142857142855');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','India','0.0');
@@ -3620,7 +3620,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Nigeria','0.3');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Pakistan','0.25');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Palestine*','0.6');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Palestine','0.6');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Russia','0.15942028985507245');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Serbia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Sierra Leone','0.6666666666666666');
@@ -3634,7 +3634,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Total','0.7445059052175214');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Tunisia','0.07142857142857142');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Turkmenistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Türkiye','0.18652849740932642');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Turkiye','0.18652849740932642');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Ukraine','0.09090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Unknown','0.8679245283018868');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 14 to 17 years','Males','Venezuela','0.2702702702702703');
@@ -3673,7 +3673,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Equatorial Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Eritrea','0.5923344947735192');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Ethiopia','0.34545454545454546');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Gambia, The','0.4');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','The Gambia','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Georgia','0.006779661016949152');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Ghana','0.020833333333333332');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Guinea','0.5611111111111111');
@@ -3707,7 +3707,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Nigeria','0.1130952380952381');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Pakistan','0.17142857142857143');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Palestine*','0.3333333333333333');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Palestine','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Philippines','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Russia','0.1288888888888889');
@@ -3729,7 +3729,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Total','0.5046860057379662');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Tunisia','0.06451612903225806');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Turkmenistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Türkiye','0.17330210772833723');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Turkiye','0.17330210772833723');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Uganda','0.4117647058823529');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Ukraine','0.0975609756097561');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Females','Unknown','0.757201646090535');
@@ -3766,7 +3766,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','El Salvador','0.2222222222222222');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Eritrea','0.3756906077348066');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Ethiopia','0.10526315789473684');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Gambia, The','0.038314176245210725');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','The Gambia','0.038314176245210725');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Georgia','0.0033519553072625698');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Ghana','0.014925373134328358');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Guatemala','0.0');
@@ -3803,7 +3803,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Nigeria','0.03497942386831276');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Pakistan','0.0498220640569395');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Palestine*','0.11290322580645161');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Palestine','0.11290322580645161');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Russia','0.11878453038674033');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Rwanda','0.15789473684210525');
@@ -3825,7 +3825,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Total','0.5523017214165011');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Tunisia','0.01694915254237288');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Turkmenistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Türkiye','0.07216494845360824');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Turkiye','0.07216494845360824');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Uganda','0.45454545454545453');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Males','Unknown','0.37142857142857144');
@@ -3841,7 +3841,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Unknown','Morocco','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Unknown','Syria','0.6');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Unknown','Total','0.5517241379310345');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Unknown','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 18 to 34 years','Unknown','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Afghanistan','0.926056338028169');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Albania','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Algeria','0.07692307692307693');
@@ -3868,7 +3868,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','El Salvador','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Eritrea','0.6691176470588235');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Ethiopia','0.3170731707317073');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Gambia, The','0.4');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','The Gambia','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Georgia','0.003703703703703704');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Ghana','0.04');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Guinea','0.47058823529411764');
@@ -3897,7 +3897,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Nigeria','0.14414414414414414');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','North Macedonia','0.002898550724637681');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Pakistan','0.1792452830188679');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Palestine*','0.4375');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Palestine','0.4375');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Russia','0.1308016877637131');
@@ -3919,7 +3919,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Total','0.4750499001996008');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Tunisia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Turkmenistan','0.25');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Türkiye','0.31780538302277433');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Turkiye','0.31780538302277433');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Uganda','0.3076923076923077');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Ukraine','0.07142857142857142');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Females','Unknown','0.7810945273631841');
@@ -3956,7 +3956,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','El Salvador','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Eritrea','0.4482758620689655');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Ethiopia','0.17857142857142858');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Gambia, The','0.08108108108108109');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','The Gambia','0.08108108108108109');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Georgia','0.0018832391713747645');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Ghana','0.06451612903225806');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Guinea','0.11764705882352941');
@@ -3990,7 +3990,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Nigeria','0.052083333333333336');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Pakistan','0.0625');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Palestine*','0.21951219512195122');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Palestine','0.21951219512195122');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Russia','0.11');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Rwanda','0.36363636363636365');
@@ -4011,7 +4011,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Total','0.4602293945052014');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Tunisia','0.007633587786259542');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Turkmenistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Türkiye','0.2990566037735849');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Turkiye','0.2990566037735849');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Uganda','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Ukraine','0.028985507246376812');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','From 35 to 64 years','Males','Unknown','0.543859649122807');
@@ -4049,7 +4049,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','El Salvador','0.38461538461538464');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Eritrea','0.9703947368421053');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Ethiopia','0.554140127388535');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Gambia, The','0.7272727272727273');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','The Gambia','0.7272727272727273');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Georgia','0.006060606060606061');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Ghana','0.08108108108108109');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Guinea','0.9720670391061452');
@@ -4081,7 +4081,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Nigeria','0.23850085178875638');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','North Macedonia','0.001443001443001443');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Pakistan','0.3357142857142857');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Palestine*','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Palestine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Panama','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Philippines','1.0');
@@ -4103,7 +4103,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Total','0.6584077474531506');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Tunisia','0.030303030303030304');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Turkmenistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Türkiye','0.2633769322235434');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Turkiye','0.2633769322235434');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Uganda','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Ukraine','0.13114754098360656');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Females','Unknown','0.8303886925795053');
@@ -4139,7 +4139,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','El Salvador','0.36363636363636365');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Eritrea','0.9663951120162932');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Ethiopia','0.5359116022099447');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Gambia, The','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','The Gambia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Georgia','0.004070556309362279');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Ghana','0.05128205128205128');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Guinea','0.6081871345029239');
@@ -4173,7 +4173,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Nigeria','0.19584055459272098');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','North Macedonia','0.002600780234070221');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Pakistan','0.3673469387755102');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Palestine*','0.375');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Palestine','0.375');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Panama','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Philippines','1.0');
@@ -4195,7 +4195,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Total','0.6507705282527027');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Tunisia','0.07692307692307693');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Turkmenistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Türkiye','0.2498695878977569');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Turkiye','0.2498695878977569');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Uganda','0.3');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Ukraine','0.15942028985507245');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 14 years','Males','Unknown','0.8319604612850082');
@@ -4236,7 +4236,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','El Salvador','0.35714285714285715');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Eritrea','0.9707661290322581');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Ethiopia','0.5644171779141104');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Gambia, The','0.6944444444444444');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','The Gambia','0.6944444444444444');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Georgia','0.006747638326585695');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Ghana','0.07692307692307693');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Guinea','0.9585492227979274');
@@ -4270,7 +4270,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Nigeria','0.24033613445378152');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','North Macedonia','0.002512562814070352');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Pakistan','0.33544303797468356');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Palestine*','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Palestine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Panama','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Philippines','1.0');
@@ -4293,7 +4293,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Total','0.6528585720108192');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Tunisia','0.05405405405405406');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Turkmenistan','0.25');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Türkiye','0.25823045267489714');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Turkiye','0.25823045267489714');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Uganda','0.23076923076923078');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Ukraine','0.125');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Females','Unknown','0.8359133126934984');
@@ -4330,7 +4330,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','El Salvador','0.3076923076923077');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Eritrea','0.9627906976744186');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Ethiopia','0.5401069518716578');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Gambia, The','0.475');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','The Gambia','0.475');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Georgia','0.004767580452920143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Ghana','0.05128205128205128');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Guinea','0.5767441860465117');
@@ -4365,7 +4365,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Nigeria','0.19658119658119658');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','North Macedonia','0.0022346368715083797');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Pakistan','0.34782608695652173');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Palestine*','0.40625');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Palestine','0.40625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Panama','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Philippines','1.0');
@@ -4387,7 +4387,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Total','0.6699008390541571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Tunisia','0.07272727272727272');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Turkmenistan','0.16666666666666666');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Türkiye','0.23958333333333334');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Turkiye','0.23958333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Uganda','0.3');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Ukraine','0.14814814814814814');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Germany','Less than 18 years','Males','Unknown','0.8359046283309958');
@@ -4406,7 +4406,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Females','Armenia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Females','Iraq','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Females','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Females','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Females','Syria','1.0');
@@ -4417,7 +4417,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Males','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Males','Iraq','0.7142857142857143');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Males','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Males','Syria','0.9285714285714286');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','65 years or over','Males','Total','0.7682926829268293');
@@ -4438,14 +4438,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Kuwait','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Lebanon','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Pakistan','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Sierra Leone','0.7777777777777778');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Somalia','0.92');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Syria','0.9054054054054054');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Total','0.8521462639109698');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Females','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Afghanistan','0.8739054290718039');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Albania','0.0');
@@ -4459,7 +4459,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Egypt','0.03139013452914798');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Gambia, The','0.3888888888888889');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','The Gambia','0.3888888888888889');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Ghana','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Guinea','0.2857142857142857');
@@ -4474,14 +4474,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Morocco','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Myanmar/Burma','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Pakistan','0.04470588235294118');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Sierra Leone','0.22580645161290322');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Somalia','0.6784313725490196');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Syria','0.8888888888888888');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Total','0.5190097259062776');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Türkiye','0.75');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Turkiye','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 14 to 17 years','Males','Yemen','0.85');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Afghanistan','0.8817204301075269');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Albania','0.0');
@@ -4500,7 +4500,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Egypt','0.05');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Eritrea','0.8597785977859779');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Ethiopia','0.8620689655172413');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Gambia, The','0.75');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','The Gambia','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Ghana','0.23076923076923078');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Guinea','0.7142857142857143');
@@ -4519,7 +4519,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Nepal','0.018518518518518517');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Nigeria','0.4166666666666667');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Pakistan','0.2631578947368421');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Palestine*','0.9935897435897436');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Palestine','0.9935897435897436');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Senegal','0.0');
@@ -4532,7 +4532,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Total','0.7096774193548387');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Türkiye','0.8076923076923077');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Turkiye','0.8076923076923077');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Uganda','0.5833333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Ukraine','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Females','Venezuela','0.0');
@@ -4562,7 +4562,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Eritrea','0.8791469194312796');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Ethiopia','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Gabon','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Gambia, The','0.15217391304347827');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','The Gambia','0.15217391304347827');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Ghana','0.11428571428571428');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Guinea','0.14864864864864866');
@@ -4586,7 +4586,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Niger','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Nigeria','0.16216216216216217');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Pakistan','0.01058444546709618');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Palestine*','0.9882022471910112');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Palestine','0.9882022471910112');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Russia','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Senegal','0.11764705882352941');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Sierra Leone','0.14385964912280702');
@@ -4600,7 +4600,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Togo','0.2631578947368421');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Total','0.49872620005363366');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Türkiye','0.5137614678899083');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Turkiye','0.5137614678899083');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Uganda','0.42857142857142855');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Ukraine','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 18 to 34 years','Males','Venezuela','0.0');
@@ -4637,7 +4637,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Nigeria','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Pakistan','0.3333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Palestine*','0.9821428571428571');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Palestine','0.9821428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Sierra Leone','0.0');
@@ -4648,7 +4648,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Syria','0.896551724137931');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Total','0.6554823247453565');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Türkiye','0.95');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Turkiye','0.95');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Ukraine','0.9');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Females','Yemen','1.0');
@@ -4670,7 +4670,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Egypt','0.0163265306122449');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Ethiopia','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Gambia, The','0.16666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','The Gambia','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Guinea','0.0');
@@ -4692,7 +4692,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Niger','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Pakistan','0.011682242990654205');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Palestine*','0.9601990049751243');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Palestine','0.9601990049751243');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Russia','0.1');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Senegal','0.0');
@@ -4706,7 +4706,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Togo','0.18181818181818182');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Total','0.4223648481856332');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Türkiye','0.5578947368421052');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Turkiye','0.5578947368421052');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Ukraine','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','From 35 to 64 years','Males','Yemen','1.0');
@@ -4737,7 +4737,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Morocco','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Nigeria','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Pakistan','0.23076923076923078');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Palestine*','0.989247311827957');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Palestine','0.989247311827957');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Sierra Leone','0.5833333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Somalia','0.8627450980392157');
@@ -4746,7 +4746,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Syria','0.9');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Total','0.7821416582745888');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Türkiye','0.84375');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Turkiye','0.84375');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Uganda','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Ukraine','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Females','Yemen','1.0');
@@ -4778,7 +4778,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Nigeria','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Pakistan','0.25');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Sierra Leone','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Somalia','0.7407407407407407');
@@ -4786,7 +4786,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Sudan','0.9090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Syria','0.8859154929577465');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Total','0.7860994607549431');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Türkiye','0.9090909090909091');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Turkiye','0.9090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Uganda','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 14 years','Males','Venezuela','0.0');
@@ -4821,7 +4821,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Nigeria','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Pakistan','0.25');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Palestine*','0.9906542056074766');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Palestine','0.9906542056074766');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Sierra Leone','0.6842105263157895');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Somalia','0.9034090909090909');
@@ -4830,7 +4830,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Syria','0.9008620689655172');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Total','0.7942888827280288');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Türkiye','0.8571428571428571');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Turkiye','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Uganda','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Ukraine','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Females','Yemen','1.0');
@@ -4852,7 +4852,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Ethiopia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Gabon','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Gambia, The','0.3888888888888889');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','The Gambia','0.3888888888888889');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Ghana','0.15384615384615385');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Guinea','0.3333333333333333');
@@ -4870,7 +4870,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Nigeria','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Pakistan','0.05393258426966292');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Senegal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Sierra Leone','0.2962962962962963');
@@ -4879,7 +4879,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Sudan','0.9375');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Syria','0.8896396396396397');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Total','0.6782142857142858');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Türkiye','0.8918918918918919');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Turkiye','0.8918918918918919');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Uganda','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Greece','Less than 18 years','Males','Venezuela','0.0');
@@ -4915,7 +4915,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 14 to 17 years','Males','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 14 to 17 years','Males','Iran','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 14 to 17 years','Males','Iraq','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 14 to 17 years','Males','Palestine*','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 14 to 17 years','Males','Palestine','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 14 to 17 years','Males','Somalia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 14 to 17 years','Males','Total','0.5128205128205128');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 14 to 17 years','Males','Ukraine','1.0');
@@ -4927,7 +4927,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Females','Iran','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Females','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Females','Nigeria','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Females','Palestine*','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Females','Palestine','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Females','Somalia','0.36363636363636365');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Females','Syria','0.6');
@@ -4942,12 +4942,12 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Kenya','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Nigeria','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Palestine*','0.423728813559322');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Palestine','0.423728813559322');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Somalia','0.15789473684210525');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Syria','0.42857142857142855');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Total','0.32142857142857145');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Türkiye','0.25');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Turkiye','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Venezuela','0.3');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 18 to 34 years','Males','Yemen','0.0');
@@ -4956,7 +4956,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Females','Iran','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Females','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Females','Nigeria','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Females','Palestine*','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Females','Palestine','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Females','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Females','Total','0.3425925925925926');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Females','Ukraine','0.0');
@@ -4966,11 +4966,11 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Iran','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Nigeria','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Palestine*','0.6');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Palestine','0.6');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Somalia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Syria','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Total','0.3945578231292517');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Türkiye','0.3333333333333333');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Turkiye','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Venezuela','0.37362637362637363');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','From 35 to 64 years','Males','Yemen','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Females','Afghanistan','1.0');
@@ -4981,7 +4981,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Females','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Females','Libya','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Females','Nigeria','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Females','Palestine*','0.8571428571428571');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Females','Palestine','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Females','Somalia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Females','Syria','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Females','Total','0.31683168316831684');
@@ -4993,7 +4993,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Males','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Males','Libya','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Males','Nigeria','0.14285714285714285');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Males','Palestine*','0.6');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Males','Palestine','0.6');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Males','Somalia','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Males','Syria','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 14 years','Males','Total','0.3368421052631579');
@@ -5008,7 +5008,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Females','Jordan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Females','Libya','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Females','Nigeria','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Females','Palestine*','0.75');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Females','Palestine','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Females','Somalia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Females','Syria','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Females','Total','0.3333333333333333');
@@ -5022,7 +5022,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Males','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Males','Libya','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Males','Nigeria','0.125');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Males','Palestine*','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Males','Palestine','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Males','Somalia','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Males','Syria','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Iceland','Less than 18 years','Males','Total','0.3925925925925926');
@@ -5066,7 +5066,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 14 to 17 years','Males','Nicaragua','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 14 to 17 years','Males','Nigeria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 14 to 17 years','Males','Pakistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 14 to 17 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 14 to 17 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 14 to 17 years','Males','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 14 to 17 years','Males','South Africa','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 14 to 17 years','Males','Syria','1.0');
@@ -5101,7 +5101,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Nicaragua','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Nigeria','0.875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Pakistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Saudi Arabia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Sierra Leone','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Somalia','0.9924242424242424');
@@ -5109,7 +5109,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Syria','0.875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Total','0.8913525498891353');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Females','Venezuela','1.0');
@@ -5152,7 +5152,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Nicaragua','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Nigeria','0.782608695652174');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Pakistan','0.48936170212765956');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Palestine*','0.875');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Palestine','0.875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Sierra Leone','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Somalia','0.9766081871345029');
@@ -5164,7 +5164,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Togo','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Total','0.7589743589743589');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Tunisia','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 18 to 34 years','Males','Venezuela','1.0');
@@ -5199,7 +5199,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Nicaragua','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Nigeria','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Pakistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Somalia','0.967741935483871');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','South Africa','0.7692307692307693');
@@ -5207,7 +5207,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Total','0.8467966573816156');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Tunisia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Ukraine','0.9090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Females','Venezuela','1.0');
@@ -5246,7 +5246,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Nicaragua','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Nigeria','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Pakistan','0.4791666666666667');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Palestine*','0.8333333333333334');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Palestine','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Somalia','0.9743589743589743');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','South Africa','0.7777777777777778');
@@ -5255,7 +5255,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Togo','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Total','0.6641929499072357');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','From 35 to 64 years','Males','Venezuela','1.0');
@@ -5288,7 +5288,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Females','Nicaragua','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Females','Nigeria','0.88');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Females','Pakistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Females','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Females','Sierra Leone','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Females','Somalia','0.95');
@@ -5324,7 +5324,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Males','Nicaragua','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Males','Nigeria','0.86');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Males','Pakistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Males','Sierra Leone','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Males','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 14 years','Males','South Africa','0.8666666666666667');
@@ -5363,7 +5363,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Females','Nicaragua','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Females','Nigeria','0.8909090909090909');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Females','Pakistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Females','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Females','Sierra Leone','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Females','Somalia','0.9705882352941176');
@@ -5403,7 +5403,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Nicaragua','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Nigeria','0.8771929824561403');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Pakistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Sierra Leone','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','South Africa','0.8421052631578947');
@@ -5411,7 +5411,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Syria','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Total','0.8976608187134503');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Ireland','Less than 18 years','Males','Yemen','1.0');
@@ -5420,7 +5420,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Females','Armenia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Females','El Salvador','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Females','Georgia','0.65');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Females','Peru','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Females','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Females','Somalia','1.0');
@@ -5433,7 +5433,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Males','Iraq','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Males','Morocco','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Males','Pakistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Males','Peru','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Males','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','65 years or over','Males','Senegal','0.5');
@@ -5453,7 +5453,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','El Salvador','0.7333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Georgia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','India','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Iraq','1.0');
@@ -5465,7 +5465,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Nigeria','0.7037037037037037');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','North Macedonia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Pakistan','0.25');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Peru','0.5909090909090909');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Serbia','0.5');
@@ -5474,7 +5474,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Syria','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Total','0.7766666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Tunisia','0.42857142857142855');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Unknown','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Females','Venezuela','1.0');
@@ -5496,7 +5496,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Egypt','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','El Salvador','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Eritrea','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Gambia, The','0.3669064748201439');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','The Gambia','0.3669064748201439');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Georgia','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Ghana','0.4444444444444444');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Guinea','0.44642857142857145');
@@ -5511,7 +5511,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Niger','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Nigeria','0.3877551020408163');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Pakistan','0.6459627329192547');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Peru','0.5454545454545454');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Russia','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Senegal','0.42857142857142855');
@@ -5523,7 +5523,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Togo','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Total','0.625090645395214');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Tunisia','0.3582089552238806');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Türkiye','0.7619047619047619');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Turkiye','0.7619047619047619');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Ukraine','0.9615384615384616');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Unknown','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 14 to 17 years','Males','Venezuela','0.9');
@@ -5556,7 +5556,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Eritrea','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Ethiopia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Gabon','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Gambia, The','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','The Gambia','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Georgia','0.4973821989528796');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Ghana','0.5789473684210527');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Guatemala','1.0');
@@ -5583,7 +5583,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Nigeria','0.6615553121577218');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','North Macedonia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Pakistan','0.6764705882352942');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Palestine*','0.8666666666666667');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Palestine','0.8666666666666667');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Paraguay','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Peru','0.5182926829268293');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Philippines','0.3333333333333333');
@@ -5598,7 +5598,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Togo','0.7');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Total','0.6750483558994197');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Tunisia','0.37640449438202245');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Türkiye','0.7142857142857143');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Turkiye','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Ukraine','0.8982035928143712');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Females','Unknown','0.8');
@@ -5633,7 +5633,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Eritrea','0.8113207547169812');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Ethiopia','0.8421052631578947');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Gabon','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Gambia, The','0.2641509433962264');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','The Gambia','0.2641509433962264');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Georgia','0.35714285714285715');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Ghana','0.28173374613003094');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Guatemala','0.6');
@@ -5663,7 +5663,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Nigeria','0.2646761133603239');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','North Macedonia','0.42857142857142855');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Pakistan','0.3352429450456185');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Palestine*','0.9354838709677419');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Palestine','0.9354838709677419');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Paraguay','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Peru','0.36666666666666664');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Philippines','0.25');
@@ -5682,7 +5682,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Togo','0.35294117647058826');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Total','0.3719283631820075');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Tunisia','0.09715120525931337');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Türkiye','0.5748031496062992');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Turkiye','0.5748031496062992');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Ukraine','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 18 to 34 years','Males','Unknown','0.6511627906976745');
@@ -5712,7 +5712,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','El Salvador','0.7721518987341772');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Georgia','0.4042904290429043');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Ghana','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Guatemala','1.0');
@@ -5737,7 +5737,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Nigeria','0.5565217391304348');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','North Macedonia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Pakistan','0.7272727272727273');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Peru','0.423841059602649');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Philippines','0.4444444444444444');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Russia','0.7317073170731707');
@@ -5749,7 +5749,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Syria','0.9047619047619048');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Total','0.6197718631178707');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Tunisia','0.5054945054945055');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Türkiye','0.7142857142857143');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Turkiye','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Ukraine','0.9090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Unknown','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Females','Venezuela','0.9322033898305084');
@@ -5781,7 +5781,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','El Salvador','0.711864406779661');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Eritrea','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Gambia, The','0.2');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','The Gambia','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Georgia','0.25555555555555554');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Ghana','0.226890756302521');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Guatemala','1.0');
@@ -5811,7 +5811,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Nigeria','0.2078559738134206');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','North Macedonia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Pakistan','0.29543039319872477');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Palestine*','0.95');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Palestine','0.95');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Peru','0.3155080213903743');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Philippines','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Russia','0.7419354838709677');
@@ -5827,7 +5827,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Togo','0.5294117647058824');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Total','0.340932339617127');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Tunisia','0.16296296296296298');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Türkiye','0.4861111111111111');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Turkiye','0.4861111111111111');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Ukraine','0.8716216216216216');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Unknown','0.7692307692307693');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','From 35 to 64 years','Males','Venezuela','0.8918918918918919');
@@ -5860,7 +5860,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','El Salvador','0.7924528301886793');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Eritrea','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Gambia, The','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','The Gambia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Georgia','0.525');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Ghana','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Guinea','0.7142857142857143');
@@ -5883,7 +5883,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Nigeria','0.6214953271028038');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','North Macedonia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Pakistan','0.75');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Palestine*','0.9375');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Palestine','0.9375');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Peru','0.569620253164557');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Russia','0.9333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Senegal','0.8');
@@ -5896,7 +5896,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Togo','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Total','0.7118983957219251');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Tunisia','0.37037037037037035');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Türkiye','0.7142857142857143');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Turkiye','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Ukraine','0.9146341463414634');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Unknown','0.7297297297297297');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Females','Venezuela','0.9574468085106383');
@@ -5928,7 +5928,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','El Salvador','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Eritrea','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Gambia, The','0.2');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','The Gambia','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Georgia','0.4444444444444444');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Ghana','0.6363636363636364');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Guatemala','1.0');
@@ -5950,7 +5950,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Nigeria','0.6244725738396625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','North Macedonia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Pakistan','0.7352941176470589');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Palestine*','0.8888888888888888');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Palestine','0.8888888888888888');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Peru','0.525');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Russia','0.875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Senegal','0.25');
@@ -5964,7 +5964,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Total','0.6918013165769');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Tunisia','0.35106382978723405');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Türkiye','0.6153846153846154');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Turkiye','0.6153846153846154');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Ukraine','0.9148936170212766');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Unknown','0.8108108108108109');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 14 years','Males','Uruguay','0.0');
@@ -5998,7 +5998,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','El Salvador','0.7910447761194029');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Eritrea','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Gambia, The','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','The Gambia','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Georgia','0.525');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Ghana','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Guinea','0.75');
@@ -6021,7 +6021,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Nigeria','0.6322314049586777');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','North Macedonia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Pakistan','0.6666666666666666');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Palestine*','0.95');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Palestine','0.95');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Peru','0.58');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Russia','0.9411764705882353');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Senegal','0.6666666666666666');
@@ -6036,7 +6036,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Togo','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Total','0.7224694104560623');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Tunisia','0.3782051282051282');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Türkiye','0.6111111111111112');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Turkiye','0.6111111111111112');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Ukraine','0.9207920792079208');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Unknown','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Females','Venezuela','0.9642857142857143');
@@ -6069,7 +6069,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','El Salvador','0.810126582278481');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Eritrea','0.6923076923076923');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Gambia, The','0.36363636363636365');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','The Gambia','0.36363636363636365');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Georgia','0.4634146341463415');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Ghana','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Guatemala','1.0');
@@ -6094,7 +6094,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Nigeria','0.583916083916084');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','North Macedonia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Pakistan','0.6581632653061225');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Palestine*','0.9047619047619048');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Palestine','0.9047619047619048');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Peru','0.5346534653465347');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Russia','0.8095238095238095');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Senegal','0.4489795918367347');
@@ -6110,7 +6110,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Togo','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Total','0.6616393442622951');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Tunisia','0.3543307086614173');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Türkiye','0.7058823529411765');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Turkiye','0.7058823529411765');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Ukraine','0.923728813559322');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Unknown','0.8043478260869565');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Italy','Less than 18 years','Males','Uruguay','0.0');
@@ -6133,7 +6133,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Females','Belarus','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Females','Burundi','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Females','Cameroon','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Females','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Females','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Females','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Females','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Females','Nigeria','0.0');
@@ -6151,7 +6151,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Males','Democratic Republic of the Congo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Males','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Males','Ethiopia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 18 to 34 years','Males','India','0.0');
@@ -6176,7 +6176,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 35 to 64 years','Females','Belarus','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 35 to 64 years','Females','Russia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 35 to 64 years','Females','Total','0.6470588235294118');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 35 to 64 years','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 35 to 64 years','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 35 to 64 years','Males','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 35 to 64 years','Males','Azerbaijan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Latvia','From 35 to 64 years','Males','Belarus','1.0');
@@ -6240,7 +6240,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 14 to 17 years','Males','Belarus','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 14 to 17 years','Males','Cameroon','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 14 to 17 years','Males','Democratic Republic of the Congo','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 14 to 17 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 14 to 17 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 14 to 17 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 14 to 17 years','Males','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 14 to 17 years','Males','Russia','1.0');
@@ -6275,7 +6275,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Democratic Republic of the Congo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','India','0.0');
@@ -6294,7 +6294,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Syria','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Total','0.1375');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Males','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','From 18 to 34 years','Unknown','Afghanistan','1.0');
@@ -6350,7 +6350,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','Less than 18 years','Males','Belarus','0.9047619047619048');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','Less than 18 years','Males','Cameroon','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','Less than 18 years','Males','Democratic Republic of the Congo','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','Less than 18 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','Less than 18 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','Less than 18 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','Less than 18 years','Males','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Lithuania','Less than 18 years','Males','Russia','0.5');
@@ -6384,7 +6384,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Females','Syria','0.9142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Females','Total','0.7037037037037037');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Females','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Females','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Females','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Afghanistan','0.43333333333333335');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Albania','0.0');
@@ -6396,7 +6396,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Democratic Republic of the Congo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Eritrea','0.9318181818181818');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Ethiopia','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Iran','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Iraq','0.2');
@@ -6411,7 +6411,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Syria','0.9611650485436893');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Total','0.6148409893992933');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Türkiye','0.3');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Turkiye','0.3');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Unknown','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 18 to 34 years','Males','Yemen','0.0');
@@ -6424,7 +6424,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Females','Kosovo*','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Females','Syria','0.9565217391304348');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Females','Total','0.6285714285714286');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Females','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Females','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Females','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Males','Afghanistan','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Males','Albania','0.0');
@@ -6442,7 +6442,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Males','Syria','0.9076923076923077');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Males','Total','0.61875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Males','Türkiye','0.7142857142857143');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Males','Turkiye','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Males','Unknown','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','From 35 to 64 years','Males','Venezuela','0.0');
@@ -6461,7 +6461,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Females','Syria','0.9375');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Females','Total','0.81875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Females','Türkiye','0.75');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Females','Turkiye','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Females','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Males','Afghanistan','0.9166666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Males','Albania','0.0');
@@ -6478,7 +6478,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Males','Syria','0.9146341463414634');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Males','Total','0.8082901554404145');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Males','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 14 years','Males','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Females','Afghanistan','0.8181818181818182');
@@ -6498,7 +6498,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Females','Syria','0.918918918918919');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Females','Total','0.8108108108108109');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Females','Türkiye','0.75');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Females','Turkiye','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Females','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Males','Afghanistan','0.8571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Males','Albania','0.0');
@@ -6519,7 +6519,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Males','Syria','0.9090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Males','Total','0.7983193277310925');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Males','Türkiye','0.8333333333333334');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Males','Turkiye','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Males','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Luxembourg','Less than 18 years','Males','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','65 years or over','Females','Total','0.5');
@@ -6550,7 +6550,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Eritrea','0.95');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Ethiopia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Iraq','0.0');
@@ -6562,7 +6562,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Niger','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Pakistan','0.14285714285714285');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Senegal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Sierra Leone','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 18 to 34 years','Males','Somalia','0.21875');
@@ -6589,7 +6589,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Côte d’Ivoire','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Iran','1.0');
@@ -6598,7 +6598,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Morocco','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Palestine*','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Palestine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Somalia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Sudan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','From 35 to 64 years','Males','Syria','0.7272727272727273');
@@ -6628,7 +6628,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','Less than 18 years','Females','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','Less than 18 years','Females','Libya','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','Less than 18 years','Females','Nigeria','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','Less than 18 years','Females','Palestine*','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','Less than 18 years','Females','Palestine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','Less than 18 years','Females','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','Less than 18 years','Females','Syria','0.5333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Malta','Less than 18 years','Females','Total','0.3333333333333333');
@@ -6667,7 +6667,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 18 to 34 years','Males','Russia','0.2857142857142857');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 18 to 34 years','Males','Serbia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 18 to 34 years','Males','Total','0.6');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 18 to 34 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 18 to 34 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Females','Albania','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Females','Bosnia and Herzegovina','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Females','Cuba','0.0');
@@ -6676,14 +6676,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Females','Russia','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Females','Serbia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Females','Total','0.875');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Females','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Females','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Males','Bosnia and Herzegovina','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Males','Cuba','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Males','Iran','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Males','Russia','0.18181818181818182');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Males','Serbia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Males','Total','0.45454545454545453');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','From 35 to 64 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 14 years','Females','Cuba','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 14 years','Females','Iran','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 14 years','Females','Russia','0.6666666666666666');
@@ -6696,7 +6696,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 14 years','Males','Russia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 14 years','Males','Serbia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 14 years','Males','Total','0.6875');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 14 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 14 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 18 years','Females','Belarus','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 18 years','Females','Cuba','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 18 years','Females','Iran','1.0');
@@ -6710,7 +6710,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 18 years','Males','Russia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 18 years','Males','Serbia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 18 years','Males','Total','0.7058823529411765');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 18 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Montenegro','Less than 18 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','65 years or over','Females','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','65 years or over','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','65 years or over','Females','Iran','0.4444444444444444');
@@ -6733,7 +6733,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','65 years or over','Males','Suriname','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','65 years or over','Males','Syria','0.92');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','65 years or over','Males','Total','0.7246376811594203');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','65 years or over','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','65 years or over','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','65 years or over','Males','Unknown','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','65 years or over','Males','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','65 years or over','Males','Yemen','1.0');
@@ -6752,7 +6752,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Females','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Females','Syria','0.9354838709677419');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Females','Total','0.8591549295774648');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Females','Türkiye','0.95');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Females','Turkiye','0.95');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Females','Unknown','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Females','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Females','Yemen','1.0');
@@ -6763,7 +6763,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Eritrea','0.9814814814814815');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Ethiopia','0.5714285714285714');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Iran','0.625');
@@ -6781,7 +6781,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Syria','0.9872701555869873');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Total','0.9175738724727839');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Türkiye','0.9090909090909091');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Turkiye','0.9090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Unknown','0.9411764705882353');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 14 to 17 years','Males','Yemen','0.8863636363636364');
@@ -6806,7 +6806,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','El Salvador','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Eritrea','0.8181818181818182');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Ethiopia','0.625');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Guinea','0.6');
@@ -6843,7 +6843,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Tanzania','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Total','0.7667660208643815');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Türkiye','0.9302325581395349');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Turkiye','0.9302325581395349');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Uganda','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Females','Unknown','0.76');
@@ -6873,7 +6873,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','El Salvador','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Eritrea','0.8208092485549133');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Ethiopia','0.6111111111111112');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Gambia, The','0.1');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','The Gambia','0.1');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Georgia','0.05555555555555555');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Ghana','0.09090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Guinea','0.22727272727272727');
@@ -6921,7 +6921,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Trinidad and Tobago','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Tunisia','0.06382978723404255');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Türkiye','0.8376811594202899');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Turkiye','0.8376811594202899');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Uganda','0.5714285714285714');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Ukraine','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 18 to 34 years','Males','Unknown','0.7959183673469388');
@@ -6977,7 +6977,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Females','Tanzania','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Females','Total','0.7467411545623837');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Females','Türkiye','0.9365079365079365');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Females','Turkiye','0.9365079365079365');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Females','Uganda','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Females','Unknown','0.8260869565217391');
@@ -7008,7 +7008,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','El Salvador','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Eritrea','0.7272727272727273');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Ethiopia','0.5333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Gambia, The','0.14285714285714285');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','The Gambia','0.14285714285714285');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Guinea','0.0');
@@ -7048,7 +7048,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Trinidad and Tobago','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Tunisia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Türkiye','0.9136490250696379');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Turkiye','0.9136490250696379');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Uganda','0.38461538461538464');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','From 35 to 64 years','Males','Unknown','0.7671232876712328');
@@ -7069,7 +7069,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','El Salvador','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Eritrea','0.7272727272727273');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Ethiopia','0.6666666666666666');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Gambia, The','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','The Gambia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Guinea','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','India','0.0');
@@ -7097,7 +7097,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Tajikistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Total','0.7669345579793341');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Türkiye','0.9375');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Turkiye','0.9375');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Uganda','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Unknown','0.7111111111111111');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Females','Venezuela','0.3333333333333333');
@@ -7115,7 +7115,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','El Salvador','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Eritrea','0.6538461538461539');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Ethiopia','0.4');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','India','0.0');
@@ -7147,7 +7147,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Total','0.7768199233716475');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Tunisia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Türkiye','0.9489795918367347');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Turkiye','0.9489795918367347');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Uganda','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Ukraine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 14 years','Males','Unknown','0.723404255319149');
@@ -7168,7 +7168,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','El Salvador','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Eritrea','0.9166666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Ethiopia','0.6666666666666666');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Gambia, The','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','The Gambia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Guinea','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','India','0.0');
@@ -7197,7 +7197,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Tanzania','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Total','0.7906574394463668');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Türkiye','0.9405940594059405');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Turkiye','0.9405940594059405');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Uganda','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Unknown','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Females','Venezuela','0.3333333333333333');
@@ -7216,7 +7216,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','El Salvador','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Eritrea','0.950207468879668');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Ethiopia','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Guinea','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','India','0.0');
@@ -7251,7 +7251,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Total','0.8544439673679691');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Tunisia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Türkiye','0.9344262295081968');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Turkiye','0.9344262295081968');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Uganda','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Ukraine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Netherlands','Less than 18 years','Males','Unknown','0.7692307692307693');
@@ -7270,14 +7270,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Females','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Females','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Females','Total','0.696969696969697');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Females','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Females','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Males','Afghanistan','0.9512195121951219');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Males','Eritrea','0.9');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Males','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Males','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Males','Syria','0.9459459459459459');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Males','Total','0.9162011173184358');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Males','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Males','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 14 to 17 years','Males','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Females','Afghanistan','0.875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Females','Albania','0.0');
@@ -7297,7 +7297,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Females','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Females','Syria','0.8817204301075269');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Females','Total','0.7061068702290076');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Females','Türkiye','0.75');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Females','Turkiye','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Females','Venezuela','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Females','Yemen','1.0');
@@ -7328,7 +7328,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Males','Sudan','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Males','Syria','0.9383116883116883');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Males','Total','0.7416974169741697');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Males','Türkiye','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Males','Turkiye','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Males','Venezuela','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 18 to 34 years','Males','Yemen','1.0');
@@ -7349,7 +7349,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Females','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Females','Syria','0.8611111111111112');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Females','Total','0.5851851851851851');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Females','Türkiye','0.7142857142857143');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Females','Turkiye','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Females','Venezuela','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Females','Yemen','1.0');
@@ -7374,7 +7374,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Males','Syria','0.9181818181818182');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Males','Total','0.6145038167938931');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Males','Türkiye','0.7241379310344828');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Males','Turkiye','0.7241379310344828');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Males','Venezuela','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','From 35 to 64 years','Males','Yemen','1.0');
@@ -7391,7 +7391,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Females','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Females','Syria','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Females','Total','0.6923076923076923');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Females','Türkiye','0.75');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Females','Turkiye','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Females','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Females','Yemen','1.0');
@@ -7409,7 +7409,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Males','Stateless','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Males','Syria','0.875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Males','Total','0.6967213114754098');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Males','Türkiye','0.7142857142857143');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Males','Turkiye','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 14 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Females','Afghanistan','0.7272727272727273');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Females','Albania','0.0');
@@ -7426,7 +7426,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Females','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Females','Syria','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Females','Total','0.7028985507246377');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Females','Türkiye','0.75');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Females','Turkiye','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Females','Venezuela','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Females','Yemen','1.0');
@@ -7446,7 +7446,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Males','Stateless','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Males','Syria','0.9122807017543859');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Males','Total','0.8245033112582781');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Males','Türkiye','0.6875');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Males','Turkiye','0.6875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Norway','Less than 18 years','Males','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','65 years or over','Females','Belarus','1.0');
@@ -7472,7 +7472,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 14 to 17 years','Males','Russia','0.15384615384615385');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 14 to 17 years','Males','Tajikistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 14 to 17 years','Males','Total','0.7364341085271318');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 14 to 17 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 14 to 17 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 14 to 17 years','Males','Ukraine','0.9791666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Females','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Females','Armenia','0.0');
@@ -7495,7 +7495,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Females','Tajikistan','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Females','Total','0.8271028037383178');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Females','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Females','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Females','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Females','Ukraine','0.9493670886075949');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Females','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Afghanistan','0.9615384615384616');
@@ -7511,7 +7511,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Eritrea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','India','0.0');
@@ -7526,7 +7526,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Russia','0.15625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Sri Lanka','0.0');
@@ -7537,7 +7537,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Total','0.7090501121914734');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Tunisia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Turkmenistan','0.16666666666666666');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Türkiye','0.7');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Turkiye','0.7');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Ukraine','0.9069767441860465');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 18 to 34 years','Males','Uzbekistan','0.0');
@@ -7558,7 +7558,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Females','Tajikistan','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Females','Total','0.8183279742765274');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Females','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Females','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Females','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Females','Ukraine','0.9545454545454546');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Females','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Females','Venezuela','1.0');
@@ -7590,7 +7590,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Males','Tajikistan','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Males','Total','0.7392290249433107');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Males','Turkmenistan','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Males','Türkiye','0.625');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Males','Turkiye','0.625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Males','Ukraine','0.8764478764478765');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Males','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','From 35 to 64 years','Males','Uzbekistan','0.25');
@@ -7610,7 +7610,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Females','Tajikistan','0.4166666666666667');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Females','Total','0.6750524109014675');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Females','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Females','Türkiye','0.75');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Females','Turkiye','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Females','Ukraine','0.9444444444444444');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Females','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Males','Afghanistan','1.0');
@@ -7629,7 +7629,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Males','Tajikistan','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Males','Total','0.6706349206349206');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Males','Ukraine','0.9477611940298507');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Males','Unknown','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 14 years','Males','Uzbekistan','0.0');
@@ -7649,7 +7649,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Females','Tajikistan','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Females','Total','0.6742160278745645');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Females','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Females','Türkiye','0.8333333333333334');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Females','Turkiye','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Females','Ukraine','0.9487179487179487');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Females','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Males','Afghanistan','1.0');
@@ -7669,7 +7669,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Males','Tajikistan','0.2777777777777778');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Males','Total','0.6818897637795276');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Males','Ukraine','0.9562841530054644');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Males','Unknown','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Poland','Less than 18 years','Males','Uzbekistan','0.0');
@@ -7717,7 +7717,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Dominican Republic','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Guinea-Bissau','0.0');
@@ -7737,7 +7737,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Total','0.3108108108108108');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 18 to 34 years','Males','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Females','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Females','Angola','0.0');
@@ -7760,7 +7760,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Brazil','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Colombia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Democratic Republic of the Congo','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Guinea-Bissau','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','India','0.0');
@@ -7773,7 +7773,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Togo','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Total','0.3118279569892473');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','From 35 to 64 years','Males','Venezuela','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Portugal','Less than 14 years','Females','Afghanistan','1.0');
@@ -7820,7 +7820,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Females','India','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Females','Iraq','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Females','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Females','Syria','0.8888888888888888');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Females','Total','0.76');
@@ -7830,12 +7830,12 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Males','India','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Males','Iraq','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Males','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Males','Somalia','0.8823529411764706');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Males','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Males','Syria','0.6190476190476191');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Males','Total','0.26282051282051283');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Males','Türkiye','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 14 to 17 years','Males','Turkiye','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Afghanistan','0.7333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Bangladesh','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Belarus','0.0');
@@ -7853,7 +7853,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Nigeria','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Somalia','0.8095238095238095');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Sri Lanka','0.0');
@@ -7861,7 +7861,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Syria','0.8727272727272727');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Total','0.5522388059701493');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Uganda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Females','Yemen','1.0');
@@ -7880,7 +7880,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Eritrea','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Ethiopia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Guinea','0.09090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','India','0.0');
@@ -7895,7 +7895,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Palestine*','0.6');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Palestine','0.6');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Russia','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Somalia','0.3157894736842105');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Sri Lanka','0.0');
@@ -7904,7 +7904,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Syria','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Total','0.0919978225367447');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Uganda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Ukraine','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 18 to 34 years','Males','Viet Nam','0.0');
@@ -7920,14 +7920,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Pakistan','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Somalia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Sri Lanka','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Syria','0.8620689655172413');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Total','0.543859649122807');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Uganda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Females','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Afghanistan','0.29411764705882354');
@@ -7954,7 +7954,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Nepal','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Pakistan','0.04');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Russia','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Rwanda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Somalia','0.5833333333333334');
@@ -7964,7 +7964,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Syria','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Total','0.12954186413902052');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Türkiye','0.16666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Turkiye','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Uganda','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Ukraine','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','From 35 to 64 years','Males','Viet Nam','0.0');
@@ -7976,7 +7976,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Lebanon','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Russia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Rwanda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Somalia','1.0');
@@ -7984,7 +7984,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Syria','0.9642857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Total','0.8666666666666667');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Türkiye','0.25');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Turkiye','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Females','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Afghanistan','0.6666666666666666');
@@ -7993,13 +7993,13 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Iran','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Iraq','0.625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Pakistan','0.3333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Stateless','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Syria','0.9538461538461539');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Total','0.8375');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Türkiye','0.25');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Turkiye','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 14 years','Males','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Afghanistan','0.8333333333333334');
@@ -8011,7 +8011,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Lebanon','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Pakistan','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Russia','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Rwanda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Somalia','1.0');
@@ -8019,7 +8019,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Syria','0.9545454545454546');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Total','0.84');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Türkiye','0.25');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Turkiye','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Females','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Afghanistan','0.11818181818181818');
@@ -8030,19 +8030,19 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Iran','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Iraq','0.6842105263157895');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Pakistan','0.14285714285714285');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Somalia','0.95');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Stateless','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Syria','0.8735632183908046');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Total','0.5523809523809524');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Türkiye','0.25');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Turkiye','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Romania','Less than 18 years','Males','Yemen','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 14 to 17 years','Females','Total','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 14 to 17 years','Males','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 14 to 17 years','Males','Total','0.75');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 14 to 17 years','Males','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 14 to 17 years','Males','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 14 to 17 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 18 to 34 years','Females','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 18 to 34 years','Females','Total','0.7777777777777778');
@@ -8060,7 +8060,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 18 to 34 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 18 to 34 years','Males','Total','0.2727272727272727');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 18 to 34 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 18 to 34 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 18 to 34 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 18 to 34 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 35 to 64 years','Females','Total','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','From 35 to 64 years','Females','Ukraine','1.0');
@@ -8078,7 +8078,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 14 years','Males','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 14 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 14 years','Males','Total','0.7142857142857143');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 14 years','Males','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 14 years','Males','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 14 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 18 years','Females','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 18 years','Females','Total','0.8571428571428571');
@@ -8086,7 +8086,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 18 years','Males','Afghanistan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 18 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 18 years','Males','Total','0.7333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 18 years','Males','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 18 years','Males','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovakia','Less than 18 years','Males','Ukraine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovenia','65 years or over','Females','Total','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Slovenia','65 years or over','Females','Ukraine','1.0');
@@ -8178,7 +8178,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Females','Morocco','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Females','Nicaragua','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Females','Pakistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Females','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Females','Russia','0.5');
@@ -8197,7 +8197,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Males','Mali','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Males','Mexico','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Males','Morocco','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Males','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Males','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Males','Russia','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','65 years or over','Males','Senegal','0.0');
@@ -8221,7 +8221,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Ecuador','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','El Salvador','0.3225806451612903');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Georgia','0.045454545454545456');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Guatemala','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Honduras','0.29411764705882354');
@@ -8231,7 +8231,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Morocco','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Nicaragua','0.65');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Nigeria','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Palestine*','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Palestine','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Panama','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Peru','0.06097560975609756');
@@ -8239,7 +8239,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Syria','0.8611111111111112');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Total','0.5337533753375338');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Ukraine','0.5416666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Uruguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Females','Venezuela','0.9467312348668281');
@@ -8259,7 +8259,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Ecuador','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','El Salvador','0.22580645161290322');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Guatemala','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Guinea','1.0');
@@ -8271,14 +8271,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Morocco','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Nicaragua','0.6875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Pakistan','0.25');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Palestine*','0.8333333333333334');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Palestine','0.8333333333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Peru','0.058823529411764705');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Russia','0.4444444444444444');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Somalia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Sudan','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Syria','0.9183673469387755');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Total','0.5497975708502024');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Ukraine','0.5555555555555556');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Uruguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 14 to 17 years','Males','Venezuela','0.9404761904761905');
@@ -8311,7 +8311,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','El Salvador','0.2886297376093295');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Equatorial Guinea','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Gambia, The','0.8');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','The Gambia','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Georgia','0.04');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Ghana','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Guatemala','0.3333333333333333');
@@ -8337,7 +8337,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Nicaragua','0.39622641509433965');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Nigeria','0.4025974025974026');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Pakistan','0.46153846153846156');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Palestine*','0.8');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Palestine','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Panama','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Paraguay','0.05660377358490566');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Peru','0.044145873320537425');
@@ -8349,7 +8349,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Syria','0.8712121212121212');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Total','0.544683403307343');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Tunisia','0.7142857142857143');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Türkiye','0.21428571428571427');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Turkiye','0.21428571428571427');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Ukraine','0.576271186440678');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Uruguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Females','Venezuela','0.927461139896373');
@@ -8386,7 +8386,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Equatorial Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Eritrea','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Gambia, The','0.012658227848101266');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','The Gambia','0.012658227848101266');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Georgia','0.015873015873015872');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Guatemala','0.14893617021276595');
@@ -8413,7 +8413,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Niger','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Nigeria','0.041237113402061855');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Pakistan','0.01107011070110701');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Palestine*','0.7142857142857143');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Palestine','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Panama','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Paraguay','0.07407407407407407');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Peru','0.011784511784511785');
@@ -8433,7 +8433,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Total','0.4403498382908942');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Tunisia','0.03418803418803419');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Türkiye','0.04054054054054054');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Turkiye','0.04054054054054054');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Ukraine','0.5213675213675214');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 18 to 34 years','Males','Uruguay','0.0');
@@ -8465,7 +8465,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','El Salvador','0.21212121212121213');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Equatorial Guinea','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Georgia','0.06');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Guatemala','0.3');
@@ -8488,7 +8488,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Nicaragua','0.4182692307692308');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Nigeria','0.3');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Pakistan','0.36363636363636365');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Palestine*','0.9047619047619048');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Palestine','0.9047619047619048');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Panama','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Peru','0.0364963503649635');
@@ -8501,7 +8501,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Syria','0.8829787234042553');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Total','0.4877253743506163');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Tunisia','0.3333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Türkiye','0.4444444444444444');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Turkiye','0.4444444444444444');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Ukraine','0.5664739884393064');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Uruguay','0.058823529411764705');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Females','Venezuela','0.9326462128475551');
@@ -8535,7 +8535,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','El Salvador','0.10493827160493827');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Equatorial Guinea','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Guatemala','0.029411764705882353');
@@ -8564,7 +8564,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Niger','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Nigeria','0.030303030303030304');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Pakistan','0.027210884353741496');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Palestine*','0.7333333333333333');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Palestine','0.7333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Panama','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Peru','0.007564296520423601');
@@ -8581,7 +8581,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Total','0.36067364588074646');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Tunisia','0.02857142857142857');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Türkiye','0.3125');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Turkiye','0.3125');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Ukraine','0.47619047619047616');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','From 35 to 64 years','Males','Uruguay','0.0');
@@ -8616,7 +8616,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','El Salvador','0.2571428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Equatorial Guinea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Georgia','0.029411764705882353');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Ghana','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Guatemala','0.23529411764705882');
@@ -8640,7 +8640,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Nigeria','0.5217391304347826');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Pakistan','0.6');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Palestine*','0.7777777777777778');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Palestine','0.7777777777777778');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Panama','0.631578947368421');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Paraguay','0.1');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Peru','0.1387900355871886');
@@ -8652,7 +8652,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Syria','0.9086021505376344');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Total','0.5487331659438485');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Türkiye','0.36363636363636365');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Turkiye','0.36363636363636365');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Ukraine','0.48');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Uruguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Females','Venezuela','0.9483301827347196');
@@ -8683,7 +8683,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','El Salvador','0.22413793103448276');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Equatorial Guinea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Gambia, The','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','The Gambia','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Georgia','0.032520325203252036');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Guatemala','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Guinea','0.8181818181818182');
@@ -8706,7 +8706,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Nicaragua','0.6372549019607843');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Nigeria','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Pakistan','0.46153846153846156');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Palestine*','0.78125');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Palestine','0.78125');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Panama','0.6');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Peru','0.1476510067114094');
@@ -8720,7 +8720,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Total','0.541037426132633');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Trinidad and Tobago','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Tunisia','0.6666666666666666');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Türkiye','0.36363636363636365');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Turkiye','0.36363636363636365');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Ukraine','0.4864864864864865');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Uruguay','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 14 years','Males','Venezuela','0.9520460358056266');
@@ -8752,7 +8752,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','El Salvador','0.2740740740740741');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Equatorial Guinea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Gambia, The','1.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','The Gambia','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Georgia','0.03225806451612903');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Ghana','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Guatemala','0.3');
@@ -8776,7 +8776,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Nigeria','0.56');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Pakistan','0.5454545454545454');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Palestine*','0.8285714285714286');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Palestine','0.8285714285714286');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Panama','0.6');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Paraguay','0.08333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Peru','0.12568306010928962');
@@ -8788,7 +8788,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Syria','0.9013452914798207');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Total','0.5455207574654042');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Tunisia','0.5');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Türkiye','0.38461538461538464');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Turkiye','0.38461538461538464');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Ukraine','0.4878048780487805');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Uruguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Females','Uzbekistan','0.0');
@@ -8822,7 +8822,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','El Salvador','0.22');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Equatorial Guinea','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Eritrea','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Gambia, The','0.75');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','The Gambia','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Georgia','0.04081632653061224');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Guatemala','0.3');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Guinea','0.8181818181818182');
@@ -8846,7 +8846,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Nicaragua','0.6495726495726496');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Nigeria','0.48');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Pakistan','0.47058823529411764');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Palestine*','0.7948717948717948');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Palestine','0.7948717948717948');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Panama','0.5714285714285714');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Paraguay','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Peru','0.12860892388451445');
@@ -8860,7 +8860,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Total','0.5429014472777395');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Trinidad and Tobago','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Tunisia','0.6666666666666666');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Türkiye','0.35714285714285715');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Turkiye','0.35714285714285715');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Ukraine','0.5036496350364964');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Uruguay','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Spain','Less than 18 years','Males','Venezuela','0.9496221662468514');
@@ -8887,14 +8887,14 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Kosovo*','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Lebanon','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Palestine*','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Palestine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Russia','0.09090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Somalia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Stateless','0.38461538461538464');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Syria','0.6071428571428571');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Total','0.25252525252525254');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Türkiye','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Turkiye','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Uzbekistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Females','Venezuela','0.0');
@@ -8907,7 +8907,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Males','Iraq','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Males','Lebanon','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Males','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Males','Palestine*','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Males','Palestine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Males','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','65 years or over','Males','Somalia','0.0');
@@ -8940,7 +8940,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Nicaragua','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Nigeria','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Pakistan','0.3333333333333333');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Palestine*','0.3333333333333333');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Palestine','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Russia','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Somalia','0.5454545454545454');
@@ -8949,7 +8949,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Syria','0.7142857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Tajikistan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Total','0.4095238095238095');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Türkiye','0.3333333333333333');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Turkiye','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Uganda','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Females','Uzbekistan','0.16666666666666666');
@@ -8980,7 +8980,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Nicaragua','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Nigeria','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Pakistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Palestine*','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Palestine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Russia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Serbia','0.0');
@@ -8990,7 +8990,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Sudan','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Syria','0.8378378378378378');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Total','0.4192825112107623');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Türkiye','0.2222222222222222');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Turkiye','0.2222222222222222');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 14 to 17 years','Males','Unknown','0.0');
@@ -9022,7 +9022,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','El Salvador','0.05555555555555555');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Eritrea','0.775');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Ethiopia','0.22727272727272727');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Gambia, The','0.18181818181818182');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','The Gambia','0.18181818181818182');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Guinea','0.0');
@@ -9047,7 +9047,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Nigeria','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Pakistan','0.20833333333333334');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Palestine*','0.37209302325581395');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Palestine','0.37209302325581395');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Russia','0.09375');
@@ -9066,7 +9066,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Thailand','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Total','0.36369119420989143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Türkiye','0.5121951219512195');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Turkiye','0.5121951219512195');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Uganda','0.5405405405405406');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Females','Unknown','0.0');
@@ -9099,7 +9099,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','El Salvador','0.043478260869565216');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Eritrea','0.8441558441558441');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Ethiopia','0.18571428571428572');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Guatemala','0.0');
@@ -9126,7 +9126,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Nigeria','0.0784313725490196');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Pakistan','0.027777777777777776');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Palestine*','0.25510204081632654');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Palestine','0.25510204081632654');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Russia','0.08620689655172414');
@@ -9146,7 +9146,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Total','0.23946188340807176');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Tunisia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Turkmenistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Türkiye','0.2540983606557377');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Turkiye','0.2540983606557377');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Uganda','0.4166666666666667');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 18 to 34 years','Males','Unknown','0.058823529411764705');
@@ -9179,7 +9179,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Eritrea','0.4307692307692308');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Ethiopia','0.12121212121212122');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Gabon','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Honduras','0.0');
@@ -9205,7 +9205,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Nigeria','0.15625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Pakistan','0.15');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Palestine*','0.4117647058823529');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Palestine','0.4117647058823529');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Russia','0.06976744186046512');
@@ -9222,7 +9222,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Thailand','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Total','0.25268817204301075');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Türkiye','0.46511627906976744');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Turkiye','0.46511627906976744');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Uganda','0.3888888888888889');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Females','Unknown','0.0');
@@ -9257,7 +9257,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','El Salvador','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Eritrea','0.6511627906976745');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Ethiopia','0.1016949152542373');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Guinea','0.0');
@@ -9283,7 +9283,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Nigeria','0.04838709677419355');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Pakistan','0.05');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Palestine*','0.2727272727272727');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Palestine','0.2727272727272727');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Russia','0.09375');
@@ -9302,7 +9302,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Total','0.1614246068455134');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Tunisia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Turkmenistan','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Türkiye','0.4470588235294118');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Turkiye','0.4470588235294118');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Uganda','0.2857142857142857');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','From 35 to 64 years','Males','Unknown','0.0');
@@ -9331,7 +9331,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','El Salvador','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Eritrea','0.39285714285714285');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Ethiopia','0.23255813953488372');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Honduras','0.0');
@@ -9354,7 +9354,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Nigeria','0.12903225806451613');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Pakistan','0.2222222222222222');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Palestine*','0.43243243243243246');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Palestine','0.43243243243243246');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Russia','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Rwanda','0.0');
@@ -9370,7 +9370,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Thailand','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Total','0.35719503287070853');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Uganda','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Females','Unknown','0.4098360655737705');
@@ -9399,7 +9399,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','El Salvador','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Eritrea','0.36363636363636365');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Ethiopia','0.14893617021276595');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Guinea','0.0');
@@ -9423,7 +9423,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Nigeria','0.09375');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Pakistan','0.10526315789473684');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Palestine*','0.4166666666666667');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Palestine','0.4166666666666667');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Russia','0.1282051282051282');
@@ -9439,7 +9439,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Tanzania','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Total','0.30095108695652173');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Türkiye','0.5813953488372093');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Turkiye','0.5813953488372093');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Uganda','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 14 years','Males','Unknown','0.39285714285714285');
@@ -9469,7 +9469,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Equatorial Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Eritrea','0.43');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Ethiopia','0.2692307692307692');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Honduras','0.0');
@@ -9492,7 +9492,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Nigeria','0.1388888888888889');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Pakistan','0.23809523809523808');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Palestine*','0.4418604651162791');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Palestine','0.4418604651162791');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Russia','0.14285714285714285');
@@ -9511,7 +9511,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Total','0.3669833729216152');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Tunisia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Turkmenistan','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Türkiye','0.4727272727272727');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Turkiye','0.4727272727272727');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Uganda','0.25');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Females','Unknown','0.4126984126984127');
@@ -9542,7 +9542,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','El Salvador','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Eritrea','0.42718446601941745');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Ethiopia','0.1724137931034483');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Guinea','0.25');
@@ -9567,7 +9567,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Nigeria','0.08823529411764706');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','North Macedonia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Pakistan','0.07407407407407407');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Palestine*','0.425');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Palestine','0.425');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Peru','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Philippines','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Russia','0.11363636363636363');
@@ -9583,7 +9583,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Tanzania','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Total','0.32864583333333336');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Türkiye','0.509090909090909');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Turkiye','0.509090909090909');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Uganda','0.4');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Sweden','Less than 18 years','Males','Unknown','0.39285714285714285');
@@ -9597,12 +9597,12 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','65 years or over','Females','Sri Lanka','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','65 years or over','Females','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','65 years or over','Females','Total','0.7954545454545454');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','65 years or over','Females','Türkiye','0.6666666666666666');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','65 years or over','Females','Turkiye','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','65 years or over','Males','Afghanistan','0.9523809523809523');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','65 years or over','Males','Georgia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','65 years or over','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','65 years or over','Males','Total','0.7073170731707317');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','65 years or over','Males','Türkiye','0.5');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','65 years or over','Males','Turkiye','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Females','Afghanistan','0.9292035398230089');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Females','Burundi','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Females','Colombia','0.3333333333333333');
@@ -9619,7 +9619,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Females','Stateless','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Females','Syria','0.9230769230769231');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Females','Total','0.8204225352112676');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Females','Türkiye','0.7424242424242424');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Females','Turkiye','0.7424242424242424');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Females','Venezuela','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Afghanistan','0.9875292283710054');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Albania','0.0');
@@ -9634,7 +9634,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Democratic Republic of the Congo','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Eritrea','0.9642857142857143');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Ethiopia','1.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Gambia, The','0.75');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','The Gambia','0.75');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Georgia','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Guinea','0.2777777777777778');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Iran','0.6');
@@ -9654,7 +9654,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Syria','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Total','0.9289185905224787');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Türkiye','0.5730337078651685');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 14 to 17 years','Males','Turkiye','0.5730337078651685');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Females','Afghanistan','0.881578947368421');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Females','Albania','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Females','Algeria','0.5');
@@ -9690,7 +9690,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Females','Syria','0.9270833333333334');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Females','Total','0.741777466759972');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Females','Türkiye','0.6790540540540541');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Females','Turkiye','0.6790540540540541');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Females','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Females','Unknown','0.3333333333333333');
@@ -9717,7 +9717,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Egypt','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Eritrea','0.675');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Ethiopia','0.6538461538461539');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Gambia, The','0.09090909090909091');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','The Gambia','0.09090909090909091');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Georgia','0.025');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Ghana','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Guatemala','0.0');
@@ -9752,7 +9752,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Togo','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Total','0.5505203088284659');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Türkiye','0.4215686274509804');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Turkiye','0.4215686274509804');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Uganda','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Unknown','0.2');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 18 to 34 years','Males','Venezuela','0.3333333333333333');
@@ -9797,7 +9797,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Females','Syria','0.8863636363636364');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Females','Total','0.7060737527114967');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Females','Türkiye','0.740484429065744');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Females','Turkiye','0.740484429065744');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Females','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Females','Venezuela','0.3333333333333333');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Females','Yemen','1.0');
@@ -9821,7 +9821,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','El Salvador','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Eritrea','0.71875');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Ethiopia','0.6');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Gambia, The','0.0');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','The Gambia','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Georgia','0.06756756756756757');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Guinea','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','India','0.0');
@@ -9846,7 +9846,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Syria','0.8181818181818182');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Total','0.5302061122956645');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Türkiye','0.6244725738396625');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Turkiye','0.6244725738396625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Unknown','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','From 35 to 64 years','Males','Venezuela','0.375');
@@ -9891,7 +9891,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Females','Togo','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Females','Total','0.8371859296482412');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Females','Türkiye','0.783068783068783');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Females','Turkiye','0.783068783068783');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Females','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Females','Unknown','0.7272727272727273');
@@ -9944,7 +9944,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Males','Togo','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Males','Total','0.837737598516458');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Males','Tunisia','0.6');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Males','Türkiye','0.7736842105263158');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Males','Turkiye','0.7736842105263158');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Males','Ukraine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Males','Unknown','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 14 years','Males','Venezuela','1.0');
@@ -9994,7 +9994,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Females','Togo','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Females','Total','0.8354597448306204');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Females','Tunisia','0.0');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Females','Türkiye','0.7752808988764045');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Females','Turkiye','0.7752808988764045');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Females','Uganda','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Females','Ukraine','0.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Females','Unknown','0.6923076923076923');
@@ -10020,7 +10020,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Egypt','0.6666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Eritrea','0.9097222222222222');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Ethiopia','0.967741935483871');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Gambia, The','0.8');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','The Gambia','0.8');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Georgia','0.16666666666666666');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Ghana','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Guinea','0.36363636363636365');
@@ -10053,7 +10053,7 @@ INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES (
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Togo','1.0');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Total','0.8774329300368228');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Tunisia','0.3');
-INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Türkiye','0.7356076759061834');
+INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Turkiye','0.7356076759061834');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Ukraine','0.5');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Unknown','0.625');
 INSERT INTO AverageAcceptanceRates(geo,age,sex,citizen,acceptance_rate) VALUES ('Switzerland','Less than 18 years','Males','Venezuela','1.0');

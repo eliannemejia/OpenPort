@@ -1,10 +1,11 @@
 import logging
+
+import requests
 logger = logging.getLogger(__name__)
 import pandas as pd
 import streamlit as st
 from modules.nav import SideBarLinks
 import random  # remove later
-
 
 # Call the SideBarLinks from the nav module in the modules directory
 SideBarLinks()
@@ -17,8 +18,20 @@ st.header('Education Data by Country')
 df_countries = pd.read_csv("assets/list_of_countries.csv")
 countries = sorted(df_countries["Country"].dropna().unique())
 
+def get_country_list():
+    countries_url = "http://web-api:4000/countries/countries"
+    countries_get = requests.get(countries_url).json()
+    countries = []
+    idx = 0
+    for entry in countries_get:
+        if idx < 27:
+            name = entry["CountryName"]
+            countries.append(name)
+            idx += 1
+    return countries
+
 # Dropdown to select a country
-chosen_country = st.selectbox("Select a country", countries)
+chosen_country = st.selectbox("Select a country", get_country_list())
 
 # Mock data for education levels (percentages or any units)
 education_levels = {
