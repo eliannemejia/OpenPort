@@ -9,10 +9,38 @@ CREATE TABLE IF NOT EXISTS Country (
   CountryName VARCHAR(50)
 );
 
+INSERT INTO Country (CountryName) VALUES ('Austria');
+INSERT INTO Country (CountryName) VALUES ('Belgium');
+INSERT INTO Country (CountryName) VALUES ('Bulgaria');
+INSERT INTO Country (CountryName) VALUES ('Croatia');
+INSERT INTO Country (CountryName) VALUES ('Republic of Cyprus');
+INSERT INTO Country (CountryName) VALUES ('Czech Republic');
+INSERT INTO Country (CountryName) VALUES ('Denmark');
+INSERT INTO Country (CountryName) VALUES ('Estonia');
+INSERT INTO Country (CountryName) VALUES ('Finland');
+INSERT INTO Country (CountryName) VALUES ('France');
+INSERT INTO Country (CountryName) VALUES ('Germany');
+INSERT INTO Country (CountryName) VALUES ('Greece');
+INSERT INTO Country (CountryName) VALUES ('Hungary');
+INSERT INTO Country (CountryName) VALUES ('Ireland');
+INSERT INTO Country (CountryName) VALUES ('Italy');
+INSERT INTO Country (CountryName) VALUES ('Latvia');
+INSERT INTO Country (CountryName) VALUES ('Lithuania');
+INSERT INTO Country (CountryName) VALUES ('Luxembourg');
+INSERT INTO Country (CountryName) VALUES ('Malta');
+INSERT INTO Country (CountryName) VALUES ('Netherlands');
+INSERT INTO Country (CountryName) VALUES ('Poland');
+INSERT INTO Country (CountryName) VALUES ('Portugal');
+INSERT INTO Country (CountryName) VALUES ('Romania');
+INSERT INTO Country (CountryName) VALUES ('Slovakia');
+INSERT INTO Country (CountryName) VALUES ('Slovenia');
+INSERT INTO Country (CountryName) VALUES ('Spain');
+INSERT INTO Country (CountryName) VALUES ('Sweden');
+
+
 INSERT INTO Country(CountryName) VALUES ('Afghanistan');
 INSERT INTO Country(CountryName) VALUES ('Albania');
 INSERT INTO Country(CountryName) VALUES ('Algeria');
-INSERT INTO Country(CountryName) VALUES ('Andorra');
 INSERT INTO Country(CountryName) VALUES ('Angola');
 INSERT INTO Country(CountryName) VALUES ('Armenia');
 INSERT INTO Country(CountryName) VALUES ('Belarus');
@@ -51,7 +79,6 @@ INSERT INTO Country(CountryName) VALUES ('Kyrgyzstan');
 INSERT INTO Country(CountryName) VALUES ('Lebanon');
 INSERT INTO Country(CountryName) VALUES ('Libya');
 INSERT INTO Country(CountryName) VALUES ('Mali');
-INSERT INTO Country(CountryName) VALUES ('Malta');
 INSERT INTO Country(CountryName) VALUES ('Mauritania');
 INSERT INTO Country(CountryName) VALUES ('Mexico');
 INSERT INTO Country(CountryName) VALUES ('Moldova');
