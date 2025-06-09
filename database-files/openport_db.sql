@@ -125,8 +125,9 @@ CREATE TABLE IF NOT EXISTS AidProject (
 
 INSERT Into Religion (ReligionName)
 VALUES
-('Other'),
-('Islam');
+('Buddhism'),
+('Hellenism'),
+('Shinto');
 
 INSERT INTO CountryReligion (ReligionID, CountryID, TotalPracticing, AcceptanceScore)
 VALUES
