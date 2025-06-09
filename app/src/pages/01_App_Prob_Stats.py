@@ -89,7 +89,7 @@ no_one = None
 
 with col2:
     if submit:
-        st.write("## Top Three Countries with the Highest Probabilty of Acceptance for your age, sex, and nationality")
+        st.write("## Top Three Countries with the Highest Probability of Acceptance for your age, sex, and nationality")
 
         countries = get_country_list()
 
@@ -103,10 +103,10 @@ with col2:
             idx += 1
         
         countriesAndProb = zip(euCountries, acceptance_prob_list)
-        df = pd.DataFrame(countriesAndProb, columns=["Country", "Probablity of Acceptance"])
-        df = df.sort_values(by='Probablity of Acceptance', ascending=False)
+        df = pd.DataFrame(countriesAndProb, columns=["Country", "Probability of Acceptance"])
+        df = df.sort_values(by='Probability of Acceptance', ascending=False)
         finalDf = df.head(3)
 
         for index, row in finalDf.iterrows():
-            st.markdown(f"**Country:** {row['Country']}  \n**Probablity of Acceptance:** {row['Probablity of Acceptance']}%")
+            st.markdown(f"**Country:** {row['Country']}  \n**Probability of Acceptance:** {row['Probability of Acceptance']}%")
  
