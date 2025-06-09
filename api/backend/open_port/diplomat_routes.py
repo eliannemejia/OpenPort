@@ -319,7 +319,7 @@ def get_weights():
         current_app.logger.info('Starting get_weights request')
         cursor = db.get_db().cursor()
         
-        query = "SELECT * FROM Weights"
+        query = "SELECT * FROM RawWeights"
         cursor.execute(query)
         results = cursor.fetchall()
         cursor.close()
