@@ -35,9 +35,9 @@ chosen_country = st.selectbox("Select a country", get_country_list())
 
 # Mock data for education levels (percentages or any units)
 education_levels = {
-    "Primary":  random.uniform(50, 100),
-    "Secondary": random.uniform(30, 90),
-    "Tertiary": random.uniform(10, 70)
+    "Primary":  round(random.uniform(50, 100), 1),
+    "Secondary": round(random.uniform(30, 90), 1),
+    "Tertiary": round(random.uniform(10, 70),1)
 }
 
 # Create dataframe for plotting
@@ -47,5 +47,5 @@ df_edu = pd.DataFrame({
 })
 
 # Bar plot using Streamlit's built-in charting (matplotlib or plotly could be used, but here let's use st.bar_chart for simplicity)
-st.subheader(f"Education Levels in {chosen_country}")
-st.bar_chart(df_edu.set_index("Education Level"))
+st.subheader(f"Education Levels in {chosen_country} \n(Based off of the percentage of the population in {chosen_country} who attended each education level)")
+st.bar_chart(df_edu.set_index("Education Level"), x_label="Education Level", y_label="Percentage of population")
