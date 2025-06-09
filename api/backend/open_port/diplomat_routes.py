@@ -297,7 +297,7 @@ def get_timeseries():
         params = []
 
         if year:
-            query += " AND DataYear = %s"
+            query += " AND DateYear = %s"
             params.append(year)
         if country:
             query += " AND Country = %s"

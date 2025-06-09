@@ -34,7 +34,10 @@ else:
     try:
         # Get full time series for country
         resp = requests.get("http://web-api:4000/diplomats/timeseries", params={"country": chosen_country})
+        if resp.status_code != 200:
+            raise Exception(f"API request failed: {resp.status_code} - {resp.text}")
         timeseries_data = pd.DataFrame(resp.json())
+
         st.dataframe(timeseries_data)
         cols = timeseries_data.columns
         st.write(end_year)
@@ -52,7 +55,10 @@ else:
 
         # Get weights
         weights_resp = requests.get("http://web-api:4000/diplomats/weights")
+        if weights_resp.status_code != 200:
+            raise Exception(f"API request failed: {weights_resp.status_code} - {weights_resp.text}")
         weights_df = pd.DataFrame(weights_resp.json())
+
         st.dataframe(weights_df)
         def W_df(country):
             df_W = pd.DataFrame()
