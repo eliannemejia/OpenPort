@@ -40,15 +40,14 @@ acceptance_rates = np.random.uniform(10, 90, len(religions))
 # Create dataframe
 df_religion = pd.DataFrame({
     "Religion": religions,
-    "Acceptance Rate (%)": acceptance_rates
-})
+    "Acceptance Rate (%)": acceptance_rates.round(1)})
 
-st.subheader(f"Religious Acceptance Rates in {chosen_country}")
+st.subheader(f"Religious Acceptance Rates in {chosen_country} \n(Based off of how accepting people in {chosen_country} are of different religions)")
 
 fig = px.bar(df_religion, x="Religion", y="Acceptance Rate (%)",
              title=f"Religious Acceptance Rates in {chosen_country}",
              labels={"Acceptance Rate (%)": "Acceptance Rate (%)"},
-             text=df_religion["Acceptance Rate (%)"].round(1))
+             )
 
 fig.update_traces(textposition='outside')
 
