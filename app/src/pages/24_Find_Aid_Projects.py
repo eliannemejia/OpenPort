@@ -24,7 +24,7 @@ st.write("not done, fix country display")
 
   
 # Load countries from CSV
-df_countries = pd.read_csv("assets/list_of_countries.csv")
+df_countries = pd.read_csv("assets/country_list.csv")
 countries = sorted(df_countries["Country"].dropna().unique())
 df_all_countries = pd.DataFrame({'CountryName': countries})
 
