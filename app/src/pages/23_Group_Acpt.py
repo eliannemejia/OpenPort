@@ -31,7 +31,7 @@ if start_year >= end_year:
     st.warning("Start year must be before end year.")
 elif chosen_country is None:
     st.warning("Please select a country.")
-else:
+'''else:
     # Fetch data from Flask API
     try:
         # Get full time series for country
@@ -92,4 +92,4 @@ else:
         st.plotly_chart(fig, use_container_width=True)
 
     except Exception as e:
-        st.error(f"Failed to fetch or process data: {str(e)}")
+        st.error(f"Failed to fetch or process data: {str(e)}")'''
