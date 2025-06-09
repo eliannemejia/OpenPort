@@ -37,7 +37,7 @@ def get_top_three(sex, citizen, age):
     
 def get_probability(age, sex, citizen, geo):
     age_range = get_age_range(age)
-    c_name = geo["geo"]
+    c_name = geo
     prob_url = f"{API_URL}/final_prediction/{age_range}/{sex}/{citizen}/{c_name}"
     
     response = requests.get(prob_url)
@@ -54,12 +54,9 @@ def get_country_list():
     countries_url = "http://web-api:4000/countries/countries"
     countries_get = requests.get(countries_url).json()
     countries = []
-    idx = 0
     for entry in countries_get:
-        if idx < 27:
-            name = entry["CountryName"]
-            countries.append(name)
-            idx += 1
+        name = entry["CountryName"]
+        countries.append(name)
     return countries
 
 # set the header of the page
@@ -92,14 +89,24 @@ no_one = None
 
 with col2:
     if submit:
-        st.write("### Top Three Counrties with the Highest Average Acceptance for your age, sex, and nationality")
+        st.write("## Top Three Countries with the Highest Probabilty of Acceptance for your age, sex, and nationality")
 
         countries = get_country_list()
 
-        euCountries = countries[:27]
+        euCountries = countries[0:27]
         idx = 1
+        acceptance_prob_list = []
 
         for country in euCountries:
-            st.write(f"### {idx}." + country["geo"],  key=f"button_{idx}")
-            acceptance_prob = show_probability(age, sex, origin, country)
+            acceptance_prob = get_probability(age, sex, origin, country)
+            acceptance_prob_list.append(round(acceptance_prob*100, 1))
             idx += 1
+        
+        countriesAndProb = zip(euCountries, acceptance_prob_list)
+        df = pd.DataFrame(countriesAndProb, columns=["Country", "Probablity of Acceptance"])
+        df = df.sort_values(by='Probablity of Acceptance', ascending=False)
+        finalDf = df.head(3)
+
+        for index, row in finalDf.iterrows():
+            st.markdown(f"**Country:** {row['Country']}  \n**Probablity of Acceptance:** {row['Probablity of Acceptance']}%")
+ 
