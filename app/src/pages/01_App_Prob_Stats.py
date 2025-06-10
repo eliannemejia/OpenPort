@@ -110,3 +110,53 @@ with col2:
         for index, row in finalDf.iterrows():
             st.markdown(f"**Country:** {row['Country']}  \n**Probability of Acceptance:** {row['Probability of Acceptance']}%")
  
+
+if submit:
+
+    st.header("Map Visualizations")
+    st.write("Hover over and zoom it to each country to get the probabilty of acceptence based off of the demographics you submitted")
+
+    country_abbreviations = {
+        "Austria": "AUT",
+        "Belgium": "BEL",
+        "Bulgaria": "BGR",
+        "Croatia": "HRV",
+        "Republic of Cyprus": "CYP",
+        "Czech Republic": "CZE",
+        "Denmark": "DNK",
+        "Estonia": "EST",
+        "Finland": "FIN",
+        "France": "FRA",
+        "Germany": "DEU",
+        "Greece": "GRC",
+        "Hungary": "HUN",
+        "Ireland": "IRL",
+        "Italy": "ITA",
+        "Latvia": "LVA",
+        "Lithuania": "LTU",
+        "Luxembourg": "LUX",
+        "Malta": "MLT",
+        "Netherlands": "NLD",
+        "Poland": "POL",
+        "Portugal": "PRT",
+        "Romania": "ROU",
+        "Slovakia": "SVK",
+        "Slovenia": "SVN",
+        "Spain": "ESP",
+        "Sweden": "SWE"
+    }
+
+
+    df["Country_abbreviations"] = df["Country"].map(country_abbreviations)
+
+    fig = px.choropleth(
+        df,
+        locations="Country_abbreviations",
+        color="Probability of Acceptance",
+        hover_name="Country",
+        color_continuous_scale="YlOrRd",
+        range_color=(0, 100),
+        scope="europe",
+        title="Asylum Acceptance Probability by Country"
+    )
+    st.plotly_chart(fig)
