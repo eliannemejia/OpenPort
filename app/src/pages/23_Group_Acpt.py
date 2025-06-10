@@ -23,8 +23,8 @@ chosen_country = st.selectbox("Select a country", countries)
 
 # Year selection dropdowns
 st.write("Select year range to display:")
-start_year = st.selectbox("Start Year", list(range(2011, 2027)), index=0)
-end_year = st.selectbox("End Year", list(range(2012, 2028)), index=len(range(2012, 2028)) - 1)
+start_year = st.selectbox("Start Year", list(range(2023, 2028)), index=0)
+end_year = st.selectbox("End Year", list(range(2023, 2028)), index=len(range(2023, 2028)) - 1)
 
 if start_year >= end_year:
     st.warning("Start year must be before end year.")
@@ -43,26 +43,28 @@ else:
         cols = timeseries_data.columns
         st.write(end_year)
         #st.write(cols)
+        predictions = {}
         def X_df(country, year):
             df_X = pd.DataFrame()
-            df_X["lag_1"] = timeseries_data[(timeseries_data["Country"] == country) & (timeseries_data["DateYear"] == (year-1))]["TValue"].reset_index(drop = True)
-            df_X["lag_2"] = timeseries_data[(timeseries_data["Country"] == country) & (timeseries_data["DateYear"] == (year-2))]["TValue"].reset_index(drop = True)
-            df_X["lag_3"] = timeseries_data[(timeseries_data["Country"] == country) & (timeseries_data["DateYear"] == (year-3))]["TValue"].reset_index(drop = True)
-            df_X["lag_4"] = timeseries_data[(timeseries_data["Country"] == country) & (timeseries_data["DateYear"] == (year-4))]["TValue"].reset_index(drop = True)
-            df_X["lag_5"] = timeseries_data[(timeseries_data["Country"] == country) & (timeseries_data["DateYear"] == (year-5))]["TValue"].reset_index(drop = True)
+            
+            for lag in range(1, 6):
+                target_year = year - lag
+                
+                historical_data = timeseries_data[(timeseries_data["Country"] == country) & (timeseries_data["DateYear"] == target_year)]["TValue"]
+                
+                if len(historical_data) > 0:
+            
+                    df_X[f"lag_{lag}"] = historical_data.reset_index(drop=True)
+                elif target_year in predictions:
+                
+                    df_X[f"lag_{lag}"] = [predictions[target_year]]
+                else:
+            
+                    df_X[f"lag_{lag}"] = [0.0]
+            
             df_X["country"] = 1.0
             return df_X
-        ml2_df = X_df(chosen_country, end_year)
-        st.subheader("Country Features DataFrame (ml2_df)")
-        st.dataframe(ml2_df)
 
-        country_array= ml2_df.to_numpy()
-        st.subheader("Country Features NumPy Array (ml2_np)")
-        st.write(country_array)
-        country_shape = country_array.shape
-        st.markdown(country_shape)
-
-        # Get weights
         weights_resp = requests.get("http://web-api:4000/diplomats/weights")
         if weights_resp.status_code != 200:
             raise Exception(f"API request failed: {weights_resp.status_code} - {weights_resp.text}")
@@ -89,9 +91,23 @@ else:
         weight_shape = weight.shape
         st.write(weight_shape)
 
-    
-        dot_product = np.matmul(weight, country_array.T)
-        st.write(dot_product)
-  
+        for current_year in range(start_year, end_year + 1):
+            st.write(f"**Year {current_year}:**")
+                
+            ml2_df = X_df(chosen_country, current_year)
+            st.subheader("Country Features DataFrame (ml2_df)")
+            st.dataframe(ml2_df)
+
+            country_array = ml2_df.to_numpy()
+            st.subheader("Country Features NumPy Array (ml2_np)")
+            st.write(country_array)
+            country_shape = country_array.shape
+            st.markdown(country_shape)
+
+            dot_product = np.matmul(weight, country_array.T)
+            st.write(f"Prediction: {dot_product}")
+                
+            predictions[current_year] = dot_product[0]
+                
     except Exception as e:
         st.error(f"Failed to fetch or process data: {str(e)}")
