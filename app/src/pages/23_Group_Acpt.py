@@ -50,15 +50,17 @@ else:
             df_X["lag_3"] = timeseries_data[(timeseries_data["Country"] == country) & (timeseries_data["DateYear"] == (year-3))]["TValue"].reset_index(drop = True)
             df_X["lag_4"] = timeseries_data[(timeseries_data["Country"] == country) & (timeseries_data["DateYear"] == (year-4))]["TValue"].reset_index(drop = True)
             df_X["lag_5"] = timeseries_data[(timeseries_data["Country"] == country) & (timeseries_data["DateYear"] == (year-5))]["TValue"].reset_index(drop = True)
+            df_X["country"] = 1.0
             return df_X
         ml2_df = X_df(chosen_country, end_year)
-        st.subheader("Lag Features DataFrame (ml2_df)")
+        st.subheader("Country Features DataFrame (ml2_df)")
         st.dataframe(ml2_df)
 
-        ml2_np = ml2_df.to_numpy()
-        st.subheader("Lag Features NumPy Array (ml2_np)")
-        st.write(ml2_np)
-
+        country_array= ml2_df.to_numpy()
+        st.subheader("Country Features NumPy Array (ml2_np)")
+        st.write(country_array)
+        country_shape = country_array.shape
+        st.markdown(country_shape)
 
         # Get weights
         weights_resp = requests.get("http://web-api:4000/diplomats/weights")
@@ -69,37 +71,27 @@ else:
         st.dataframe(weights_df)
         def W_df(country):
           df_W = pd.DataFrame()
-          df_W["country_weight"] = weights_df[(weights_df["feature"] == f"Countries_{country}")]["CountryWeight"].reset_index(drop=True)
           df_W["lag_1"] = weights_df[(weights_df["feature"] == "lag_1")]["CountryWeight"].reset_index(drop=True)
           df_W["lag_2"] = weights_df[(weights_df["feature"] == "lag_2")]["CountryWeight"].reset_index(drop=True)
           df_W["lag_3"] = weights_df[(weights_df["feature"] == "lag_3")]["CountryWeight"].reset_index(drop=True)
           df_W["lag_4"] = weights_df[(weights_df["feature"] == "lag_4")]["CountryWeight"].reset_index(drop=True)
           df_W["lag_5"] = weights_df[(weights_df["feature"] == "lag_5")]["CountryWeight"].reset_index(drop=True)
+          df_W["country_weight"] = weights_df[(weights_df["feature"] == f"Countries_{country}")]["CountryWeight"].reset_index(drop=True)
           return df_W
 
         ml3_df = W_df(chosen_country)
         st.subheader("Weights DataFrame (ml3_df)")
         st.dataframe(ml3_df)
 
-        ml3_np = ml3_df.to_numpy()
+        weight = ml3_df.to_numpy()
         st.subheader("Weights NumPy Array (ml3_np)")
-        st.write(ml3_np)
-        
-        # Remove country_weight for dot product, store it separately
-        country_weight = ml3_df["country_weight"].iloc[0]
-        lag_weights = ml3_df.drop(columns=["country_weight"]).to_numpy().flatten()
-        lag_values = ml2_np.flatten()
-
-        # Compute dot product
-        dot_product = np.dot(lag_values, lag_weights)
-
-        # Final projection
-        projection = dot_product + country_weight
-
-        st.subheader(f"Projected Social Protection Expenditure for {chosen_country} in {end_year}")
-        st.write(round(projection, 2))
+        st.markdown(weight)
+        weight_shape = weight.shape
+        st.write(weight_shape)
 
     
+        dot_product = np.matmul(weight, country_array.T)
+        st.write(dot_product)
   
     except Exception as e:
         st.error(f"Failed to fetch or process data: {str(e)}")
