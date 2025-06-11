@@ -157,6 +157,8 @@ if submit:
         color_continuous_scale="YlOrRd",
         range_color=(0, 100),
         scope="europe",
-        title="Asylum Acceptance Probability by Country"
+        title="Asylum Acceptance Probability by Country",
+        width=1000,   # Set your desired width
+        height=900  
     )
     st.plotly_chart(fig)

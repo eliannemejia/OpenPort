@@ -100,11 +100,11 @@ if type:
         }
         </style>
     """, unsafe_allow_html=True)
-
-
-    idx = 0
-    for app in applications:
     
+    col1, col2, col3 = st.columns(3)
+
+    idx = 1
+    for app in applications:
         uid = app["ApplicantID"]
         name = requests.get(f"{API_URL}/asylum_seekers/{uid}").json()[0]
         fname = name["FirstName"]
@@ -114,22 +114,31 @@ if type:
         dob = applicant_info["DOB"]
         sex = applicant_info["SEX"]
         status = app.get("status", "Pending")
+        
+        if idx % 3 == 0:
+                col = col1
+        elif idx % 3 == 1:
+            col = col2
+        else:
+            col = col3
 
-        with st.container():
-            st.markdown(f"""
-                <div class="custom-card" style="border: 1px solid #ccc; padding: 1em; border-radius: 8px; margin-bottom: 1em;">
-                    <h4>{fname} {lname}</h4>
-                    <p><strong>{description}</strong></p>
-                    <p>DOB: {dob}</p>
-                    <p>Sex: {sex}</p>
-                    <p>Status: {status}</p>
-                </div>
-            """, unsafe_allow_html=True)
+        with col:
+            with st.container():
+                st.markdown(f"""
+                    <div class="custom-card" style="border: 1px solid #ccc; padding: 1em; border-radius: 8px; margin-bottom: 1em;">
+                        <h4>{fname} {lname}</h4>
+                        <p><strong>{description}</strong></p>
+                        <p>DOB: {dob}</p>
+                        <p>Sex: {sex}</p>
+                        <p>Status: {status}</p>
+                    </div>
+                """, unsafe_allow_html=True)
 
-            if st.button(f"Accept Case", key=f"button_{idx}"):
-                lawyer_id = get_lawyer_id()
-                assign_lawyer(applicant_info["ApplicantID"], lawyer_id)
-                st.write(f"You clicked to review {fname} {lname}'s application.")
+                if st.button(f"Accept Case", key=f"button_{idx}"):
+                    lawyer_id = get_lawyer_id()
+                    assign_lawyer(applicant_info["ApplicantID"], lawyer_id)
+                    st.write(f"You clicked to review {fname} {lname}'s application.")
+
         idx += 1
     # Display the grid of cards
     # st.markdown(card_html, unsafe_allow_html=True)
