@@ -252,7 +252,6 @@ if submitted:
             st.error("Please fill in all required fields marked with *")
     else:
         fid = get_applicant_id()
-        st.write(st.session_state.family_members)
         add_family(fid, st.session_state.family_members)
         submission = submit_application(aid_type)
         if submission:

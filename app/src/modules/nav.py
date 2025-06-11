@@ -20,8 +20,8 @@ def HistTrends():
 def ProBonoOpps():
     st.sidebar.page_link("pages/11_Pro_Bono_Opps.py", label="See Pro Bono Opportunities", icon="🙏🏽")
     
-def ReligDemographics():
-    st.sidebar.page_link("pages/04_Religious_Demo.py", label="See Religious Demographics", icon="📊")
+def DecisionStats():
+    st.sidebar.page_link("pages/11_Decision_Stats.py", label="See Decision Stats", icon="📊")
     
 def LegalAidHome():
     st.sidebar.page_link("pages/02_Legal_Aid_App.py", label="Seek Legal Aid", icon="👨🏽‍⚖️")
@@ -150,9 +150,8 @@ def SideBarLinks(show_home=False):
             DiplomatNav()
             
         if st.session_state["role"] == "lawyer":
-            HistTrends()
             ProBonoOpps()
-            ReligDemographics()
+            DecisionStats()
     
     # Always show the About page at the bottom of the list of links
     AboutPageNav()

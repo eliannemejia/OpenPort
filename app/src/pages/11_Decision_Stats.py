@@ -1,20 +1,19 @@
 import logging
 logger = logging.getLogger(__name__)
+
 import pandas as pd
-import streamlit as st
-from streamlit_extras.app_logo import add_logo
-import world_bank_data as wb
-import matplotlib.pyplot as plt
-import numpy as np
-import plotly.express as px
-import streamlit as st
 import requests
+import streamlit as st
 from modules.nav import SideBarLinks
+from streamlit_extras.card import card
+import plotly.express as px
 
-# Call the SideBarLinks from the nav module in the modules directory
+st.set_page_config(layout = 'wide')
+
+API_URL = "http://web-api:4000/lawyers"
+
+# Show appropriate sidebar links for the role of the currently logged in user
 SideBarLinks()
-
-API_URL = "http://web-api:4000/refugees"
 
 def get_age_range(age):
     if age >= 65:
@@ -28,27 +27,12 @@ def get_age_range(age):
     if (age < 14):
         return f"Less than 14 years"
     
-def get_top_three(sex, citizen, age):
+def get_average_acceptance_rates(sex, citizen, age):
     age_range = get_age_range(age)
-    url = f"{API_URL}/application_stats?sex={sex}&citizen={citizen}&age={age_range}"
+    url = f"http://web-api:4000/refugees/application_stats?sex={sex}&citizen={citizen}&age={age_range}"
     
     response = requests.get(url)
     return response.json()
-    
-def get_probability(age, sex, citizen, geo):
-    age_range = get_age_range(age)
-    c_name = geo
-    prob_url = f"{API_URL}/final_prediction/{age_range}/{sex}/{citizen}/{c_name}"
-    
-    response = requests.get(prob_url)
-    return response.json()
-
-def show_probability(age, sex, citizen, geo):
-    acceptance_prob = get_probability(age, sex, citizen, geo) * 100
-    st.write(f"**Proability of Acceptance**: {acceptance_prob}")
-
-def get_button(country, idx, age, sex, origin):
-    return st.button(f"{idx}." + country["geo"])
     
 def get_country_list():
     countries_url = "http://web-api:4000/countries/countries"
@@ -60,55 +44,52 @@ def get_country_list():
     return countries
 
 # set the header of the page
-st.header('Asylum Acceptance Probability')
-
-col1, col2 = st.columns(2)
+st.header('Average Acceptance Rates for selected age, sex, and nationality')
+st.write("### Select a Refugee Demographic")
+col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.write("### Enter Your Details")
-
     origin = st.selectbox(
         "Country of Origin",
-        get_country_list(),
+        get_country_list()[27:95],
         index=None,
         placeholder="Select a Country",
         key="origin"
     )
-
-    sex = st.radio(
-        "Sex", 
+with col2:
+    sex = st.selectbox(
+        "Sex",
         ["Males", "Females"],
-        key="applicant_sex"
-        )
-
+        index=None,
+        placeholder="Select a Sex",
+        key="sex"
+    )
+with col3:
     age = st.number_input("Age", 0, 150)
 
     submit = st.button("Submit")
-    
-no_one = None
 
-with col2:
-    if submit:
-        st.write("## Top Three Countries with the Highest Probability of Acceptance for your age, sex, and nationality")
+if submit:
 
         countries = get_country_list()
 
         euCountries = countries[0:27]
         idx = 1
         acceptance_prob_list = []
+        countries = []
+        avgs = get_average_acceptance_rates(sex, origin, age)
 
-        for country in euCountries:
-            acceptance_prob = get_probability(age, sex, origin, country)
-            acceptance_prob_list.append(round(acceptance_prob*100, 1))
+        for entry in avgs:
+            geo = entry["geo"]
+            acceptance_rate = float(entry["acceptance_rate"])
+            countries.append(geo)
+            acceptance_prob_list.append(round(acceptance_rate*100, 1))
             idx += 1
         
-        countriesAndProb = zip(euCountries, acceptance_prob_list)
+        countriesAndProb = zip(countries, acceptance_prob_list)
         df = pd.DataFrame(countriesAndProb, columns=["Country", "Probability of Acceptance"])
         df = df.sort_values(by='Probability of Acceptance', ascending=False)
-        finalDf = df.head(3)
-
-        for index, row in finalDf.iterrows():
-            st.markdown(f"**Country:** {row['Country']}  \n**Probability of Acceptance:** {row['Probability of Acceptance']}%")
+      
  
 
 if submit:
@@ -157,8 +138,8 @@ if submit:
         color_continuous_scale="YlOrRd",
         range_color=(0, 100),
         scope="europe",
-        title="Asylum Acceptance Probability by Country",
-        width=1000,   # Set your desired width
-        height=900  
+        title="Asylum Acceptance Rate by Country",
+        width=1500,
+        height=1500
     )
     st.plotly_chart(fig)
