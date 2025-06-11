@@ -64,8 +64,8 @@ def create_seeker(uid, dob, sex, current_loc, origin):
     return response.json()
 
 def add_family_member(fid, member):
-    add_family_url = f"{API_URL}/legal_aid_application/family/{fid}"
-    
+    family_id = fid["ApplicantID"]
+    add_family_url = f"{API_URL}/legal_aid_application/family/{family_id}"
     try:
         response = requests.post(add_family_url, json=member)
         if response.status_code == 201:
@@ -76,6 +76,7 @@ def add_family_member(fid, member):
                 f"Failed to create FamilyMember: {response.json().get('error', 'Unknown error')}"
             )
     except requests.exceptions.RequestException as e:
+            st.write("IN ADD FAMILY MEMBER")
             st.error(f"Error connecting to the API: {str(e)}")
             st.info("Please ensure the API server is running")
 
@@ -239,10 +240,7 @@ aid_type = st.radio(
 
 if aid_type == "Other":
     aid_type = st.text_input("Enter desired aid topic", "")
-    
-headshot = st.file_uploader("Upload a Headshot", type=["jpg", "jpeg", "png"])
-if headshot:
-    st.image(headshot)
+
                 
 submitted = st.button("Submit")
 
@@ -262,3 +260,16 @@ if st.session_state.family_members:
     st.write("#### Family Members Added:")
     for idx, member in enumerate(st.session_state.family_members, start=1):
         st.markdown(f"**{idx}.** {member['FirstName']} {member['LastName']} from {member['Citizenship']}")
+
+st.markdown("""
+    <style>
+    div.stButton > button {
+        background-color: #0C406E;
+        color: white;
+    }
+    div.stButton > button:hover {
+        background-color: #FFFFFF;
+        color: #0C406E;
+    }
+    </style>
+    """, unsafe_allow_html=True)

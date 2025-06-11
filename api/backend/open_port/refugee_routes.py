@@ -116,9 +116,9 @@ def get_lawyer_assignment(aid):
    
     
 @refugees.route("/application_stats", methods=["GET"])
-def get_top_three():
+def get_average_acceptance_rates():
     try:
-        current_app.logger.info('Starting get_all_countries request')
+        current_app.logger.info('Starting get_average_acceptance_rates request')
         cursor = db.get_db().cursor()
 
         geo = request.args.get("geo")
@@ -141,7 +141,6 @@ def get_top_three():
             params.append(age)
         
         query += " ORDER BY acceptance_rate DESC"
-        query += " LIMIT 3"
         
         cursor.execute(query, params)
         top_three = cursor.fetchall()
@@ -355,6 +354,7 @@ def get_all_seekers():
 
 @refugees.route("/legal_aid_application/family/<int:fid>", methods=["POST"])
 def add_family_member(fid):
+    current_app.logger.info('Starting add_family member request')
     try:
         data = request.get_json()
         required_fields = ["DOB", "SEX", "FirstName", "LastName"]
@@ -365,6 +365,17 @@ def add_family_member(fid):
                 return jsonify({"error": f"Missing required field: {field}"}), 400
         
         cursor = db.get_db().cursor()
+
+        citizenship = data["Citizenship"]
+        query = f"SELECT CountryID FROM Country WHERE CountryName = '{citizenship}'"
+        
+        cursor.execute(query)
+        cit = cursor.fetchone()
+        
+        current_loc = data["CurrentLocation"]
+        query = f"SELECT CountryID FROM Country WHERE CountryName = '{current_loc}'"
+        cursor.execute(query)
+        cur = cursor.fetchone()
         
         query = """
         INSERT INTO FamilyMember (FamilyID, DOB, SEX, FirstName, LastName)
@@ -378,7 +389,7 @@ def add_family_member(fid):
                 data["DOB"],
                 data["SEX"],
                 data["FirstName"],
-                data["LastName"],
+                data["LastName"]
             ),
         )
         

@@ -16,14 +16,23 @@ SideBarLinks()
 API_URL = "http://web-api:4000/diplomats/accepted_applications" 
 
 # set the header of the page
-st.header('Acceptance Rate of Countries per cCptia')
+st.header('Acceptance Rate of Countries per Capita')
 
 # You can access the session state to make a more customized/personalized app experience
 #st.write(f"### Hi, {st.session_state['first_name']}.")
 
-# Load countries
-df = pd.read_csv("assets/list_of_countries.csv")
-countries = sorted(df["Country"].dropna().unique())
+
+def get_country_list():
+    countries_url = "http://web-api:4000/countries/countries"
+    countries_get = requests.get(countries_url).json()
+    countries = []
+    for entry in countries_get:
+        name = entry["CountryName"]
+        countries.append(name)
+    
+    return countries
+
+countries = get_country_list()
 
 # Button options to choose view
 col1, col2, col3 = st.columns(3)
@@ -91,6 +100,7 @@ if selection:
             x='CountryName',
             y='NormAcceptance',
             title=f"{selection.capitalize()} Countries by Accepted Applications per Capita",
+            color_discrete_sequence=['#0C406E'],
             labels={'CountryName': 'Country', 'NormAcceptance': 'Number of Accepted Applications'}
         )
         fig.update_layout(xaxis_tickangle=-45)
@@ -103,3 +113,16 @@ if selection:
             st.markdown(f"- {country}")
 else:
     st.info("Click a button to view top 10, bottom 10, or all countries.")
+
+st.markdown("""
+    <style>
+    div.stButton > button {
+        background-color: #0C406E;
+        color: white;
+    }
+    div.stButton > button:hover {
+        background-color: #FFFFFF;
+        color: #0C406E;
+    }
+    </style>
+    """, unsafe_allow_html=True)

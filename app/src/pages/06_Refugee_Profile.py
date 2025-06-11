@@ -34,7 +34,6 @@ def get_applications():
     url = f"{API_URL}/legal_aid_applications/{applicant_id}"
     try:
         applications = requests.get(url)
-        st.write(applications)
         if applications.status_code != 200:
             st.error(
                 f"Failed to create AsylumSeeker: {applications.json().get('error', 'Unknown error')}"
@@ -50,7 +49,6 @@ def get_family():
     url = f"{API_URL}/family/{applicant_id}"
     try:
         family = requests.get(url)
-        st.write(family)
         if family.status_code != 200:
             st.error(
                 f"Failed to create AsylumSeeker: {family.json().get('error', 'Unknown error')}"
@@ -83,27 +81,35 @@ if applications:
         st.markdown(f"""
         **Application {idx}**
         - **Description**: {app.get("AidDescription")}
-        - **Status**: {app.get("status", "Pending")}
-        ---
+        - **Submission Date**: {app.get("SubmissionDate")}
         """)
 else:
     st.write("No Open Applications At This Time")
-    
+
+st.markdown("---")
 st.write("### Family Members")
 family_members = get_family()
+
 if family_members:
-    st.write(family_members)
+    for member in family_members:
+        st.markdown(f"""
+        - **Name**: {member.get("FirstName")} {member.get("LastName")}
+        """)
 else:
     st.write("No Registered Family At This Time")
 
-st.write("### Lawyer Assignment \n **Assigned Lawyer**")
+st.markdown("---")
+st.write("### Lawyer Assignment")
 lawyer = get_lawyer_assignment()
-if lawyer:
-    st.markdown(f"""
-    - **Name**: {lawyer.get("FirstName", "")} {lawyer.get("LastName", "")}
-    """)
+if hasattr(lawyer, "message"):
+     st.markdown("No Lawyer Assignments At This Time")
 else:
-    st.markdown("No Lawyer Assignments At This Time")
+    st.markdown(f"""
+     - **Name**: {lawyer.get("FirstName")} {lawyer.get("LastName")}
+     - **Email**: {lawyer.get("Email")}
+     - **Nationality**: {lawyer.get("Nationality")}
+     - **Specialization**: {lawyer.get("Sepcialization")}
+     """)
 
 # type = st.selectbox(
 #         "Aid Type",

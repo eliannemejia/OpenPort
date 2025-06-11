@@ -19,7 +19,7 @@ if st.button('Find Countries with the most rejected cases to aid',
              use_container_width=True):
   st.switch_page('pages/21_pending_to_aid.py')
 
-if st.button('Find low-acceptance countries', 
+if st.button('See Decision Stats Per Capita', 
              type='primary',
              use_container_width=True):
   st.switch_page('pages/22_Low_Acpt.py')

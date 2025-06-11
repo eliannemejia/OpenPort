@@ -19,15 +19,10 @@ if st.button('Find Your Best Asylum Location',
              use_container_width=True):
   st.switch_page('pages/01_App_Prob_Stats.py')
 
-if st.button('See Education Data', 
+if st.button('See Country Demographics', 
              type='primary',
              use_container_width=True):
-  st.switch_page('pages/03_Education_Data.py')
-  
-if st.button('See Religious Demographics', 
-             type='primary',
-             use_container_width=True):
-  st.switch_page('pages/04_Religious_Demo.py')
+  st.switch_page('pages/03_Country_Demographics.py')
   
 if st.button('Seek Legal Aid', 
              type='primary',

@@ -10,7 +10,7 @@ from modules.nav import SideBarLinks
 SideBarLinks()
 
 # add the logo
-add_logo("assets/logo.png", height=400)
+add_logo("assets/logo.png", height=1200)
 
 # set up the page
 st.markdown("# Mapping Demo")
