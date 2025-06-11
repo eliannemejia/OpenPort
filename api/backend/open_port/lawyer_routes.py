@@ -197,6 +197,61 @@ def get_lawyer_by_user_id(uid):
         current_app.logger.error(f'Database error in get_lawyer_by_user_id: {str(e)}')
         return jsonify({"error": str(e)}), 500
     
+@lawyers.route("/fundreq", methods=["POST"])
+def make_request():
+    try:
+        data = request.get_json()
+
+        title = data.get("FundRequestTitle")
+        desc = data.get("FundDesc")
+        amount = data.get("FundAmt")
+        email = data.get("LawyerEmail")
+
+        if not all([title, desc, amount, email]):
+            return jsonify({"error": "Missing required fields"}), 400
+
+        cursor = db.get_db().cursor()
+        query = """
+            INSERT INTO FundApp (FundRequestTitle, FundDesc, FundAmt, LawyerEmail)
+            VALUES (%s, %s, %s, %s)
+        """
+        cursor.execute(query, (title, desc, amount, email))
+        db.get_db().commit()
+        
+        app_id = cursor.lastrowid
+        cursor.close()
+
+        return jsonify({"message": "Funding request submitted successfully", "AppID": app_id}), 201
+
+    except Error as e:
+        return jsonify({"error": str(e)}), 500
+
+    
+@lawyers.route("/fundreq/<int:AppID>", methods=["GET"])
+def get_fund_request(AppID):
+    try:
+        current_app.logger.info(f"Fetching fund request {AppID}")
+        cursor = db.get_db().cursor()
+
+        query = """
+            SELECT AppID, FundRequestTitle, FundDesc, FundAmt, 
+                   LawyerEmail, FundStatus
+            FROM FundApp
+            WHERE AppID = %s
+        """
+        cursor.execute(query, (AppID,))
+        record = cursor.fetchone()
+        cursor.close()
+
+        if not record:
+            return jsonify({"error": "Request not found"}), 404
+
+        return jsonify(record), 200
+
+    except Error as e:
+        current_app.logger.error(f"DB error in get_fund_request: {str(e)}")
+        return jsonify({"error": str(e)}), 500
+
     
     
     
