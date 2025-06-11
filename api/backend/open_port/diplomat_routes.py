@@ -330,3 +330,59 @@ def get_weights():
     except Error as e:
         current_app.logger.error(f'Database error in get_weights: {str(e)}')
         return jsonify({"error": str(e)}), 500
+
+@diplomats.route("/fund_requests", methods=["GET"])
+def get_pending_fund_requests():
+    """Get all pending fund requests for diplomats to review."""
+    try:
+        current_app.logger.info("Fetching all pending fund requests")
+        cursor = db.get_db().cursor()
+
+        query = """
+            SELECT AppID, FundRequestTitle, FundDesc, FundAmt, LawyerEmail, FundStatus
+            FROM FundApp
+            WHERE FundStatus = 'Pending'
+        """
+
+        cursor.execute(query)
+        results = cursor.fetchall()
+        cursor.close()
+
+        current_app.logger.info(f"Retrieved {len(results)} pending fund requests")
+        return jsonify(results), 200
+
+    except Error as e:
+        current_app.logger.error(f"Database error in get_pending_fund_requests: {str(e)}")
+        return jsonify({"error": str(e)}), 500
+
+
+@diplomats.route("/fund_requests/<int:app_id>", methods=["PUT"])
+def update_fund_status(app_id):
+    """Update the FundStatus of a specific fund request (by AppID)."""
+    try:
+        data = request.get_json()
+        new_status = data.get("FundStatus")
+
+        if new_status not in ["Accepted", "Rejected"]:
+            return jsonify({"error": "Invalid FundStatus. Must be 'Accepted' or 'Rejected'."}), 400
+
+        cursor = db.get_db().cursor()
+
+        update_query = """
+            UPDATE FundApp
+            SET FundStatus = %s
+            WHERE AppID = %s
+        """
+        cursor.execute(update_query, (new_status, app_id))
+
+        if cursor.rowcount == 0:
+            return jsonify({"error": "Fund request not found"}), 404
+
+        db.get_db().commit()
+        cursor.close()
+
+        return jsonify({"message": f"Fund request {app_id} status updated to '{new_status}'"}), 200
+
+    except Error as e:
+        current_app.logger.error(f"Database error in update_fund_status: {str(e)}")
+        return jsonify({"error": str(e)}), 500
