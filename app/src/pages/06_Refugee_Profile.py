@@ -45,6 +45,22 @@ def get_applications():
     
     return applications.json()
 
+def get_family():
+    applicant_id = get_applicant_id()["ApplicantID"]
+    url = f"{API_URL}/family/{applicant_id}"
+    try:
+        family = requests.get(url)
+        st.write(family)
+        if family.status_code != 200:
+            st.error(
+                f"Failed to create AsylumSeeker: {family.json().get('error', 'Unknown error')}"
+            )
+    except requests.exceptions.RequestException as e:
+            st.error(f"Error connecting to the API: {str(e)}")
+            st.info("Please ensure the API server is running")
+    
+    return family.json()
+
 
 def get_lawyer_assignment():
     applicant_id = get_applicant_id()["ApplicantID"]
@@ -66,6 +82,13 @@ if applications:
     st.write(applications)
 else:
     st.write("No Open Applications At This Time")
+    
+st.write("### Family Members")
+family_members = get_family()
+if family_members:
+    st.write(family_members)
+else:
+    st.write("No Registered Family At This Time")
 
 st.write("### Lawyer Assignment ")
 lawyer = get_lawyer_assignment()
