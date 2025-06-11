@@ -240,10 +240,7 @@ aid_type = st.radio(
 
 if aid_type == "Other":
     aid_type = st.text_input("Enter desired aid topic", "")
-    
-headshot = st.file_uploader("Upload a Headshot", type=["jpg", "jpeg", "png"])
-if headshot:
-    st.image(headshot)
+
                 
 submitted = st.button("Submit")
 

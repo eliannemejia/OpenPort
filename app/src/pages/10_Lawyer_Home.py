@@ -14,10 +14,6 @@ st.write('')
 st.write('')
 st.write('### What would you like to do today?')
 
-if st.button('View Historial Trends', 
-             type='primary',
-             use_container_width=True):
-  st.switch_page('pages/01_World_Bank_Viz.py')
 
 if st.button('See Pro Bono Opportunities', 
              type='primary',
@@ -27,5 +23,5 @@ if st.button('See Pro Bono Opportunities',
 if st.button('See Decision Statistics', 
              type='primary',
              use_container_width=True):
-  st.switch_page('pages/02_Map_Demo.py')
+  st.switch_page('pages/11_Decision_Stats.py')
   
