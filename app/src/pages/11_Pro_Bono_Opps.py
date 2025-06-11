@@ -14,24 +14,19 @@ API_URL = "http://web-api:4000/lawyers"
 SideBarLinks()
 
 def assign_lawyer(refugee_id, lawyer_id):
-    url = f"{API_URL}/legal_aid_applications/{refugee_id}?AssignedLawyer={lawyer_id}"
+    url = f"{API_URL}/legal_aid_applications/{refugee_id}"
     lawyer_info = {
-        "AssignedLawyer": lawyer_id
+        "AssignedLawyer": lawyer_id["LawyerID"]
     }
-    st.write(f"URL: {url}")
-    st.write(f"refugee: {refugee_id}")
-    st.write(f"lawyer: {lawyer_id}")
     
-    st.write("IN ASSIGN LAWYER")
     try:
-        response = requests.put(url)
-        if response.status_code == 201:
+        response = requests.put(url, json=lawyer_info)
+        if response.status_code == 200:
                 st.success("Lawyer Assigned Successfully!")
         else:
             st.write(response.json())
-            st.write("RESPONE")
             st.error(
-                f"Failed to create AsylumSeeker: {response.json().get('error', 'Unknown error')}"
+                f"Failed to update AsylumSeeker: {response.json().get('error', 'Unknown error')}"
             )
     except requests.exceptions.RequestException as e:
             st.error(f"Error connecting to the API: {str(e)}")
@@ -43,9 +38,7 @@ def get_lawyer_id():
     url = f"{API_URL}/lawyers/{user_id}"
     try:
         response = requests.get(url)
-        if response.status_code == 201:
-                st.success(f"LawyerID {response} Retreived Successfully!")
-        else:
+        if response.status_code != 200:
             st.error(
                 f"Failed to create AsylumSeeker: {response.json().get('error', 'Unknown error')}"
             )
@@ -108,34 +101,7 @@ if type:
         </style>
     """, unsafe_allow_html=True)
 
-    # Build HTML from application data
-    # card_html = '<div class="card-grid">'
-    # for app in applications:
-    #     card_html = '<div class="card-grid" on-click=>'
-    #     uid = app["ApplicantID"]
-    #     name = requests.get(f"{API_URL}/asylum_seekers/{uid}").json()
-    #     name = name[0]
-    #     fname = name["FirstName"]
-    #     lname = name["LastName"]
-    #     description = app["AidDescription"]
-    #     applicant_info = requests.get(f"{API_URL}/seeker_info/{uid}").json()[0]
-    #     dob = applicant_info["DOB"]
-    #     sex = applicant_info["SEX"]
-    #     status = app.get("status", "Pending")
 
-    #     card_html += f"""
-    #         <div class="custom-card">
-    #             <h4>{fname} {lname}</h4>
-    #             <p><strong>{description}</strong></p>
-    #             <p>DOB: {dob}</p>
-    #             <p>Sex: {sex}<p>
-    #         </div>
-    #     """
-        
-    #     card_html += '</div>'
-    #     st.markdown(card_html, unsafe_allow_html=True)
-
-    #     # card_html += '</div>'
     idx = 0
     for app in applications:
     
@@ -162,7 +128,6 @@ if type:
 
             if st.button(f"Accept Case", key=f"button_{idx}"):
                 lawyer_id = get_lawyer_id()
-                st.write(lawyer_id)
                 assign_lawyer(applicant_info["ApplicantID"], lawyer_id)
                 st.write(f"You clicked to review {fname} {lname}'s application.")
         idx += 1

@@ -97,52 +97,86 @@ def get_seeker_info(uid):
         current_app.logger.error(f'Database error in get_all_seekers: {str(e)}')
         return jsonify({"error": str(e)}), 500
     
-@lawyers.route("/legal_aid_applications/<aid>", methods = ["PUT"])
+# @lawyers.route("/legal_aid_applications/<aid>", methods = ["PUT"])
+# def assign_lawyer(aid):
+#     try:
+#         current_app.logger.info('Starting assign_lawywer request')
+#         data = request.get_json()
+#         current_app.logger.info(f'Data: {data}')
+#         cursor = db.get_db().cursor()
+        
+#         lawyer = request.args.get("AssignedLawyer")
+#         current_app.logger.info(f'Lawyer: {lawyer}')
+
+#         query = f"SELECT * FROM AsylumSeeker WHERE ApplicantID = {aid}"
+    
+#         current_app.logger.debug(f'Executing query: {query}')
+#         cursor.execute(query)
+#         asylum_seeker = cursor.fetchone()
+#         if not asylum_seeker:
+#              return jsonify({"error": "AsylumSeeker not found"}), 404
+         
+#         current_app.logger.info(f'AsylumSeeker Found: {asylum_seeker}')
+         
+#         update_fields = []
+#         params = []
+#         allowed_fields = ["AssignedLawyer"]
+        
+#         for field in allowed_fields:
+#             current_app.logger.info(f'Field: {field}')
+#             if field in data:
+#                 update_fields.append(f"{field} = %s")
+#                 params.append(data[field])
+                
+#         if not update_fields:
+#              return jsonify({"error": "No valid fields to update"}), 400
+         
+#         params.append(aid)
+#         query = f"UPDATE AsylumSeeker SET {', '.join(update_fields)} WHERE ApplicantID = %s"
+
+#         cursor.execute(query, params)
+#         db.get_db().commit()
+#         cursor.close()
+
+#         current_app.logger.info(f'Successfully retrieved user {aid} name')
+#         return jsonify({"message": "AsylumSeeker updated successfully"}), 200
+#     except Error as e:
+#         current_app.logger.error(f'Database error in get_all_seekers: {str(e)}')
+#         return jsonify({"error": str(e)}), 500
+
+@lawyers.route("/legal_aid_applications/<aid>", methods=["PUT"])
 def assign_lawyer(aid):
     try:
-        current_app.logger.info('Starting assign_lawywer request')
+        current_app.logger.info("Starting assign_lawyer request")
         data = request.get_json()
-        current_app.logger.info(f'Data: {data}')
-        cursor = db.get_db().cursor()
-        
-        lawyer = request.args.get("AssignedLawyer")
-        current_app.logger.info(f'Lawyer: {lawyer}')
+        current_app.logger.info(f"Data received: {data}")
 
-        query = f"SELECT * FROM AsylumSeeker WHERE ApplicantID = {aid}"
-    
-        current_app.logger.debug(f'Executing query: {query}')
-        cursor.execute(query)
+        lawyer = data.get("AssignedLawyer")
+        if not lawyer:
+            return jsonify({"error": "AssignedLawyer is required"}), 400
+
+        cursor = db.get_db().cursor()
+
+        # Check if the asylum seeker exists
+        query = "SELECT * FROM AsylumSeeker WHERE ApplicantID = %s"
+        cursor.execute(query, (aid,))
         asylum_seeker = cursor.fetchone()
         if not asylum_seeker:
-             return jsonify({"error": "AsylumSeeker not found"}), 404
-         
-        current_app.logger.info(f'AsylumSeeker Found: {asylum_seeker}')
-         
-        update_fields = []
-        params = []
-        allowed_fields = ["AssignedLawyer"]
-        
-        for field in allowed_fields:
-            current_app.logger.info(f'Field: {field}')
-            if field in data:
-                update_fields.append(f"{field} = %s")
-                params.append(data[field])
-                
-        if not update_fields:
-             return jsonify({"error": "No valid fields to update"}), 400
-         
-        params.append(aid)
-        query = f"UPDATE AsylumSeeker SET {', '.join(update_fields)} WHERE ApplicantID = %s"
+            return jsonify({"error": "AsylumSeeker not found"}), 404
 
-        cursor.execute(query, params)
+        # Update the assigned lawyer
+        update_query = "UPDATE AsylumSeeker SET AssignedLawyer = %s WHERE ApplicantID = %s"
+        cursor.execute(update_query, (lawyer, aid))
         db.get_db().commit()
         cursor.close()
 
-        current_app.logger.info(f'Successfully retrieved user {aid} name')
+        current_app.logger.info(f"Successfully assigned lawyer {lawyer} to seeker {aid}")
         return jsonify({"message": "AsylumSeeker updated successfully"}), 200
-    except Error as e:
-        current_app.logger.error(f'Database error in get_all_seekers: {str(e)}')
+
+    except Exception as e:
+        current_app.logger.error(f"Error in assign_lawyer: {str(e)}")
         return jsonify({"error": str(e)}), 500
+
     
 @lawyers.route("/lawyers/<int:uid>", methods = ["GET"])
 def get_lawyer_by_user_id(uid):

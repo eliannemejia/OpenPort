@@ -126,7 +126,6 @@ if selected_user_name:
         full_name_email = f"{user['FirstName']} {user['LastName']} ({user['Email']})"
         if full_name_email == selected_user_name:
             selected_user = user
-            st.write(f"FULL NAME EMAIL: {full_name_email}")
             st.session_state['user_id'] = selected_user['UserID']
             break
 
