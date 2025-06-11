@@ -123,6 +123,15 @@ CREATE TABLE IF NOT EXISTS AidProject (
   FOREIGN KEY (CountryID) REFERENCES Country(CountryID)
 );
 
+CREATE TABLE FundApp (
+    AppID INT AUTO_INCREMENT PRIMARY KEY,
+    FundRequestTitle VARCHAR(255),
+    FundDesc VARCHAR(255),
+    FundAmt DECIMAL(10, 2),
+    LawyerEmail VARCHAR(255),
+    FundStatus ENUM('Pending', 'Accepted', 'Rejected') DEFAULT 'Pending'
+);
+
 INSERT Into Religion (ReligionName)
 VALUES
 ('Buddhism'),
@@ -3191,3 +3200,10 @@ INSERT INTO LegalAidApplication(ApplicationID,ApplicantID,AidDescription,Submiss
 INSERT INTO LegalAidApplication(ApplicationID,ApplicantID,AidDescription,SubmissionDate) VALUES (498,498,'Family Reuinification','2009-08-25');
 INSERT INTO LegalAidApplication(ApplicationID,ApplicantID,AidDescription,SubmissionDate) VALUES (499,499,'Asylum Application','2021-05-09');
 INSERT INTO LegalAidApplication(ApplicationID,ApplicantID,AidDescription,SubmissionDate) VALUES (500,500,'Citizenship Application','2002-12-08');
+
+
+
+INSERT INTO FundApp(FundRequestTitle, FundDesc,FundAmt,LawyerEmail)
+VALUES
+('first request','first desc', 123232.23, 'email@email.com','Pending'),
+('second request','second desc', 324235, 'email@email.com','Accepted');
