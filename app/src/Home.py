@@ -42,7 +42,7 @@ with center:
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>Find Your Safe Haven</h3>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
-    st.markdown("<h4 style='text-align: center;'>HI! As which user would you like to log in?</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center;'> Which user would you like to log in?</h4>", unsafe_allow_html=True)
 
 # Close the div
 st.markdown('</div>', unsafe_allow_html=True)
@@ -174,8 +174,18 @@ with col6:
         st.session_state['first_name'] = 'Eric'
         st.switch_page('pages/20_Commissioner_Home.py')
         
-    
-        
+st.markdown("""
+    <style>
+    div.stButton > button {
+        background-color: #0C406E;
+        color: white;
+    }
+    div.stButton > button:hover {
+        background-color: #FFFFFF;
+        color: #0C406E;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
     
 
