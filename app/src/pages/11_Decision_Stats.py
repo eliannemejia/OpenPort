@@ -56,6 +56,8 @@ with col1:
         placeholder="Select a Country",
         key="origin"
     )
+    submit = st.button("Submit")
+
 with col2:
     sex = st.selectbox(
         "Sex",
@@ -66,8 +68,6 @@ with col2:
     )
 with col3:
     age = st.number_input("Age", 0, 150)
-
-    submit = st.button("Submit")
 
 if submit:
 
@@ -143,3 +143,16 @@ if submit:
         height=1500
     )
     st.plotly_chart(fig)
+
+st.markdown("""
+    <style>
+    div.stButton > button {
+        background-color: #0C406E;
+        color: white;
+    }
+    div.stButton > button:hover {
+        background-color: #FFFFFF;
+        color: #0C406E;
+    }
+    </style>
+    """, unsafe_allow_html=True)

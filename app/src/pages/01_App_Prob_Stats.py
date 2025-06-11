@@ -62,7 +62,7 @@ def get_country_list():
 # set the header of the page
 st.header('Asylum Acceptance Probability')
 
-col1, col2 = st.columns(2)
+col1, col2 = st.columns(2, gap="large")
 
 with col1:
     st.write("### Enter Your Details")
@@ -163,3 +163,16 @@ if submit:
         height=900  
     )
     st.plotly_chart(fig)
+
+st.markdown("""
+    <style>
+    div.stButton > button {
+        background-color: #0C406E;
+        color: white;
+    }
+    div.stButton > button:hover {
+        background-color: #FFFFFF;
+        color: #0C406E;
+    }
+    </style>
+    """, unsafe_allow_html=True)

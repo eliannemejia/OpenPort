@@ -82,11 +82,11 @@ if applications:
         **Application {idx}**
         - **Description**: {app.get("AidDescription")}
         - **Submission Date**: {app.get("SubmissionDate")}
-        ---
         """)
 else:
     st.write("No Open Applications At This Time")
-    
+
+st.markdown("---")
 st.write("### Family Members")
 family_members = get_family()
 
@@ -98,6 +98,7 @@ if family_members:
 else:
     st.write("No Registered Family At This Time")
 
+st.markdown("---")
 st.write("### Lawyer Assignment")
 lawyer = get_lawyer_assignment()
 if hasattr(lawyer, "message"):

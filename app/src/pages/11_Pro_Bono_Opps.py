@@ -142,3 +142,16 @@ if type:
         idx += 1
     # Display the grid of cards
     # st.markdown(card_html, unsafe_allow_html=True)
+
+st.markdown("""
+    <style>
+    div.stButton > button {
+        background-color: #0C406E;
+        color: white;
+    }
+    div.stButton > button:hover {
+        background-color: #FFFFFF;
+        color: #0C406E;
+    }
+    </style>
+    """, unsafe_allow_html=True)
