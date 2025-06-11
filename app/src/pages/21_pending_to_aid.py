@@ -1,58 +1,109 @@
-import logging
-logger = logging.getLogger(__name__)
-import pandas as pd
 import streamlit as st
-from streamlit_extras.app_logo import add_logo
-import world_bank_data as wb
-import matplotlib.pyplot as plt
-import numpy as np
-import plotly.express as px
+import requests
 from modules.nav import SideBarLinks
 
-# Call the SideBarLinks from the nav module in the modules directory
+st.set_page_config(layout='wide')
+
+# Sidebar navigation
 SideBarLinks()
 
-# set the header of the page
-st.header('Rejected Cases to aid ratio')
+st.header("Review Pending Aid Applications")
 
-# You can access the session state to make a more customized/personalized app experience
-#st.write(f"### Hi, {st.session_state['first_name']}.")
-st.write("not done, fix api")
+API_URL = "http://web-api:4000/fund_requests"
 
-# Load countries
-df = pd.read_csv("assets/list_of_countries.csv")
-countries = sorted(df["Country"].dropna().unique())
+def fetch_pending_requests():
+    try:
+        response = requests.get(API_URL)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            st.error(f"Failed to fetch pending requests: {response.text}")
+            return []
+    except requests.exceptions.RequestException as e:
+        st.error(f"Error connecting to the API: {e}")
+        return []
 
-# Random x and y placeholder data
-np.random.seed(42)
-placeholder_data = pd.DataFrame({
-    "Country": countries,
-    "x": np.random.rand(len(countries)) * 100,
-    "y": np.random.rand(len(countries)) * 100
-})
+def update_fund_status(app_id, new_status):
+    url = f"{API_URL}/{app_id}"
+    payload = {"FundStatus": new_status}
+    try:
+        response = requests.put(url, json=payload)
+        if response.status_code == 200:
+            st.success(f"Request {app_id} updated to '{new_status}'")
+            return True
+        else:
+            st.error(f"Failed to update: {response.json().get('error', 'Unknown error')}")
+            return False
+    except requests.exceptions.RequestException as e:
+        st.error(f"Error connecting to the API: {e}")
+        return False
 
-# Create a dropdown (multi-select) for country names
-selected_countries = st.multiselect(
-    'Select up to 10 countries to plot:',
-    options=countries,
-    default=countries[:10],  # default to first 10
-    max_selections=10
-)
+pending_requests = fetch_pending_requests()
 
-# Filter placeholder data to selected countries
-scatter_data = placeholder_data[placeholder_data["Country"].isin(selected_countries)]
-
-# Plot
-if not scatter_data.empty:
-    fig = px.scatter(
-        scatter_data,
-        x='x',
-        y='y',
-        text='Country',
-        title='Scatter Plot of Selected Countries (Random Data)',
-        labels={'x': 'X Axis (placeholder)', 'y': 'Y Axis (placeholder)'}
-    )
-    fig.update_traces(textposition='top center')
-    st.plotly_chart(fig)
+if not pending_requests:
+    st.info("No pending funding requests to review.")
 else:
-    st.warning("Please select at least one country to generate the plot.")
+    st.markdown("""
+        <style>
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .custom-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 16px;
+        }
+        .card-header {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        .card-body p {
+            margin: 4px 0;
+            font-size: 0.9rem;
+        }
+        .card-buttons {
+            margin-top: 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+    st.markdown('<div class="card-grid">', unsafe_allow_html=True)
+
+    for req in pending_requests:
+        app_id = req["AppID"]
+        title = req["FundRequestTitle"]
+        desc = req["FundDesc"]
+        amt = req["FundAmt"]
+        lawyer_email = req["LawyerEmail"]
+        status = req["FundStatus"]
+
+        st.markdown(f'<div class="custom-card">', unsafe_allow_html=True)
+        st.markdown(f'<div class="card-header">{title} (ID: {app_id})</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="card-body">', unsafe_allow_html=True)
+        st.markdown(f'<p><b>Description:</b> {desc}</p>', unsafe_allow_html=True)
+        st.markdown(f'<p><b>Amount Requested:</b> ${amt}</p>', unsafe_allow_html=True)
+        st.markdown(f'<p><b>Lawyer Email:</b> {lawyer_email}</p>', unsafe_allow_html=True)
+        st.markdown(f'<p><b>Status:</b> {status}</p>', unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            if st.button(f"Accept {app_id}", key=f"accept_{app_id}"):
+                if update_fund_status(app_id, "Accepted"):
+                    st.experimental_rerun()  # Refresh to update UI after change
+
+        with col2:
+            if st.button(f"Reject {app_id}", key=f"reject_{app_id}"):
+                if update_fund_status(app_id, "Rejected"):
+                    st.experimental_rerun()  # Refresh to update UI after change
+
+        st.markdown('</div>', unsafe_allow_html=True)
+
+    st.markdown('</div>', unsafe_allow_html=True)
