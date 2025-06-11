@@ -119,7 +119,7 @@ else:
             dot_product = np.matmul(weight, country_array.T)
             pred_val = dot_product.item() if isinstance(dot_product, np.ndarray) else float(dot_product)
             predictions[current_year] = pred_val
-            
+
         # Now fill NaN if any missing (just a fallback)
         for y in proj_years:
             if y not in predictions:
