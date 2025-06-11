@@ -22,9 +22,9 @@ countries = sorted(df_countries["Country"].dropna().unique())
 chosen_country = st.selectbox("Select a country", countries)
 
 # Year selection dropdowns
-st.write("Select year range to display:")
-start_year = st.selectbox("Start Year", list(range(2023, 2028)), index=0)
-end_year = st.selectbox("End Year", list(range(2023, 2028)), index=len(range(2023, 2028)) - 1)
+all_years = list(range(2011, 2028))
+start_year = st.selectbox("Start Year", all_years, index=all_years.index(2011))
+end_year = st.selectbox("End Year", all_years, index=all_years.index(2027))
 
 if start_year >= end_year:
     st.warning("Start year must be before end year.")
@@ -108,6 +108,55 @@ else:
             st.write(f"Prediction: {dot_product}")
                 
             predictions[current_year] = dot_product[0]
+            
+            
+        proj_years = list(range(2023, 2028))
+        predictions = {}
+
+        # Generate predictions for all projected years regardless of dropdown range
+        for current_year in proj_years:
+            ml2_df = X_df(chosen_country, current_year)
+            country_array = ml2_df.to_numpy()
+            dot_product = np.matmul(weight, country_array.T)
+            # Extract scalar
+            pred_val = dot_product.item() if isinstance(dot_product, np.ndarray) else float(dot_product)
+            predictions[current_year] = pred_val
+
+        # Now fill NaN if any missing (just a fallback)
+        for y in proj_years:
+            if y not in predictions:
+                predictions[y] = np.nan
+
+        # Historical data (2011-2022)
+        hist_years = list(range(2011, 2023))
+        historical = timeseries_data[
+            (timeseries_data["Country"] == chosen_country) & 
+            (timeseries_data["DateYear"].isin(hist_years))
+        ]
+
+        df_hist_plot = historical[["DateYear", "TValue"]].drop_duplicates().sort_values("DateYear")
+        df_hist_plot = df_hist_plot.rename(columns={"DateYear": "Year", "TValue": "Value"})
+        df_hist_plot["Type"] = "Historical"
+
+        df_proj_plot = pd.DataFrame({
+            "Year": proj_years,
+            "Value": [predictions[y] for y in proj_years],
+            "Type": "Projected"
+        })
+
+        df_plot = pd.concat([df_hist_plot, df_proj_plot], ignore_index=True)
+
+        # Filter plot by dropdown year range
+        df_plot = df_plot[(df_plot["Year"] >= start_year) & (df_plot["Year"] <= end_year)]
+
+        fig = px.line(
+            df_plot, x="Year", y="Value", color="Type",
+            title=f"Social Protection Expenditure for {chosen_country} ({start_year}-{end_year})",
+            markers=True
+        )
+
+        st.plotly_chart(fig, use_container_width=True)
+
                 
     except Exception as e:
         st.error(f"Failed to fetch or process data: {str(e)}")
