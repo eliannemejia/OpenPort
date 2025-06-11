@@ -89,7 +89,8 @@ no_one = None
 
 with col2:
     if submit:
-        st.write("## Top Three Countries with the Highest Probability of Acceptance for your age, sex, and nationality")
+        st.write("### Top Three Countries")
+        st.write("#### Based on your Age, Sex, and Nationality")
 
         countries = get_country_list()
 
