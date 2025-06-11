@@ -16,14 +16,23 @@ SideBarLinks()
 API_URL = "http://web-api:4000/diplomats/accepted_applications" 
 
 # set the header of the page
-st.header('Acceptance Rate of Countries per cCptia')
+st.header('Acceptance Rate of Countries per Capita')
 
 # You can access the session state to make a more customized/personalized app experience
 #st.write(f"### Hi, {st.session_state['first_name']}.")
 
-# Load countries
-df = pd.read_csv("assets/list_of_countries.csv")
-countries = sorted(df["Country"].dropna().unique())
+
+def get_country_list():
+    countries_url = "http://web-api:4000/countries/countries"
+    countries_get = requests.get(countries_url).json()
+    countries = []
+    for entry in countries_get:
+        name = entry["CountryName"]
+        countries.append(name)
+    
+    return countries
+
+countries = get_country_list()
 
 # Button options to choose view
 col1, col2, col3 = st.columns(3)

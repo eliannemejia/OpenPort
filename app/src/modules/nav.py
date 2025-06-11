@@ -93,7 +93,7 @@ def AdminPageNav():
 def DiplomatNav():
     st.sidebar.page_link("pages/20_Commissioner_Home.py", label="Diplomat Home", icon="👤")
     st.sidebar.page_link("pages/21_pending_to_aid.py", label="Pending/Aid", icon="⛑️")
-    st.sidebar.page_link("pages/22_Low_Acpt.py", label="Low Acceptance Countries", icon="📉")
+    st.sidebar.page_link("pages/22_Low_Acpt.py", label="Decision Stats Per Capita", icon="📉")
     st.sidebar.page_link("pages/23_Group_Acpt.py", label="Inclusion Index", icon="🤝")
     st.sidebar.page_link("pages/24_Find_Aid_Projects.py", label="Humanitarian Aid Dashboard", icon="📦")
 
