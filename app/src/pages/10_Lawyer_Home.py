@@ -25,3 +25,10 @@ if st.button('See Decision Statistics',
              use_container_width=True):
   st.switch_page('pages/11_Decision_Stats.py')
   
+
+if st.button('Request funding', 
+             type='primary',
+             use_container_width=True):
+  st.switch_page('pages/13_Apply_For_Aid.py')
+  
+  
