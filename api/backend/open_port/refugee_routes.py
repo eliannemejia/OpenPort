@@ -355,6 +355,7 @@ def get_all_seekers():
 
 @refugees.route("/legal_aid_application/family/<int:fid>", methods=["POST"])
 def add_family_member(fid):
+    current_app.logger.info('Starting add_family member request')
     try:
         data = request.get_json()
         required_fields = ["DOB", "SEX", "FirstName", "LastName"]
