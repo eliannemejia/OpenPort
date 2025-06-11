@@ -14,6 +14,7 @@ st.write('')
 st.write('')
 st.write('### What would you like to do today?')
 
+st.write(f"USER ID: {st.session_state['user_id']}")
 if st.button('View Historial Trends', 
              type='primary',
              use_container_width=True):
