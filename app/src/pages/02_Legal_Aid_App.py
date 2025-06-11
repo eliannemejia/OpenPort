@@ -260,3 +260,16 @@ if st.session_state.family_members:
     st.write("#### Family Members Added:")
     for idx, member in enumerate(st.session_state.family_members, start=1):
         st.markdown(f"**{idx}.** {member['FirstName']} {member['LastName']} from {member['Citizenship']}")
+
+st.markdown("""
+    <style>
+    div.stButton > button {
+        background-color: #0C406E;
+        color: white;
+    }
+    div.stButton > button:hover {
+        background-color: #FFFFFF;
+        color: #0C406E;
+    }
+    </style>
+    """, unsafe_allow_html=True)

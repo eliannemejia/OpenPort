@@ -100,6 +100,7 @@ if selection:
             x='CountryName',
             y='NormAcceptance',
             title=f"{selection.capitalize()} Countries by Accepted Applications per Capita",
+            color_discrete_sequence=['#0C406E'],
             labels={'CountryName': 'Country', 'NormAcceptance': 'Number of Accepted Applications'}
         )
         fig.update_layout(xaxis_tickangle=-45)
@@ -112,3 +113,16 @@ if selection:
             st.markdown(f"- {country}")
 else:
     st.info("Click a button to view top 10, bottom 10, or all countries.")
+
+st.markdown("""
+    <style>
+    div.stButton > button {
+        background-color: #0C406E;
+        color: white;
+    }
+    div.stButton > button:hover {
+        background-color: #FFFFFF;
+        color: #0C406E;
+    }
+    </style>
+    """, unsafe_allow_html=True)
