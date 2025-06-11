@@ -49,7 +49,9 @@ def get_family():
     applicant_id = get_applicant_id()["ApplicantID"]
     url = f"{API_URL}/family/{applicant_id}"
     try:
+        st.write("TRYING NOW")
         family = requests.get(url)
+        st.write("FAMILY")
         st.write(family)
         if family.status_code != 200:
             st.error(

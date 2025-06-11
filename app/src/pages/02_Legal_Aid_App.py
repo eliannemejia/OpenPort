@@ -64,8 +64,8 @@ def create_seeker(uid, dob, sex, current_loc, origin):
     return response.json()
 
 def add_family_member(fid, member):
-    add_family_url = f"{API_URL}/legal_aid_application/family/{fid}"
-    
+    family_id = fid["ApplicantID"]
+    add_family_url = f"{API_URL}/legal_aid_application/family/{family_id}"
     try:
         response = requests.post(add_family_url, json=member)
         if response.status_code == 201:
@@ -76,6 +76,7 @@ def add_family_member(fid, member):
                 f"Failed to create FamilyMember: {response.json().get('error', 'Unknown error')}"
             )
     except requests.exceptions.RequestException as e:
+            st.write("IN ADD FAMILY MEMBER")
             st.error(f"Error connecting to the API: {str(e)}")
             st.info("Please ensure the API server is running")
 
@@ -251,6 +252,7 @@ if submitted:
             st.error("Please fill in all required fields marked with *")
     else:
         fid = get_applicant_id()
+        st.write(st.session_state.family_members)
         add_family(fid, st.session_state.family_members)
         submission = submit_application(aid_type)
         if submission:
