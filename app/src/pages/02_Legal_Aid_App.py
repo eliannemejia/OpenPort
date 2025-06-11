@@ -52,13 +52,11 @@ def create_seeker(uid, dob, sex, current_loc, origin):
         if response.status_code == 201:
                 st.success("AsylumSeeker added successfully!")
 
-              
         else:
             st.error(
                 f"Failed to create AsylumSeeker: {response.json().get('error', 'Unknown error')}"
             )
 
-        
     except requests.exceptions.RequestException as e:
             st.error(f"Error connecting to the API: {str(e)}")
             st.info("Please ensure the API server is running")
@@ -86,8 +84,26 @@ def add_family(fid, family_members):
         add_family_member(fid, member)
         return family_members
     
-def submit_application(uid, aid_type):
-    submit_url = f"{API_URL}/legal_aid_application/{uid}"
+    
+def get_applicant_id():
+    user_id = st.session_state['user_id']
+    url = f"{API_URL}/{user_id}"
+    try:
+        aid = requests.get(url)
+        if aid.status_code != 200:
+            st.error(
+                f"Failed to create AsylumSeeker: {aid.json().get('error', 'Unknown error')}"
+            )
+    except requests.exceptions.RequestException as e:
+            st.error(f"Error connecting to the API: {str(e)}")
+            st.info("Please ensure the API server is running")
+    
+    return aid.json()
+
+    
+def submit_application(aid_type):
+    applicant_id = get_applicant_id()["ApplicantID"]
+    submit_url = f"{API_URL}/legal_aid_application/{applicant_id}"
     
     app_data = {
         "AidDescription": aid_type
@@ -121,8 +137,8 @@ def get_country_list():
     return countries
 
 # Load countries
-df = pd.read_csv("assets/list_of_countries.csv")
-countries = sorted(df["Country"].dropna().unique())
+# df = pd.read_csv("assets/list_of_countries.csv")
+# countries = sorted(df["Country"].dropna().unique())
 
 # Initialize session state
 if "family_members" not in st.session_state:
@@ -183,14 +199,14 @@ if st.session_state.has_family_members == "Yes":
             fam_lname = st.text_input("Last Name", key="fam_lname")
             fam_country = st.selectbox(
                 "Country of Origin",
-                countries,
+                get_country_list(),
                 index=None,
                 placeholder="Select a Country",
                 key="fam_country"
             )
             fam_loc= st.selectbox(
                 "Current Location",
-                countries,
+                get_country_list(),
                 index=None,
                 placeholder="Select a Country",
                 key="fam_loc"
@@ -234,17 +250,11 @@ if submitted:
     if not all([f_name, l_name, email, origin, sex, dob, current_loc, has_family_members, aid_type]):
             st.error("Please fill in all required fields marked with *")
     else:
-        user = create_user(f_name, l_name, email)
-        if user:
-            uid = user["UserID"]
-            seeker = create_seeker(uid, dob, sex, current_loc, origin)
-            if seeker:
-                sid = seeker["applicant_id"]
-                family = add_family(sid, st.session_state.family_members)
-        
-                submission = submit_application(sid, aid_type)
-                if submission:
-                    st.write("Application Successfully Submitted")
+        fid = get_applicant_id()
+        add_family(fid, st.session_state.family_members)
+        submission = submit_application(aid_type)
+        if submission:
+            st.write("Application Successfully Submitted")
         
     
 # --------------------- Display saved family members ------------------------
