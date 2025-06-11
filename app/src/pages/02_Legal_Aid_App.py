@@ -110,6 +110,16 @@ def submit_application(uid, aid_type):
     
     return
 
+def get_country_list():
+    countries_url = "http://web-api:4000/countries/countries"
+    countries_get = requests.get(countries_url).json()
+    countries = []
+    for entry in countries_get:
+        name = entry["CountryName"]
+        countries.append(name)
+    
+    return countries
+
 # Load countries
 df = pd.read_csv("assets/list_of_countries.csv")
 countries = sorted(df["Country"].dropna().unique())
@@ -133,7 +143,7 @@ email = st.text_input("Email", "")
 
 origin = st.selectbox(
     "Country of Origin",
-    countries,
+    get_country_list(),
     index=None,
     placeholder="Select a Country",
     key="origin"
@@ -141,7 +151,7 @@ origin = st.selectbox(
 
 current_loc = st.selectbox(
     "Current Location",
-    countries,
+    get_country_list(),
     index=None,
     placeholder="Select a Country",
     key="current_loc"
@@ -226,22 +236,16 @@ if submitted:
     else:
         user = create_user(f_name, l_name, email)
         if user:
-            st.write("User Created Successfully")
             uid = user["UserID"]
             seeker = create_seeker(uid, dob, sex, current_loc, origin)
             if seeker:
-                st.write("AsylumSeeker Created Successfully")
-                st.write(seeker)
                 sid = seeker["applicant_id"]
                 family = add_family(sid, st.session_state.family_members)
         
                 submission = submit_application(sid, aid_type)
                 if submission:
                     st.write("Application Successfully Submitted")
-                    #st.write(submission)
-            
-        st.write("Application Successfully Submitted")
-        st.write(user)
+        
     
 # --------------------- Display saved family members ------------------------
 if st.session_state.family_members:

@@ -271,8 +271,6 @@ def get_all_seekers():
         current_app.logger.error(f'Database error in get_all_seekers: {str(e)}')
         return jsonify({"error": str(e)}), 500
 
-
-
 @refugees.route("/legal_aid_application/family/<int:fid>", methods=["POST"])
 def add_family_member(fid):
     try:

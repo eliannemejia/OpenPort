@@ -11,6 +11,7 @@ from backend.open_port.diplomat_routes import diplomats
 from backend.open_port.refugee_routes import refugees
 from backend.open_port.lawyer_routes import lawyers
 from backend.open_port.country_routes import countries
+from backend.open_port.user_routes import users
 
 def create_app():
     app = Flask(__name__)
@@ -55,6 +56,7 @@ def create_app():
     app.register_blueprint(diplomats, url_prefix="/diplomats")
     app.register_blueprint(lawyers, url_prefix="/lawyers")
     app.register_blueprint(countries, url_prefix="/countries")
+    app.register_blueprint(users, url_prefix="/users")
 
     # Don't forget to return the app object
     return app
