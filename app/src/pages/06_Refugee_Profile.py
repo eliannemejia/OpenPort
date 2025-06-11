@@ -79,7 +79,13 @@ st.title("View Your Profile")
 st.write("### Open Applications")
 applications = get_applications()
 if applications:
-    st.write(applications)
+    for idx, app in enumerate(applications, start = 1):
+        st.markdown(f"""
+        **Application {idx}**
+        - **Description**: {app.get("AidDescription")}
+        - **Status**: {app.get("status", "Pending")}
+        ---
+        """)
 else:
     st.write("No Open Applications At This Time")
     
@@ -90,12 +96,14 @@ if family_members:
 else:
     st.write("No Registered Family At This Time")
 
-st.write("### Lawyer Assignment ")
+st.write("### Lawyer Assignment \n **Assigned Lawyer**")
 lawyer = get_lawyer_assignment()
 if lawyer:
-    st.write(lawyer)
+    st.markdown(f"""
+    - **Name**: {lawyer.get("FirstName", "")} {lawyer.get("LastName", "")}
+    """)
 else:
-    st.write("No Lawyer Assignments At This Time")
+    st.markdown("No Lawyer Assignments At This Time")
 
 # type = st.selectbox(
 #         "Aid Type",
