@@ -28,4 +28,10 @@ if st.button('See Decision Statistics',
              type='primary',
              use_container_width=True):
   st.switch_page('pages/02_Map_Demo.py')
+
+if st.button('Request funding', 
+             type='primary',
+             use_container_width=True):
+  st.switch_page('pages/13_Apply_For_Aid.py')
+  
   
