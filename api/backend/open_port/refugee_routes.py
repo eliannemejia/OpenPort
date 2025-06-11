@@ -59,9 +59,9 @@ def get_lawyer_assignment(aid):
         query = f"SELECT AssignedLawyer FROM AsylumSeeker WHERE ApplicantID = {aid}"
         cursor.execute(query)
         lawyer = cursor.fetchone()
-        current_app.logger.info(f'Lawyer')
-        if lawyer:
-            lawyer_id = lawyer["AssignedLawyer"]
+        lawyer_id = lawyer["AssignedLawyer"]
+        current_app.logger.info(f'Lawyer {lawyer}')
+        if lawyer_id:
         
             query = f"SELECT UserID, Nationality, Specialization FROM Lawyer WHERE LawyerID = {lawyer_id}"
             cursor.execute(query)
