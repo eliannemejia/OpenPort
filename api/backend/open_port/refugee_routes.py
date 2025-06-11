@@ -15,7 +15,7 @@ def get_open_applications(aid):
         current_app.logger.info('Starting get_open_applications request')
         cursor = db.get_db().cursor()
 
-        query = f"SELECT * FROM LegalAidApplication WHERE ApplicantID = {aid}"
+        query = f"SELECT AidDescription, SubmissionDate FROM LegalAidApplication WHERE ApplicantID = {aid}"
     
         current_app.logger.debug(f'Executing query: {query}')
         cursor.execute(query)
@@ -27,6 +27,27 @@ def get_open_applications(aid):
     except Error as e:
         current_app.logger.error(f'Database error in get_applicant_by_user_id: {str(e)}')
         return jsonify({"error": str(e)}), 500
+    
+@refugees.route("/family/<aid>", methods=["GET"])
+def get_family_members(aid):
+    try:
+        current_app.logger.info('Starting get_family_members request')
+        cursor = db.get_db().cursor()
+
+        query = f"SELECT FirstName, LastName, CurrentLocation, Citizenship FROM FamilyMember WHERE FamilyID = {aid}"
+    
+        current_app.logger.debug(f'Executing query: {query}')
+        cursor.execute(query)
+        family = cursor.fetchall()
+        
+        cursor.close()
+
+        current_app.logger.info(f'Successfully retrieved registered family members for {aid}')
+        return jsonify(family), 200
+    except Error as e:
+        current_app.logger.error(f'Database error in get_applicant_by_user_id: {str(e)}')
+        return jsonify({"error": str(e)}), 500
+    
 
 
 @refugees.route("/<uid>", methods=["GET"])
