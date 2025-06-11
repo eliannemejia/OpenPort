@@ -9,6 +9,90 @@ import pandas as pd
 # Create a Blueprint for NGO routes
 refugees = Blueprint("refugees", __name__)
 
+@refugees.route("/legal_aid_applications/<aid>", methods=["GET"])
+def get_open_applications(aid):
+    try:
+        current_app.logger.info('Starting get_open_applications request')
+        cursor = db.get_db().cursor()
+
+        query = f"SELECT * FROM LegalAidApplication WHERE ApplicantID = {aid}"
+    
+        current_app.logger.debug(f'Executing query: {query}')
+        cursor.execute(query)
+        applications = cursor.fetchall()
+        cursor.close()
+
+        current_app.logger.info(f'Successfully retrieved open applications for {aid}')
+        return jsonify(applications), 200
+    except Error as e:
+        current_app.logger.error(f'Database error in get_applicant_by_user_id: {str(e)}')
+        return jsonify({"error": str(e)}), 500
+
+
+@refugees.route("/<uid>", methods=["GET"])
+def get_applicant_by_user_id(uid):
+    try:
+        current_app.logger.info('Starting get_applicant_by_user_id request')
+        cursor = db.get_db().cursor()
+
+        query = f"SELECT ApplicantID FROM AsylumSeeker WHERE UserID = {uid}"
+    
+        current_app.logger.debug(f'Executing query: {query}')
+        cursor.execute(query)
+        lawyer_id = cursor.fetchone()
+        cursor.close()
+
+        current_app.logger.info(f'Successfully retrieved user {uid} name')
+        return jsonify(lawyer_id), 200
+    except Error as e:
+        current_app.logger.error(f'Database error in get_applicant_by_user_id: {str(e)}')
+        return jsonify({"error": str(e)}), 500
+    
+
+@refugees.route("/lawyer_assignment/<aid>", methods=["GET"])
+def get_lawyer_assignment(aid):
+    try:
+        # call sql to get the weight vector table, this also has teh column names
+        current_app.logger.info('Starting get_lawyer_assignment request')
+        cursor = db.get_db().cursor()
+        # Prepare the Base query
+        query = f"SELECT AssignedLawyer FROM AsylumSeeker WHERE ApplicantID = {aid}"
+        cursor.execute(query)
+        lawyer = cursor.fetchone()
+        lawyer_id = lawyer["AssignedLawyer"]
+        current_app.logger.info(f'Lawyer {lawyer}')
+        if lawyer_id:
+        
+            query = f"SELECT UserID, Nationality, Specialization FROM Lawyer WHERE LawyerID = {lawyer_id}"
+            cursor.execute(query)
+            lawyer_table_info = cursor.fetchone()
+            luid = lawyer_table_info["UserID"]
+        
+            query = f"SELECT FirstName, LastName, Email FROM User WHERE UserID = {luid}"
+            cursor.execute(query)
+            user_table_info = cursor.fetchone()
+            
+            country_id = lawyer_table_info["Nationality"]
+            query = f"SELECT CountryName FROM Country WHERE CountryID = {country_id}"
+            cursor.execute(query)
+            country_name = cursor.fetchone()
+            cursor.close()
+        
+            all_info = {
+                "FirstName": user_table_info["FirstName"],
+                "LastName": user_table_info["LastName"],
+                "Nationality": country_name["CountryName"],
+                "Sepcialization": lawyer_table_info["Specialization"],
+                "Email": user_table_info["Email"]
+            }
+
+            return jsonify(all_info)
+        else:
+            return jsonify({"message": "No Lawyers Assigned"})
+    except Error as e:
+        current_app.logger.error(f'Database error in get_prediction: {str(e)}')
+        return jsonify({"error": str(e)}), 500 
+   
     
 @refugees.route("/application_stats", methods=["GET"])
 def get_top_three():
@@ -53,25 +137,6 @@ def get_top_three():
         current_app.logger.error(f'Database error in get_top_three: {str(e)}')
         return jsonify({"error": str(e)}), 500
     
-    
-@refugees.route("/application_stats/probability/<uid>", methods=["GET"]) 
-def get_acceptance_prob(uid):
-    return
-
-# From Mock Data
-@refugees.route("/education_info/<country>", methods=["GET"])
-def get_education_ranks(country):
-    return
-
-# From Mock Data
-@refugees.route("/religious_info/country", methods=["GET"])
-def get_religion(country):
-    return
-
-# From Mock Data
-@refugees.route("/available_lawyers/<uid>", methods=["PUT"])
-def update_lawyers(uid):
-    return
 
 @refugees.route("/new_user", methods=["POST"])
 def create_user():
@@ -214,10 +279,6 @@ def submit_application(uid):
         )
     except Error as e:
         return jsonify({"error": str(e)}), 500
-
-@refugees.route("/legal_aid_application/<uid>", methods=["DELETE"])
-def assign_lawyer(uid):
-    return
 
 @refugees.route("/users", methods=["GET"])
 def get_all_users():

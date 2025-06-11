@@ -39,6 +39,9 @@ def ReligDemographics():
     
 def LegalAidHome():
     st.sidebar.page_link("pages/02_Legal_Aid_App.py", label="Seek Legal Aid", icon="👨🏽‍⚖️")
+    
+def RefugeeProfile():
+    st.sidebar.page_link("pages/06_Refugee_Profile.py", label="User Profile", icon="👤")
 #### ------------------------ Examples for Role of pol_strat_advisor ------------------------
 def PolStratAdvHomeNav():
     st.sidebar.page_link(
@@ -123,6 +126,7 @@ def SideBarLinks(show_home=False):
             EducationSysData()
             ReligDemographics()
             LegalAidHome()
+            RefugeeProfile()
             
         # # Show World Bank Link and Map Demo Link if the user is a political strategy advisor role.
         # if st.session_state["role"] == "pol_strat_advisor":
