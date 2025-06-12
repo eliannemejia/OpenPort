@@ -142,7 +142,7 @@ def assign_lawyer(aid):
         return jsonify({"error": str(e)}), 500
 
     
-@lawyers.route("/lawyers/<int:uid>", methods = ["GET"])
+@lawyers.route("/<int:uid>", methods = ["GET"])
 def get_lawyer_by_user_id(uid):
     try:
         current_app.logger.info('Starting get_lawyer_by_user_id request')
@@ -217,3 +217,52 @@ def get_fund_request(AppID):
         current_app.logger.error(f"DB error in get_fund_request: {str(e)}")
         return jsonify({"error": str(e)}), 500
     
+    
+    
+@lawyers.route("/case_assignments/<lid>", methods=["GET"])
+def get_case_assignment(lid):
+    try:
+        # call sql to get the weight vector table, this also has teh column names
+        current_app.logger.info('Starting get_lawyer_assignment request')
+        cursor = db.get_db().cursor()
+        # Prepare the Base query
+        query = f"SELECT * FROM AsylumSeeker WHERE AssignedLawyer = {lid}"
+        cursor.execute(query)
+        applicants = cursor.fetchall()
+        current_app.logger.info(f'Applicant {applicants}')
+        all_info = []
+        for applicant in applicants:
+            user_id = applicant["UserID"]
+            current_app.logger.info(f'Applicant {applicant}')
+            if user_id:
+                query = f"SELECT * FROM User WHERE UserID = {user_id}"
+                cursor.execute(query)
+                lawyer_table_info = cursor.fetchone()
+                luid = lawyer_table_info["UserID"]
+            
+                query = f"SELECT FirstName, LastName, Email FROM User WHERE UserID = {luid}"
+                cursor.execute(query)
+                user_table_info = cursor.fetchone()
+                
+                country_id = applicant["Citizenship"]
+                query = f"SELECT CountryName FROM Country WHERE CountryID = {country_id}"
+                cursor.execute(query)
+                citizenship = cursor.fetchone()
+                
+                country_id = applicant["CurrentLocation"]
+                query = f"SELECT CountryName FROM Country WHERE CountryID = {country_id}"
+                cursor.execute(query)
+                current_location = cursor.fetchone()
+            
+                all_info.append({
+                    "FirstName": user_table_info["FirstName"],
+                    "LastName": user_table_info["LastName"],
+                    "Country of Origin": citizenship["CountryName"],
+                    "Current Location": current_location["CountryName"],
+                    "Email": user_table_info["Email"]
+                })
+        cursor.close()
+        return jsonify(all_info)
+    except Error as e:
+        current_app.logger.error(f'Database error in get_prediction: {str(e)}')
+        return jsonify({"error": str(e)}), 500 

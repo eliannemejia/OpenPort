@@ -142,7 +142,7 @@ with col4:
 
 st.write("### Commissioner ")
 col5, col6 = st.columns([3, 1])
-users = get_users("AsylumSeeker")
+users = get_users("Commissioner")
 user_names = [
         f"{user['FirstName']} {user['LastName']} ({user['Email']})"
         for user in users
@@ -186,38 +186,4 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
-
-    
-
-
-# if st.button("Act as Mohammed, a 17 year old refugee from Syria ", 
-#             type = 'primary', 
-#             use_container_width=True):
-#     # when user clicks the button, they are now considered authenticated
-#     st.session_state['authenticated'] = True
-#     # we set the role of the current user
-#     st.session_state['role'] = 'asylum_seeker'
-#     # we add the first name of the user (so it can be displayed on 
-#     # subsequent pages). 
-#     st.session_state['first_name'] = 'Mohammed'
-#     # finally, we ask streamlit to switch to another page, in this case, the 
-#     # landing page for this particular user type
-#     logger.info("Logging in as Syrian Refugee Persona")
-#     st.switch_page('pages/01_App_Prob_Stats.py')
-
-# if st.button('Act as Mark, a German Lawyer', 
-#             type = 'primary', 
-#             use_container_width=True):
-#     st.session_state['authenticated'] = True
-#     st.session_state['role'] = 'lawyer'
-#     st.session_state['first_name'] = 'Mark'
-#     st.switch_page('pages/10_Lawyer_Home.py')
-
-# if st.button('Act as Eric, An EU Commissioner', 
-#             type = 'primary', 
-#             use_container_width=True):
-#     st.session_state['authenticated'] = True
-#     st.session_state['role'] = 'diplomat'
-#     st.session_state['first_name'] = 'Eric'
-#     st.switch_page('pages/20_Commissioner_Home.py')
 
