@@ -40,11 +40,11 @@ def RefugeeProfile():
     
 
 def DiplomatNav():
-    st.sidebar.page_link("pages/20_Commissioner_Home.py", label="Diplomat Home", icon="👤")
-    st.sidebar.page_link("pages/21_pending_to_aid.py", label="Pending/Aid", icon="⛑️")
-    st.sidebar.page_link("pages/22_Low_Acpt.py", label="Decision Stats Per Capita", icon="📉")
-    st.sidebar.page_link("pages/23_Group_Acpt.py", label="Expenditure Projections", icon="🤝")
-    st.sidebar.page_link("pages/24_Find_Aid_Projects.py", label="Humanitarian Aid Dashboard", icon="📦")
+    st.sidebar.page_link("pages/20_Commissioner_Home.py", label="Commissioner Home", icon="👤")
+    st.sidebar.page_link("pages/21_pending_to_aid.py", label="Pending Funding", icon="💰")
+    st.sidebar.page_link("pages/22_Low_Acpt.py", label="Decision Stats", icon="📈")
+    st.sidebar.page_link("pages/23_Group_Acpt.py", label="Future Expenditure", icon="🏛️")
+    st.sidebar.page_link("pages/24_Find_Aid_Projects.py", label="Aid Dashboard", icon="🌍")
 
 
 
