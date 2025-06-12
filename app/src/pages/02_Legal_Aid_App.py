@@ -150,6 +150,49 @@ if "show_family_form" not in st.session_state:
 
 # Page header
 st.header("Legal Aid Application")
+with st.expander("ℹ️ How to Use This Dashboard"):
+    st.write("""
+### Overview
+
+This page allows asylum seekers to apply for legal aid in Europe. You can submit applications for:
+- Asylum
+- Citizenship
+- Family reunification
+- Other legal assistance
+
+---
+
+### Step 1: Enter Applicant Details
+
+Complete the form with the following required information:
+- First Name and Last Name
+- Date of Birth
+- Email
+- Country of Origin
+- Current Location
+- Sex
+
+All fields must be filled in before submission.
+
+---
+
+### Step 2: Add Family Members (If Applicable)
+
+If you are traveling with family members:
+1. Select "Yes" when asked.
+2. Click "Add Family Member" to open the entry form.
+3. Provide each family member's:
+   - First and Last Name
+   - Country of Origin
+   - Current Location
+   - Date of Birth
+   - Sex
+4. Click "Save" to add the member to your application.
+
+You can add multiple family members.
+
+---            
+    """)
 
 st.write("### Applicant Details")
 

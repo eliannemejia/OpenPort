@@ -13,7 +13,32 @@ from modules.nav import SideBarLinks
 import random  # remove later
 
 SideBarLinks()
+with st.expander("ℹ️ How to Use This Dashboard"):
+    st.write("""
+### Overview
 
+This dashboard displays key demographic information for European Union countries, focused on:
+- **Religious affiliation and acceptance**
+- **Education level distribution**
+
+---
+
+### How to Use
+
+1. **Select a Country**  
+   Use the dropdown menu to choose any EU country. This will automatically update all relevant visualizations.
+
+2. **View Religious Demographics**
+   - By default, you'll see the percentage of the population practicing different religions in the selected country.
+   - Toggle **"See Acceptance Scores"** to display how each religion is perceived or accepted within the country.
+
+3. **Explore Education Levels**
+   - A bar chart will show the number of students enrolled at various education levels (e.g., Primary, Secondary, Tertiary).
+   - If real data isn't available, mock values will be displayed with a clear warning.
+   - You can expand a section to view the raw dataset used in the chart.
+
+---
+    """)
 st.header('Religious Demographics by EU Country')
 
 def get_country_list():
