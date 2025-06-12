@@ -23,7 +23,7 @@ Before running the containers, make sure you create the following secret file in
 ### Starting the Containers
 To start the backend, database, and frontend:
 
-```bash
+
 docker compose up -d
 
 
@@ -37,3 +37,12 @@ DB_NAME=openport_database
 Start Docker Containers
 Use Docker Compose to start all containers:
 docker compose up -d
+
+### Team Blog Posts
+https://droidbait66.github.io/Team10/ 
+
+### Major Contributions
+Jessica Poblete: Logistic regression model and UI for the app
+Elianne Mejia: Asylum persona and the connections between the lawyer persona and asylum persona
+Alp Berrak: Commissioner persona and the connections between the lawyer persona and comissioner persona
+Mahika Modi: Time series autoregression model and preprocessing of the logistic regression model's data
