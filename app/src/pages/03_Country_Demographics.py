@@ -51,8 +51,12 @@ fig = px.bar(df_religion, x="Religion", y="Follow Rate (%)",
              color_discrete_sequence=['#0C406E'],
              )
 
-fig.update_traces(textposition='outside')
-
+fig.update_traces(
+    textposition='outside',
+    hoverlabel=dict(
+        font_size=16 
+    )
+)
 st.plotly_chart(fig, use_container_width=True)
 
 # Load countries from CSV
@@ -92,6 +96,12 @@ fig = px.bar(df_edu, x="Education Level", y="Percentage (%)",
              labels={"Education Level": "Percentage of Population"},
              color_discrete_sequence=['#0C406E'],
              )
-fig.update_traces(textposition='outside')
+fig.update_traces(
+    textposition='outside',
+    hoverlabel=dict(
+        font_size=16 
+    )
+)
+
 
 st.plotly_chart(fig, use_container_width=True)

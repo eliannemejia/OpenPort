@@ -154,7 +154,11 @@ else:
             title=f"Social Protection Expenditure for {chosen_country} ({start_year}-{end_year})",
             markers=True
         )
-
+        fig.update_traces(
+            hoverlabel=dict(
+                font_size=16 
+            )
+        )
         st.plotly_chart(fig, use_container_width=True)
 
                 
