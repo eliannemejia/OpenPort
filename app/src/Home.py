@@ -173,7 +173,7 @@ with col6:
         st.session_state['authenticated'] = True
         st.session_state['role'] = 'diplomat'
         st.switch_page('pages/20_Commissioner_Home.py')
-        
+    
 st.markdown("""
     <style>
     div.stButton > button {
@@ -186,7 +186,7 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
-
+ 
     
 
 
