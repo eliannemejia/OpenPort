@@ -36,7 +36,7 @@ def get_applications_by_type(aid_type):
 
 
         # Prepare the Base query
-        query = f"SELECT * FROM LegalAidApplication WHERE AidDescription = '{aid_type}'"
+        query = f"SELECT * FROM LegalAidApplication WHERE AidDescription = '{aid_type}' AND IsActive = 1"
         current_app.logger.info(f'Aid Type {aid_type}')
         
         current_app.logger.debug(f'Executing query: {query}')
@@ -96,53 +96,6 @@ def get_seeker_info(uid):
     except Error as e:
         current_app.logger.error(f'Database error in get_all_seekers: {str(e)}')
         return jsonify({"error": str(e)}), 500
-    
-# @lawyers.route("/legal_aid_applications/<aid>", methods = ["PUT"])
-# def assign_lawyer(aid):
-#     try:
-#         current_app.logger.info('Starting assign_lawywer request')
-#         data = request.get_json()
-#         current_app.logger.info(f'Data: {data}')
-#         cursor = db.get_db().cursor()
-        
-#         lawyer = request.args.get("AssignedLawyer")
-#         current_app.logger.info(f'Lawyer: {lawyer}')
-
-#         query = f"SELECT * FROM AsylumSeeker WHERE ApplicantID = {aid}"
-    
-#         current_app.logger.debug(f'Executing query: {query}')
-#         cursor.execute(query)
-#         asylum_seeker = cursor.fetchone()
-#         if not asylum_seeker:
-#              return jsonify({"error": "AsylumSeeker not found"}), 404
-         
-#         current_app.logger.info(f'AsylumSeeker Found: {asylum_seeker}')
-         
-#         update_fields = []
-#         params = []
-#         allowed_fields = ["AssignedLawyer"]
-        
-#         for field in allowed_fields:
-#             current_app.logger.info(f'Field: {field}')
-#             if field in data:
-#                 update_fields.append(f"{field} = %s")
-#                 params.append(data[field])
-                
-#         if not update_fields:
-#              return jsonify({"error": "No valid fields to update"}), 400
-         
-#         params.append(aid)
-#         query = f"UPDATE AsylumSeeker SET {', '.join(update_fields)} WHERE ApplicantID = %s"
-
-#         cursor.execute(query, params)
-#         db.get_db().commit()
-#         cursor.close()
-
-#         current_app.logger.info(f'Successfully retrieved user {aid} name')
-#         return jsonify({"message": "AsylumSeeker updated successfully"}), 200
-#     except Error as e:
-#         current_app.logger.error(f'Database error in get_all_seekers: {str(e)}')
-#         return jsonify({"error": str(e)}), 500
 
 @lawyers.route("/legal_aid_applications/<aid>", methods=["PUT"])
 def assign_lawyer(aid):
@@ -167,6 +120,17 @@ def assign_lawyer(aid):
         # Update the assigned lawyer
         update_query = "UPDATE AsylumSeeker SET AssignedLawyer = %s WHERE ApplicantID = %s"
         cursor.execute(update_query, (lawyer, aid))
+        
+        query = f"SELECT AidDescription, SubmissionDate, ApplicationID FROM LegalAidApplication WHERE ApplicantID = {aid}"
+        current_app.logger.debug(f'Executing query: {query}')
+        cursor.execute(query)
+        applications = cursor.fetchall()
+        
+        for app in applications:
+            app_id = app["ApplicationID"]
+            update_query = f"UPDATE LegalAidApplication SET IsActive = 0 WHERE ApplicationID = {app_id}"
+            cursor.execute(update_query)
+            
         db.get_db().commit()
         cursor.close()
 
@@ -253,41 +217,3 @@ def get_fund_request(AppID):
         current_app.logger.error(f"DB error in get_fund_request: {str(e)}")
         return jsonify({"error": str(e)}), 500
     
-    
-# # Update an existing NGO's information
-# # Can update any field except NGO_ID
-# # Example: PUT /ngo/ngos/1 with JSON body containing fields to update
-# @ngos.route("/ngos/<int:ngo_id>", methods=["PUT"])
-# def update_ngo(ngo_id):
-#     try:
-#         data = request.get_json()
-
-#         # Check if NGO exists
-#         cursor = db.get_db().cursor()
-#         cursor.execute("SELECT * FROM WorldNGOs WHERE NGO_ID = %s", (ngo_id,))
-#         if not cursor.fetchone():
-#             return jsonify({"error": "NGO not found"}), 404
-
-#         # Build update query dynamically based on provided fields
-#         update_fields = []
-#         params = []
-#         allowed_fields = ["AssignedLawyer"]
-
-#         for field in allowed_fields:
-#             if field in data:
-#                 update_fields.append(f"{field} = %s")
-#                 params.append(data[field])
-
-#         if not update_fields:
-#             return jsonify({"error": "No valid fields to update"}), 400
-
-#         params.append(ngo_id)
-#         query = f"UPDATE WorldNGOs SET {', '.join(update_fields)} WHERE NGO_ID = %s"
-
-#         cursor.execute(query, params)
-#         db.get_db().commit()
-#         cursor.close()
-
-#         return jsonify({"message": "NGO updated successfully"}), 200
-#     except Error as e:
-#         return jsonify({"error": str(e)}), 500

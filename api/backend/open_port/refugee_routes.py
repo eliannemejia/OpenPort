@@ -15,7 +15,7 @@ def get_open_applications(aid):
         current_app.logger.info('Starting get_open_applications request')
         cursor = db.get_db().cursor()
 
-        query = f"SELECT AidDescription, SubmissionDate FROM LegalAidApplication WHERE ApplicantID = {aid}"
+        query = f"SELECT AidDescription, SubmissionDate FROM LegalAidApplication WHERE ApplicantID = {aid} AND IsActive = 1"
     
         current_app.logger.debug(f'Executing query: {query}')
         cursor.execute(query)
