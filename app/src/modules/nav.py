@@ -22,7 +22,7 @@ def DecisionStats():
     st.sidebar.page_link("pages/11_Decision_Stats.py", label="See Decision Stats", icon="📊")
     
 def RequestFunding():
-    st.sidebar.page_link("pages/13_Apply_For_Aid.py", label="Seek Legal Aid", icon="💰")
+    st.sidebar.page_link("pages/13_Apply_For_Aid.py", label="Apply for Funding", icon="💰")
 
 def LawyerProfile():
     st.sidebar.page_link("pages/14_Lawyer_Profile.py", label="User Profile", icon="👤")
