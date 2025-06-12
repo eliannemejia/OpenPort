@@ -8,26 +8,11 @@ CREATE TABLE IF NOT EXISTS Religion (
 CREATE TABLE IF NOT EXISTS CountryReligion (
   ReligionID int,
   CountryID int,
-  TotalPracticing int,
+  PercentPracticing int,
   AcceptanceScore int,
   FOREIGN KEY (CountryID) REFERENCES Country (CountryID),
   FOREIGN KEY (ReligionID) REFERENCES Religion (ReligionID),
   PRIMARY KEY (CountryID, ReligionID)
-);
-
-CREATE TABLE IF NOT EXISTS ProBonoOpportunity (
-  OpportunityID int AUTO_INCREMENT PRIMARY KEY,
-  CountryID int,
-  Demand int,
-  Description VarChar(300),
-  FOREIGN KEY (CountryID) REFERENCES Country (CountryID)
-);
-
-CREATE TABLE IF NOT EXISTS Spending (
-  CountryID int PRIMARY KEY,
-  PercentGDP DECIMAL(5,2),
-  SpendingYear YEAR,
-  FOREIGN KEY (CountryID) REFERENCES Country (CountryID)
 );
 
 CREATE TABLE IF NOT EXISTS User (
@@ -74,6 +59,7 @@ CREATE TABLE IF NOT EXISTS AsylumSeeker (
   FOREIGN KEY (Religion) REFERENCES Religion (ReligionID)
 );
 
+
 CREATE TABLE IF NOT EXISTS ApplicantGroup(
   GroupID int AUTO_INCREMENT PRIMARY KEY,
   CountryID int,
@@ -81,6 +67,7 @@ CREATE TABLE IF NOT EXISTS ApplicantGroup(
   Sex ENUM('Male', 'Female', 'Other'),
   FOREIGN KEY (CountryID) REFERENCES Country (CountryID)
 );
+
 
 CREATE TABLE IF NOT EXISTS Decision (
   DecisionID INT AUTO_INCREMENT PRIMARY KEY,
@@ -135,39 +122,586 @@ CREATE TABLE IF NOT EXISTS FundApp (
 INSERT Into Religion (ReligionName)
 VALUES
 ('Buddhism'),
-('Hellenism'),
-('Shinto');
+('Christianity'),
+('Hinduism'),
+('Judaism'),
+('Islam'),
+('Other');
 
-INSERT INTO CountryReligion (ReligionID, CountryID, TotalPracticing, AcceptanceScore)
-VALUES
-(1,1,100,8),
-(1,2,150,9),
-(2,3,1101,6),
-(3,3, 123, 7);
+-- ReligionID 1 for all countries (1-95)
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,1,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,2,14,75);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,3,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,4,68,34);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,5,97,45);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,6,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,7,74,27);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,8,100,92);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,9,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,10,40,47);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,11,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,12,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,13,63,67);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,14,11,85);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,15,56,8);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,16,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,17,5,83);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,18,49,8);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,19,55,88);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,20,5,91);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,21,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,22,69,6);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,23,78,11);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,24,91,93);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,25,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,26,6,89);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,27,100,38);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,28,40,72);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,29,25,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,30,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,31,6,37);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,32,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,33,60,28);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,34,2,39);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,35,23,10);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,36,91,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,37,25,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,38,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,39,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,40,89,89);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,41,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,42,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,43,25,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,44,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,45,26,48);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,46,96,92);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,47,16,59);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,48,2,51);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,49,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,50,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,51,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,52,16,22);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,53,79,52);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,54,25,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,55,18,35);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,56,21,68);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,57,100,97);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,58,25,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,59,25,96);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,60,25,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,61,68,56);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,62,4,59);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,63,16,84);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,64,33,37);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,65,88,43);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,66,85,98);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,67,70,98);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,68,100,27);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,69,99,23);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,70,25,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,71,37,63);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,72,33,28);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,73,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,74,35,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,75,55,49);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,76,35,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,77,41,43);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,78,35,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,79,35,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,80,91,88);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,81,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,82,37,8);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,83,23,78);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,84,84,40);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,85,77,49);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,86,93,22);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,87,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,88,40,2);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,89,35,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,90,75,32);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,91,8,2);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,92,50,40);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,93,35,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,94,75,49);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (1,95,35,50);
 
-INSERT INTO ProBonoOpportunity (CountryID, Demand, Description)
-VALUES
-(1,9, 'Helping an asylum seeker prepare their application and supporting documents.'),
-(2,9, 'Educating asylum seekers about their legal rights'),
-(3,9, 'Assisting with paperwork like appeals, affidavits, or ID applications.');
+-- ReligionID 2 for all countries (1-95)
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,1,20,46);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,2,54,59);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,3,32,4);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,4,66,9);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,5,35,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,6,72,8);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,7,35,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,8,35,38);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,9,43,12);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,10,31,96);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,11,37,41);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,12,2,2);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,13,45,5);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,14,35,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,35,57,20);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,16,63,15);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,17,35,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,18,35,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,19,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,20,82,9);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,21,95,10);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,22,73,37);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,23,43,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,24,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,25,13,55);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,26,17,98);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,27,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,28,56,27);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,29,30,13);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,30,27,70);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,31,38,75);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,32,40,9);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,33,8,20);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,34,5,86);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,36,84,84);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,37,44,73);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,38,20,29);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,39,34,85);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,40,22,9);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,41,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,42,88,24);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,43,92,68);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,44,12,93);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,45,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,46,34,15);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,47,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,48,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,49,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,50,68,12);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,51,13,4);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,52,16,74);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,53,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,54,22,32);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,55,81,87);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,56,58,94);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,57,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,58,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,59,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,60,95,36);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,61,99,28);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,62,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,63,18,62);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,64,50,93);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,65,94,70);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,66,79,99);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,67,90,3);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,68,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,69,74,23);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,70,55,25);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,71,56,28);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,72,90,14);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,73,84,53);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,74,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,75,81,27);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,76,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,77,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,78,56,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,79,74,73);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,80,45,25);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,81,72,59);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,82,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,83,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,84,5,32);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,85,27,55);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,86,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,87,7,65);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,88,63,99);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,89,73,100);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,90,71,60);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,91,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,92,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,93,94,70);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,94,20,64);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (2,95,55,13);
 
-INSERT INTO Spending (CountryID, PercentGDP, SpendingYear)
-VALUES
-(1,45.67, 2024),
-(2,13.14,2001),
-(3,72.30,2022);
+-- ReligionID 3 for all countries (1-95)
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,1,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,2,36,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,3,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,4,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,5,87,17);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,6,28,79);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,7,2,30);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,8,67,74);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,9,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,10,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,11,76,46);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,12,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,13,77,22);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,14,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,15,47,9);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,16,78,44);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,17,33,75);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,18,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,19,55,29);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,20,57,32);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,21,59,60);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,22,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,23,66,43);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,24,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,25,1,86);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,26,30,14);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,27,62,63);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,28,2,98);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,29,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,30,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,31,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,32,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,33,91,83);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,34,38,74);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,35,71,48);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,36,41,40);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,37,31,59);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,38,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,39,20,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,40,36,63);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,41,14,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,42,86,73);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,43,37,87);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,44,62,36);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,45,26,88);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,46,88,82);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,47,57,89);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,48,85,54);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,49,52,88);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,50,81,91);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,51,70,42);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,52,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,53,58,26);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,54,2,49);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,55,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,56,59,29);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,57,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,58,45,85);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,59,64,40);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,60,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,61,93,44);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,62,61,61);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,63,14,27);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,64,90,24);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,65,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,66,36,73);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,67,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,68,40,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,69,90,54);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,70,40,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,71,32,37);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,72,27,36);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,73,40,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,74,65,69);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,75,20,15);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,76,33,56);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,77,40,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,78,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,79,28,12);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,80,76,64);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,81,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,82,59,56);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,83,91,96);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,84,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,85,24,38);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,86,76,62);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,87,33,52);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,88,62,35);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (3,89,100,86);
 
--- INSERT INTO User (LastLogin, FirstName, LastName, UserRole, Email)
--- VALUES
--- ('2025-05-15 10:30:00', 'Layla', 'Hassan', 'AsylumSeeker', 'laylahassan@gmail.com'),
--- ('2025-05-15 11:30:00', 'Amin', 'Mohammed', 'AsylumSeeker', 'mohammed.amin@gmail.com'),
--- ('2025-05-15 09:15:00', 'Mark', 'Weber', 'Diplomat', 'webermark@diplomats.eu'),
--- ('2025-05-14 17:45:00', 'Sebastian', 'Vettel', 'Lawyer', 'seb.vettal@lawyers.org');
+-- ReligionID 4 for all countries (1-95)
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,1,40,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,2,40,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,3,40,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,4,40,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,5,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,6,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,7,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,8,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,9,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,10,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,11,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,12,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,13,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,14,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,16,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,17,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,18,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,19,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,20,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,21,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,22,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,23,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,24,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,25,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,26,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,27,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,28,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,29,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,30,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,31,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,32,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,33,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,34,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,35,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,36,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,37,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,38,78,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,39,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,40,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,41,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,42,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,43,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,44,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,45,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,46,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,47,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,48,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,49,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,50,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,51,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,52,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,53,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,54,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,55,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,56,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,57,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,58,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,59,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,60,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,61,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,62,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,63,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,64,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,65,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,66,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,67,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,68,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,69,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,70,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,71,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,72,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,73,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,74,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,75,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,76,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,77,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,78,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,79,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,80,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,81,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,82,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,83,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,84,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,85,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,86,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,87,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,88,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,89,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,90,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,91,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,92,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,93,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,94,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (4,95,15,50);
 
--- INSERT INTO User (LastLogin, FirstName, LastName, UserRole, Email)
--- VALUES
--- ('2025-05-15 08:10:00', 'Frank', 'De Vries', 'Diplomat', 'frankdev@usa.gov'),
--- ('2025-05-13 14:55:00', 'Jackie ', 'Stewart', 'Lawyer', 'stewart.j@mgm.com');INSERT INTO User(UserID,LastLogin,FirstName,LastName,UserRole,Email) VALUES (1,1,'Dode','Fairbrace','AsylumSeeker','dfairbrace0@admin.ch');
+-- ReligionID 5 for all countries (1-95)
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,1,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,2,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,3,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,4,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,5,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,6,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,7,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,8,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,9,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,10,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,11,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,12,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,13,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,14,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,15,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,16,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,17,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,18,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,19,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,20,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,21,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,22,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,23,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,24,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,25,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,26,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,27,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,28,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,29,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,30,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,31,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,32,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,33,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,34,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,35,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,36,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,37,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,38,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,39,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,40,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,41,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,42,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,43,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,44,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,45,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,46,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,47,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,48,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,49,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,50,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,51,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,52,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,53,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,54,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,55,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,56,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,57,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,58,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,59,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,60,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,61,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,62,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,63,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,64,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,65,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,66,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,67,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,68,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,69,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,70,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,71,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,72,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,73,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,74,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,75,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,76,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,77,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,78,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,79,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,80,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,81,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,82,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,83,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,84,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,85,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,86,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,87,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,88,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,89,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,90,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,91,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,92,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,93,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,94,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (5,95,15,50);
+
+-- ReligionID 6 for all countries (1-95)
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,1,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,2,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,3,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,4,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,5,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,6,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,7,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,8,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,9,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,10,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,11,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,12,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,13,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,14,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,15,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,16,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,17,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,18,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,19,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,20,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,21,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,22,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,23,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,24,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,25,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,26,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,27,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,28,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,29,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,30,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,31,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,32,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,33,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,34,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,35,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,36,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,37,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,38,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,39,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,40,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,41,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,42,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,43,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,44,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,45,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,46,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,47,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,48,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,49,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,50,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,51,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,52,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,53,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,54,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,55,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,56,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,57,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,58,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,59,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,60,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,61,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,62,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,63,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,64,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,65,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,66,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,67,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,68,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,69,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,70,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,71,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,72,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,73,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,74,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,75,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,76,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,77,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,78,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,79,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,80,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,81,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,82,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,83,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,84,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,85,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,86,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,87,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,88,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,89,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,90,15,50);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,91,15,69);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,92,15,15);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,93,15,90);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,94,15,32);
+INSERT INTO CountryReligion(ReligionID,CountryID,PercentPracticing,AcceptanceScore) VALUES (6,95,15,23);
+
 INSERT INTO User(UserID,LastLogin,FirstName,LastName,UserRole,Email) VALUES (1,'2025-01-24 11:45:44','Izzy','Du Fray','AsylumSeeker','idufray0@cargocollective.com');
 INSERT INTO User(UserID,LastLogin,FirstName,LastName,UserRole,Email) VALUES (2,'2024-06-14 12:16:05','Lianna','Boncore','AsylumSeeker','lboncore1@facebook.com');
 INSERT INTO User(UserID,LastLogin,FirstName,LastName,UserRole,Email) VALUES (3,'2025-03-03 09:01:19','Payton','Greendale','AsylumSeeker','pgreendale2@live.com');
