@@ -61,7 +61,37 @@ def get_country_list():
 
 # set the header of the page
 st.header('Asylum Acceptance Probability')
+with st.expander("ℹ️ How to Use This Dashboard"):
+    st.write("""
+             
+### Overview
 
+This dashboard helps you estimate the likelihood of asylum application acceptance across EU countries based on your demographic information. You will receive:
+- A ranked list of countries with the highest acceptance probability
+- An interactive map showing probabilities across the EU
+
+---
+
+### Step 1: Enter Demographic Information
+
+In the form on the left:
+- Select your **country of origin**
+- Choose your **sex** (Males or Females)
+- Enter your **age**
+
+Then click **Submit**.
+
+---
+
+### Step 2: Review the Results
+
+After submitting, the right side of the screen will show:
+- The **top three countries** most likely to accept your application
+- A **color-coded map** of EU countries, where:
+  - Darker colors represent higher acceptance probabilities
+  - You can hover to view the exact percentage
+---
+    """)
 col1, col2 = st.columns(2, gap="large")
 
 with col1:
