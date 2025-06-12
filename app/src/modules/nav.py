@@ -24,6 +24,8 @@ def DecisionStats():
 def RequestFunding():
     st.sidebar.page_link("pages/13_Apply_For_Aid.py", label="Seek Legal Aid", icon="💰")
 
+def LawyerProfile():
+    st.sidebar.page_link("pages/14_Lawyer_Profile.py", label="User Profile", icon="👤")
     
 ### -------------------------- Refugee Sidebar -------------------------------------------
 def AcceptanceProbStats():
@@ -83,6 +85,7 @@ def SideBarLinks(show_home=False):
             ProBonoOpps()
             DecisionStats()
             RequestFunding()
+            LawyerProfile()
     
     # Always show the About page at the bottom of the list of links
     AboutPageNav()

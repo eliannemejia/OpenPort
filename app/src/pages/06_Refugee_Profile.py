@@ -101,8 +101,8 @@ else:
 st.markdown("---")
 st.write("### Lawyer Assignment")
 lawyer = get_lawyer_assignment()
-if hasattr(lawyer, "message"):
-     st.markdown("No Lawyer Assignments At This Time")
+if "message" in lawyer:
+    st.markdown("No Lawyer Assignments At This Time")
 else:
     st.markdown(f"""
      - **Name**: {lawyer.get("FirstName")} {lawyer.get("LastName")}

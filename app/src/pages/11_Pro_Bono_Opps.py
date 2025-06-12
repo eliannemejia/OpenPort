@@ -35,7 +35,7 @@ def assign_lawyer(refugee_id, lawyer_id):
 
 def get_lawyer_id():
     user_id = st.session_state['user_id']
-    url = f"{API_URL}/lawyers/{user_id}"
+    url = f"{API_URL}/{user_id}"
     try:
         response = requests.get(url)
         if response.status_code != 200:
