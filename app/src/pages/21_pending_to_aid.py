@@ -75,31 +75,30 @@ else:
     # Add CSS after buttons are rendered
     st.markdown("""
         <style>
-        /* Blue borders for containers - matching sidebar */
+        /* Blue borders for containers */
         div[data-testid="stContainer"] {
-            border: 1px solid #1f77b4 !important;
+            border: 1px solid #0C406E !important;
         }
         
         /* Alternative selector */
         .stContainer > div {
-            border: 1px solid #1f77b4 !important;
+            border: 1px solid #0C406E !important;
         }
         
         /* Even more specific */
         div[data-testid="stContainer"] > div {
-            border-color: #1f77b4 !important;
+            border-color: #0C406E !important;
         }
         
-        /* Make primary buttons green */
+        /* Make both buttons the same blue color */
         .stButton > button[kind="primary"] {
-            background-color: #28a745 !important;
-            border-color: #28a745 !important;
+            background-color: #0C406E !important;
+            border-color: #0C406E !important;
         }
         
-        /* Make secondary buttons red */
         .stButton > button[kind="secondary"] {
-            background-color: #dc3545 !important;
-            border-color: #dc3545 !important;
+            background-color: #0C406E !important;
+            border-color: #0C406E !important;
             color: white !important;
         }
         </style>
