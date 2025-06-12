@@ -86,7 +86,9 @@ if selection:
         
         # Sort ascending by NormAcceptance
         accepted_df = accepted_df.sort_values(by='NormAcceptance', ascending=True)
-        
+        accepted_df['NormAcceptance'] = accepted_df['NormAcceptance'] * 10000
+        accepted_df['NormAcceptance'] = accepted_df['NormAcceptance'].round(2)
+
         if selection == 'top':
             plot_data = accepted_df.tail(10)
         elif selection == 'bottom':
@@ -101,9 +103,14 @@ if selection:
             y='NormAcceptance',
             title=f"{selection.capitalize()} Countries by Accepted Applications per Capita",
             color_discrete_sequence=['#0C406E'],
-            labels={'CountryName': 'Country', 'NormAcceptance': 'Number of Accepted Applications'}
+            labels={'CountryName': 'Country', 'NormAcceptance': 'Number of Accepted Applications per Capita <br> (Scaled by 10000)'}
         )
         fig.update_layout(xaxis_tickangle=-45)
+        fig.update_traces(
+            hoverlabel=dict(
+                font_size=16 
+            )
+        )
         st.plotly_chart(fig)
         
         # Display list of countries below the chart
