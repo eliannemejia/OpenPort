@@ -48,6 +48,7 @@ st.write("Percentage of population practicing a given religion")
 
 fig = px.bar(df_religion, x="Religion", y="Follow Rate (%)",
              labels={"Follow Rate (%)": "Follow Rate (%)"},
+             color_discrete_sequence=['#0C406E'],
              )
 
 fig.update_traces(textposition='outside')
@@ -84,9 +85,13 @@ df_edu = pd.DataFrame({
     "Percentage (%)": list(education_levels.values())
 })
 
-# Bar plot using Streamlit's built-in charting (matplotlib or plotly could be used, but here let's use st.bar_chart for simplicity)
 st.subheader(f"Education Completion Statistics for {chosen_country} ")
 st.write(f"Percentage of population that completed each level of education")
 
-st.bar_chart(df_edu.set_index("Education Level"), x_label="Education Level", y_label="Percentage of Population")
+fig = px.bar(df_edu, x="Education Level", y="Percentage (%)",
+             labels={"Education Level": "Percentage of Population"},
+             color_discrete_sequence=['#0C406E'],
+             )
+fig.update_traces(textposition='outside')
 
+st.plotly_chart(fig, use_container_width=True)
