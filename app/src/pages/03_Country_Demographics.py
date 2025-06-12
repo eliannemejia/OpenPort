@@ -63,6 +63,23 @@ st.plotly_chart(fig, use_container_width=True)
 df_countries = pd.read_csv("assets/list_of_countries.csv")
 countries = sorted(df_countries["Country"].dropna().unique())
 
+def get_country_list():
+    countries_url = "http://web-api:4000/countries/countries"
+    countries_get = requests.get(countries_url).json()
+    countries = []
+    idx = 0
+    for entry in countries_get:
+        if idx < 27:
+            name = entry["CountryName"]
+            countries.append(name)
+            idx += 1
+    return countries
+
+
+# Load countries from CSV
+df_countries = pd.read_csv("assets/list_of_countries.csv")
+countries = sorted(df_countries["Country"].dropna().unique())
+
 def get_education_data(country_name):
     """Fetch education data for a specific country from the API"""
     try:
@@ -80,10 +97,9 @@ def get_education_data(country_name):
             
             for entry in country_data:
                 level_name = entry.get("LevelName")
-                # You can choose which metric to display - AccessScore, Ranking, or TotalStudents
-                # Using AccessScore as percentage for now
-                access_score = entry.get("AccessScore", 0)
-                education_levels[level_name] = access_score
+                # Using TotalStudents to show number of students per education level
+                total_students = entry.get("TotalStudents", 0)
+                education_levels[level_name] = total_students
             
             return education_levels
         else:
@@ -102,14 +118,14 @@ if education_data:
     # Create dataframe for plotting
     df_edu = pd.DataFrame({
         "Education Level": list(education_data.keys()),
-        "Access Score": list(education_data.values())
+        "Total Students": list(education_data.values())
     })
     
-    st.subheader(f"Education Access Statistics for {chosen_country}")
-    st.write(f"Education access scores by level")
+    st.subheader(f"Total Students by Education Level in {chosen_country}")
+    st.write(f"Number of students enrolled in each education level")
     
-    fig = px.bar(df_edu, x="Education Level", y="Access Score",
-                 labels={"Education Level": "Education Level", "Access Score": "Access Score"},
+    fig = px.bar(df_edu, x="Education Level", y="Total Students",
+                 labels={"Education Level": "Education Level", "Total Students": "Total Students"},
                  color_discrete_sequence=['#0C406E'],
                  )
     fig.update_traces(
