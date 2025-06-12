@@ -159,6 +159,7 @@ else:
 
         # Filter plot by dropdown year range
         df_plot = df_plot[(df_plot["Year"] >= start_year) & (df_plot["Year"] <= end_year)]
+        df_plot["Value"] = df_plot["Value"].round(2)
 
         fig = px.line(
             df_plot, x="Year", y="Value", color="Type",
