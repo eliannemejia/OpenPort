@@ -15,17 +15,35 @@ import datetime
 SideBarLinks()
 
 # set the header of the page
-st.header('Find Countries in need of Aid Projects')
+st.header('Aid Project Dashboard')
 
 # You can access the session state to make a more customized/personalized app experience
-#st.write(f"### Hi, {st.session_state['first_name']}.")
-st.write("not done, fix country display")
+with st.expander("ℹ️ How to Use This Dashboard"):
+    st.write("""
+    - **View Aid Projects by Country:** Explore the horizontal bar chart showing the number of aid projects currently active in each country.
+    - **Suggest a New Project:** Use the form below to propose a new aid project by entering the project name, description, selecting the country, and the start date. Click **Post** to submit your project.
+    - **Update an Existing Project:** If you’ve already posted projects during this session, select a project from the dropdown to edit its details. After making changes, click **Update** to save.
+    - **Manage Your Projects:** Scroll down to see your recently posted projects. You can expand each project for details and delete any project you no longer want listed.
 
-  
-# Load countries from CSV
-df_countries = pd.read_csv("assets/country_list.csv")
-countries = sorted(df_countries["Country"].dropna().unique())
+    This interactive dashboard helps you track and contribute to aid efforts efficiently. If you encounter any issues fetching data or posting projects, error messages will guide you accordingly.
+    """)
+# Fetch country list from Flask API
+COUNTRIES_API = "http://web-api:4000/countries/countries"
+@st.cache_data(show_spinner=False)
+def fetch_countries():
+    try:
+        response = requests.get(COUNTRIES_API)
+        response.raise_for_status()
+        country_data = response.json()
+        countries = [item[0] if isinstance(item, (list, tuple)) else item['CountryName'] for item in country_data]
+        return sorted(countries)
+    except requests.RequestException as e:
+        st.error(f"Failed to fetch countries: {e}")
+        return []
+
+countries = fetch_countries()
 df_all_countries = pd.DataFrame({'CountryName': countries})
+
 
 # Fetch aid recommendations
 API_URL = "http://web-api:4000/diplomats/aid_recommendations"
@@ -64,11 +82,18 @@ fig = px.bar(
     y='CountryName',
     orientation='h',
     labels={'NumAidProjects': 'Number of Aid Projects', 'CountryName': 'Country'},
-    title='Number of Aid Projects by Country'
+    title='Number of Aid Projects by Country',
 )
 
-# Ensure x-axis starts at 0
-fig.update_layout(xaxis=dict(range=[0, merged_df['NumAidProjects'].max() + 5]))
+# Ensure all countries show up
+fig.update_layout(
+    xaxis=dict(range=[0, merged_df['NumAidProjects'].max() + 5]),
+    yaxis=dict(
+        categoryorder='array',
+        categoryarray=merged_df['CountryName'].tolist()
+    ),
+    height=25 * len(merged_df)  # Dynamically adjust height for visibility
+)
 
 
 #st.plotly_chart(fig)
