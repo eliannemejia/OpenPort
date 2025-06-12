@@ -53,7 +53,7 @@ st.title("Available Pro Bono Opporunities")
 
 type = st.selectbox(
         "Aid Type",
-        ["Asylum Application", "Citizenship Application", "Family Reuinification", "Other"],
+        ["Asylum Application", "Citizenship Application", "Family Reunification", "Other"],
         index=None,
         placeholder="Select an aid type",
         key="aid_type"

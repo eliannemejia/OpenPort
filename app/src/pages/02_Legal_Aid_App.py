@@ -235,7 +235,7 @@ if st.session_state.has_family_members == "Yes":
                 
 aid_type = st.radio(
     "What kind of aid are you seeking?",
-    ["Asylum Application", "Citizenship Application", "Family Reuinification", "Other"],
+    ["Asylum Application", "Citizenship Application", "Family Reunification", "Other"],
     key="aid_type")
 
 if aid_type == "Other":

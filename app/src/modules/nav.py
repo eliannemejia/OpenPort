@@ -14,8 +14,6 @@ def AboutPageNav():
     st.sidebar.page_link("pages/30_About.py", label="About", icon="🧠")
 
 ### ------------------------------- Lawyer Sidebar ---------------------------------------
-def HistTrends():
-    st.sidebar.page_link("pages/01_App_Prob_Stats.py", label="Find Best Asylum Option", icon="✅")
 
 def ProBonoOpps():
     st.sidebar.page_link("pages/11_Pro_Bono_Opps.py", label="See Pro Bono Opportunities", icon="🙏🏽")
@@ -23,8 +21,8 @@ def ProBonoOpps():
 def DecisionStats():
     st.sidebar.page_link("pages/11_Decision_Stats.py", label="See Decision Stats", icon="📊")
     
-def LegalAidHome():
-    st.sidebar.page_link("pages/02_Legal_Aid_App.py", label="Seek Legal Aid", icon="👨🏽‍⚖️")
+def RequestFunding():
+    st.sidebar.page_link("pages/13_Apply_For_Aid.py", label="Seek Legal Aid", icon="💰")
 
     
 ### -------------------------- Refugee Sidebar -------------------------------------------
@@ -84,6 +82,7 @@ def SideBarLinks(show_home=False):
         if st.session_state["role"] == "lawyer":
             ProBonoOpps()
             DecisionStats()
+            RequestFunding()
     
     # Always show the About page at the bottom of the list of links
     AboutPageNav()
