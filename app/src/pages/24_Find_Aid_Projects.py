@@ -3,7 +3,6 @@ logger = logging.getLogger(__name__)
 import pandas as pd
 import streamlit as st
 from streamlit_extras.app_logo import add_logo
-import world_bank_data as wb
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
@@ -72,7 +71,7 @@ fig = px.bar(
 fig.update_layout(xaxis=dict(range=[0, merged_df['NumAidProjects'].max() + 5]))
 
 
-st.plotly_chart(fig)
+#st.plotly_chart(fig)
 
 # --- Suggest a Project Section ---
 st.markdown("## Suggest a Project")
@@ -106,7 +105,7 @@ selected_country = st.selectbox("Select a Country", options=countries, index=cou
 project_date = st.date_input("Project Date", value=datetime.datetime.strptime(selected_project['start_date'], "%Y-%m-%d").date() if selected_project else datetime.date.today())
 
 # Post new project  
-if st.button("Post (finish with post request)", type='primary', use_container_width=True):
+if st.button("Post", type='primary', use_container_width=True):
     if not project_name or not project_description:
         st.error("Please fill in all required fields.")
     else:
@@ -207,3 +206,4 @@ if st.session_state['posted_projects']:
 
                 except requests.RequestException as e:
                     st.error(f"Failed to delete project: {e}")
+st.plotly_chart(fig)
