@@ -89,13 +89,13 @@ if selected_user_name:
         if full_name_email == selected_user_name:
             selected_user = user
             st.session_state['user_id'] = selected_user['UserID']
+            st.session_state['first_name'] = user['FirstName']
             break
 with col2:
     st.markdown("<div style='height: 1.8em;'></div>", unsafe_allow_html=True)
     if st.button("Log In", key="one"):
         st.session_state['authenticated'] = True
         st.session_state['role'] = 'asylum_seeker'
-        st.session_state['first_name'] = 'Mohammed'
         st.switch_page('pages/01_App_Prob_Stats.py')
         
    
@@ -127,6 +127,7 @@ if selected_user_name:
         if full_name_email == selected_user_name:
             selected_user = user
             st.session_state['user_id'] = selected_user['UserID']
+            st.session_state['first_name'] = user['FirstName']
             break
 
 with col4:
@@ -134,7 +135,6 @@ with col4:
     if st.button("Log In", key="two"):
         st.session_state['role'] = 'lawyer'
         st.session_state['authenticated'] = True
-        st.session_state['first_name'] = 'Mark'
         st.switch_page('pages/10_Lawyer_Home.py')
        
     
@@ -164,6 +164,7 @@ if selected_user_name:
         if full_name_email == selected_user_name:
             selected_user = user
             st.session_state['user_id'] = selected_user['UserID']
+            st.session_state['first_name'] = user['FirstName']
             break
 
 with col6:
@@ -171,7 +172,6 @@ with col6:
     if st.button("Log In", key="three"):
         st.session_state['authenticated'] = True
         st.session_state['role'] = 'diplomat'
-        st.session_state['first_name'] = 'Eric'
         st.switch_page('pages/20_Commissioner_Home.py')
         
 st.markdown("""
