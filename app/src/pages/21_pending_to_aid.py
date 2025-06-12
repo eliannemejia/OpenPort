@@ -43,39 +43,6 @@ pending_requests = fetch_pending_requests()
 if not pending_requests:
     st.info("No pending funding requests to review.")
 else:
-    st.markdown("""
-        <style>
-        .card-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        .custom-card {
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            padding: 16px;
-        }
-        .card-header {
-            font-weight: bold;
-            font-size: 1.1rem;
-            margin-bottom: 8px;
-        }
-        .card-body p {
-            margin: 4px 0;
-            font-size: 0.9rem;
-        }
-        .card-buttons {
-            margin-top: 12px;
-            display: flex;
-            justify-content: space-between;
-        }
-        </style>
-    """, unsafe_allow_html=True)
-
-    st.markdown('<div class="card-grid">', unsafe_allow_html=True)
-
     for req in pending_requests:
         app_id = req["AppID"]
         title = req["FundRequestTitle"]
@@ -84,26 +51,56 @@ else:
         lawyer_email = req["LawyerEmail"]
         status = req["FundStatus"]
 
-        st.markdown(f'<div class="custom-card">', unsafe_allow_html=True)
-        st.markdown(f'<div class="card-header">{title} (ID: {app_id})</div>', unsafe_allow_html=True)
-        st.markdown(f'<div class="card-body">', unsafe_allow_html=True)
-        st.markdown(f'<p><b>Description:</b> {desc}</p>', unsafe_allow_html=True)
-        st.markdown(f'<p><b>Amount Requested:</b> ${amt}</p>', unsafe_allow_html=True)
-        st.markdown(f'<p><b>Lawyer Email:</b> {lawyer_email}</p>', unsafe_allow_html=True)
-        st.markdown(f'<p><b>Status:</b> {status}</p>', unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)
+        # Create each application in a container with border
+        with st.container(border=True):
+            st.markdown(f"**{title} (ID: {app_id})**")
+            st.write(f"**Description:** {desc}")
+            st.write(f"**Amount Requested:** ${amt}")
+            st.write(f"**Lawyer Email:** {lawyer_email}")
+            st.write(f"**Status:** {status}")
 
-        col1, col2 = st.columns([1, 1])
-        with col1:
-            if st.button(f"Accept {app_id}", key=f"accept_{app_id}"):
-                if update_fund_status(app_id, "Accepted"):
-                    st.rerun()  # Refresh to update UI after change
+            col1, col2 = st.columns([1, 1])
+            with col1:
+                # Use type="primary" for green button
+                if st.button(f"Accept", key=f"accept_{app_id}", type="primary"):
+                    if update_fund_status(app_id, "Accepted"):
+                        st.rerun()
 
-        with col2:
-            if st.button(f"Reject {app_id}", key=f"reject_{app_id}"):
-                if update_fund_status(app_id, "Rejected"):
-                    st.rerun()  # Refresh to update UI after change
+            with col2:
+                # Use type="secondary" for red button (we'll override with CSS)
+                if st.button(f"Reject", key=f"reject_{app_id}", type="secondary"):
+                    if update_fund_status(app_id, "Rejected"):
+                        st.rerun()
 
-        st.markdown('</div>', unsafe_allow_html=True)
-
-    st.markdown('</div>', unsafe_allow_html=True)
+    # Add CSS after buttons are rendered
+    st.markdown("""
+        <style>
+        /* Blue borders for containers - matching sidebar */
+        div[data-testid="stContainer"] {
+            border: 1px solid #1f77b4 !important;
+        }
+        
+        /* Alternative selector */
+        .stContainer > div {
+            border: 1px solid #1f77b4 !important;
+        }
+        
+        /* Even more specific */
+        div[data-testid="stContainer"] > div {
+            border-color: #1f77b4 !important;
+        }
+        
+        /* Make primary buttons green */
+        .stButton > button[kind="primary"] {
+            background-color: #28a745 !important;
+            border-color: #28a745 !important;
+        }
+        
+        /* Make secondary buttons red */
+        .stButton > button[kind="secondary"] {
+            background-color: #dc3545 !important;
+            border-color: #dc3545 !important;
+            color: white !important;
+        }
+        </style>
+    """, unsafe_allow_html=True)
