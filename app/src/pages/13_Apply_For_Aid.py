@@ -40,15 +40,23 @@ def display_fund_request(fund_request):
 
     st.write(f"**Lawyer Email:** {fund_request['LawyerEmail']}")
     st.write(f"**Status:** {fund_request['FundStatus']}")
+    #color
+    status = fund_request.get('FundStatus', '').lower()
+    if status == "pending":
+        st.warning("Pending")
+    elif status == "accepted":
+        st.success("Accepted")
+    elif status == "rejected":
+        st.error("Rejected")
+    else:
+        st.info(fund_request.get('FundStatus', 'Unknown'))
 
 # Fund request submission form
 with st.form("fund_request_form"):
     fund_title = st.text_input("Fund Request Title")
     fund_desc = st.text_area("Description")
-    fund_amt = st.number_input("Amount Requested", min_value=0.0, format="%.2f")
+    fund_amt = st.number_input("Amount Requested", min_value=0.0,max_value=9000000.0, format="%.2f")
     lawyer_email = st.text_input("Your Email")
-    st.write("LAWYER EMAIL")
-    st.write(lawyer_email)
     submitted = st.form_submit_button("Submit Request")
 
     if submitted:
@@ -103,6 +111,7 @@ with st.form("lookup_form"):
                     fund_request = response.json()
                     st.markdown("### Fund Request Details")
                     display_fund_request(fund_request)
+                    
                 elif response.status_code == 404:
                     st.error("Fund request not found.")
                 else:
