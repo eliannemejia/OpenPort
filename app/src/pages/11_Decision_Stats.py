@@ -44,7 +44,7 @@ def get_country_list():
     return countries
 
 # set the header of the page
-st.header('Average Acceptance Rates for selected age, sex, and nationality')
+st.header('Average Acceptance Rates for Selected Age, Sex, and Nationality')
 st.write("### Select a Refugee Demographic")
 col1, col2, col3 = st.columns(3)
 

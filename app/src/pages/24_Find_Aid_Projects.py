@@ -72,8 +72,11 @@ else:
     merged_df = df_all_countries.copy()
     merged_df['NumAidProjects'] = 0
 
+
+merged_df = merged_df[merged_df['NumAidProjects'] > 0]
+
 # Sort for chart
-merged_df = merged_df.sort_values(by='NumAidProjects', ascending=True)
+merged_df = merged_df.sort_values(by='NumAidProjects', ascending=False)
 
 # Plot horizontal bar chart
 fig = px.bar(
@@ -93,6 +96,12 @@ fig.update_layout(
         categoryarray=merged_df['CountryName'].tolist()
     ),
     height=25 * len(merged_df)  # Dynamically adjust height for visibility
+)
+
+fig.update_traces(
+    hoverlabel=dict(
+        font_size=16 
+    )
 )
 
 
