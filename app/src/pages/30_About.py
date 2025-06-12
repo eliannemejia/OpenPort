@@ -59,7 +59,7 @@ with col4:
     st.markdown("""
                 Mahika Modi
                 \n3rd Year
-                \nData Sciene and Finance Major
+                \nData Science and Finance Major
                 """)
 
 # Add a button to return to home page
