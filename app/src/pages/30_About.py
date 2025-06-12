@@ -58,7 +58,7 @@ with col4:
     st.image("assets/Mahika.jpg", width=207)
     st.markdown("""
                 Mahika Modi
-                \n2nd Year
+                \n3rd Year
                 \nData Sciene and Finance Major
                 """)
 
