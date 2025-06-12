@@ -12,7 +12,18 @@ SideBarLinks()
 
 st.header('Social Protection Expenditure Projections')
 st.write("Projections based on lag-5 regression using historical EU data and learned weights.")
+with st.expander("ℹ️ How to Use This Dashboard"):
+    st.write("""
+     This dashboard allows you to explore social protection expenditure projections for EU countries based on a lag-5 regression model.
+    
+    - **Select a Country:** Choose the country you want to analyze from the dropdown.
+    - **Select Year Range:** Specify the start and end years for the projection and historical data display.
+    - **View Projections and Historical Data:** The line chart will show historical expenditure data (2011–2022) and projected values (2023–2027).
+    - **Understand Projections:** Projections are computed using historical data from previous five years and weighted regression coefficients specific to each country.
+    - **Warnings:** If the start year is after the end year, or no country is selected, you will receive a warning.
 
+    Use this tool to gain insights into trends and expected changes in social protection spending.
+    """)
 
 df_countries = pd.read_csv("assets/country_list.csv")
 countries = sorted(df_countries["Country"].dropna().unique())
