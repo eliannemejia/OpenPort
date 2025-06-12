@@ -1,3 +1,4 @@
+from datetime import date
 import logging
 logger = logging.getLogger(__name__)
 import pandas as pd
@@ -155,7 +156,11 @@ st.write("### Applicant Details")
 
 f_name = st.text_input("First Name", "")
 l_name = st.text_input("Last Name", "")
-dob = st.date_input("Date of Birth", value=None)
+dob = st.date_input(
+    "Date of Birth",
+    value=None, 
+    min_value=date(1900, 1, 1),   
+    max_value=date.today())
 email = st.text_input("Email", "")
 
 origin = st.selectbox(

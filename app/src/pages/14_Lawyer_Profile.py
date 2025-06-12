@@ -81,18 +81,5 @@ if cases:
         st.markdown("---")
         
 else:
-    st.write("No Open Applications At This Time")
-
-# st.markdown("---")
-# st.write("### Lawyer Assignment")
-# lawyer = get_lawyer_id()
-# if "message" in lawyer:
-#     st.markdown("No Lawyer Assignments At This Time")
-# else:
-#     st.markdown(f"""
-#      - **Name**: {lawyer.get("FirstName")} {lawyer.get("LastName")}
-#      - **Email**: {lawyer.get("Email")}
-#      - **Nationality**: {lawyer.get("Nationality")}
-#      - **Specialization**: {lawyer.get("Sepcialization")}
-#      """)
+    st.write("No Assigned Cases At This Time")
 
