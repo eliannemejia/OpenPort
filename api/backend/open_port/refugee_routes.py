@@ -482,3 +482,64 @@ def get_prediction(age, sex, citizen, geo):
     except Error as e:
         current_app.logger.error(f'Database error in get_prediction: {str(e)}')
         return jsonify({"error": str(e)}), 500 
+  
+
+@refugees.route("/educationlevel", methods=["GET"])
+def get_education_level():
+    try:
+        current_app.logger.info('Starting get_education_level request')
+        cursor = db.get_db().cursor()
+ 
+        country_name = request.args.get("country_name")
+        country_id = request.args.get("country_id")
+        level_id = request.args.get("level_id")
+        level_name = request.args.get("level_name")
+
+        current_app.logger.debug(f'Query parameters - country_name: {country_name}, country_id: {country_id}, level_id: {level_id}, level_name: {level_name}')
+
+        # Base query with JOIN to get country names and education level names
+        query = """
+            SELECT 
+                c.CountryID,
+                c.CountryName,
+                el.LevelID,
+                el.LevelName,
+                e.EducationType,
+                e.AccessScore,
+                e.Ranking,
+                e.TotalStudents
+            FROM Education e
+            JOIN Country c ON e.CountryID = c.CountryID
+            JOIN EducationLevel el ON e.LevelID = el.LevelID
+            WHERE 1=1
+        """
+        params = []
+
+        # Add filters if provided
+        if country_id:
+            query += " AND c.CountryID = %s"
+            params.append(country_id)
+        if country_name:
+            query += " AND c.CountryName = %s"
+            params.append(country_name)
+        if level_id:
+            query += " AND el.LevelID = %s"
+            params.append(level_id)
+        if level_name:
+            query += " AND el.LevelName = %s"
+            params.append(level_name)
+
+        # Order by CountryID and LevelID for consistent results
+        query += " ORDER BY c.CountryID, el.LevelID"
+
+        current_app.logger.debug(f'Executing query: {query} with params: {params}')
+        cursor.execute(query, params)
+        results = cursor.fetchall()
+        cursor.close()
+
+        current_app.logger.info(f'Successfully retrieved {len(results)} education records')
+        return jsonify(results), 200
+
+    except Error as e:
+        current_app.logger.error(f'Database error in get_education_level: {str(e)}')
+        return jsonify({"error": str(e)}), 500

@@ -76,32 +76,99 @@ def get_country_list():
     return countries
 
 
-# Mock data for education levels (percentages or any units)
-education_levels = {
-    "Primary":  round(random.uniform(50, 100), 1),
-    "Secondary": round(random.uniform(30, 90), 1),
-    "Tertiary": round(random.uniform(10, 70),1)
-}
+# Load countries from CSV
+df_countries = pd.read_csv("assets/list_of_countries.csv")
+countries = sorted(df_countries["Country"].dropna().unique())
 
-# Create dataframe for plotting
-df_edu = pd.DataFrame({
-    "Education Level": list(education_levels.keys()),
-    "Percentage (%)": list(education_levels.values())
-})
+def get_education_data(country_name):
+    """Fetch education data for a specific country from the API"""
+    try:
+        education_url = "http://web-api:4000/refugees/educationlevel"
+        response = requests.get(education_url)
+        
+        if response.status_code == 200:
+            all_education_data = response.json()
+            
+            # Filter data for the selected country
+            country_data = [entry for entry in all_education_data if entry.get("CountryName") == country_name]
+            
+            # Process the data to get education levels and their corresponding values
+            education_levels = {}
+            
+            for entry in country_data:
+                level_name = entry.get("LevelName")
+                # Using TotalStudents to show number of students per education level
+                total_students = entry.get("TotalStudents", 0)
+                education_levels[level_name] = total_students
+            
+            return education_levels
+        else:
+            st.error(f"Failed to fetch education data")
+            return None
+            
+    except Exception as e:
+        st.error(f"Error fetching education data: {str(e)}")
+        logger.error(f"Error in get_education_data: {str(e)}")
+        return None
 
-st.subheader(f"Education Completion Statistics for {chosen_country} ")
-st.write(f"Percentage of population that completed each level of education")
+# Get education data from API
+education_data = get_education_data(chosen_country)
 
-fig = px.bar(df_edu, x="Education Level", y="Percentage (%)",
-             labels={"Education Level": "Percentage of Population"},
-             color_discrete_sequence=['#0C406E'],
-             )
-fig.update_traces(
-    textposition='outside',
-    hoverlabel=dict(
-        font_size=16 
+if education_data:
+    # Create dataframe for plotting
+    df_edu = pd.DataFrame({
+        "Education Level": list(education_data.keys()),
+        "Total Students": list(education_data.values())
+    })
+    
+    st.subheader(f"Total Students by Education Level in {chosen_country}")
+    st.write(f"Number of students enrolled in each education level")
+    
+    fig = px.bar(df_edu, x="Education Level", y="Total Students",
+                 labels={"Education Level": "Education Level", "Total Students": "Total Students"},
+                 color_discrete_sequence=['#0C406E'],
+                 )
+    fig.update_traces(
+        textposition='outside',
+        hoverlabel=dict(
+            font_size=16 
+        )
     )
-)
+    
+    st.plotly_chart(fig, use_container_width=True)
+    
+    # Display raw data in an expandable section
+    with st.expander("View Raw Education Data"):
+        st.dataframe(df_edu)
+        
+else:
+    # Fallback to mock data if API fails
+    st.warning(f"Could not fetch education data for {chosen_country}. Showing mock data.")
+    
+    education_levels = {
+        "Primary":  round(random.uniform(50, 100), 1),
+        "Secondary": round(random.uniform(30, 90), 1),
+        "Tertiary": round(random.uniform(10, 70),1)
+    }
 
+    # Create dataframe for plotting
+    df_edu = pd.DataFrame({
+        "Education Level": list(education_levels.keys()),
+        "Percentage (%)": list(education_levels.values())
+    })
 
-st.plotly_chart(fig, use_container_width=True)
+    st.subheader(f"Education Completion Statistics for {chosen_country} (Mock Data)")
+    st.write(f"Percentage of population that completed each level of education")
+
+    fig = px.bar(df_edu, x="Education Level", y="Percentage (%)",
+                 labels={"Education Level": "Percentage of Population"},
+                 color_discrete_sequence=['#0C406E'],
+                 )
+    fig.update_traces(
+        textposition='outside',
+        hoverlabel=dict(
+            font_size=16 
+        )
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
