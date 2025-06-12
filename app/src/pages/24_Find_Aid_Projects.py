@@ -20,10 +20,10 @@ st.header('Aid Project Dashboard')
 # You can access the session state to make a more customized/personalized app experience
 with st.expander("ℹ️ How to Use This Dashboard"):
     st.write("""
-    - **View Aid Projects by Country:** Explore the horizontal bar chart showing the number of aid projects currently active in each country.
     - **Suggest a New Project:** Use the form below to propose a new aid project by entering the project name, description, selecting the country, and the start date. Click **Post** to submit your project.
     - **Update an Existing Project:** If you’ve already posted projects during this session, select a project from the dropdown to edit its details. After making changes, click **Update** to save.
     - **Manage Your Projects:** Scroll down to see your recently posted projects. You can expand each project for details and delete any project you no longer want listed.
+    - **View Aid Projects by Country:** Explore the horizontal bar chart showing the number of aid projects currently active in each country.
 
     This interactive dashboard helps you track and contribute to aid efforts efficiently. If you encounter any issues fetching data or posting projects, error messages will guide you accordingly.
     """)
