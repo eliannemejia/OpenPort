@@ -46,6 +46,44 @@ def get_country_list():
 # set the header of the page
 st.header('Average Acceptance Rates for Selected Age, Sex, and Nationality')
 st.write("### Select a Refugee Demographic")
+with st.expander("ℹ️ How to Use This Dashboard"):
+    st.write("""
+    ###  Overview
+
+This dashboard helps you visualize **asylum acceptance rates** across European countries based on **refugee demographics** such as:
+- Country of origin
+- Sex
+- Age
+
+It displays both a **ranked table** and a **choropleth map** highlighting which countries are more likely to accept asylum seekers with the selected characteristics.
+
+---
+
+###  Step-by-Step Guide
+
+1. **Select the refugee's country of origin** from the dropdown.
+2. **Choose a sex** (Male or Female).
+3. **Enter the refugee’s age** using the number input.
+4. **Click the 'Submit' button** to generate the map.
+
+---
+
+###  What You’ll See
+
+- A **ranked table** showing the probability (in %) of acceptance for each EU country.
+- A **color-coded map** of Europe indicating how likely each country is to accept the refugee.
+    - **Red = Low probability**
+    - **Yellow = Medium**
+    - **Green = High**
+
+---
+
+###  Notes
+
+- Probabilities are based on historical asylum acceptance rates.
+- Hover over countries in the map to see precise values.
+- Map covers **EU member states** only.
+""")
 col1, col2, col3 = st.columns(3)
 
 with col1:

@@ -14,6 +14,36 @@ API_URL = "http://web-api:4000/lawyers/fundreq"
 SideBarLinks()
 
 st.title("Submit Fund Request")
+with st.expander("ℹ️ How to Use This Dashboard"):
+    st.write("""        
+#### This dashboard allows **lawyers** to submit and track funding requests for their pro bono cases.
+---
+
+#### Submitting a New Request
+
+1. **Fill out the form** under "Submit Fund Request":
+   - **Title**: Give your request a short, clear title.
+   - **Description**: Provide details about the need for funding.
+   - **Amount Requested**: Enter the total amount you're requesting.
+   - **Your Email**: Use the email associated with your account.
+
+2. **Click 'Submit Request'** to send your request.
+
+3. If successful, the request will be stored and you'll see:
+   - Your **AppID**
+   - The details of your submission
+   
+####  Looking Up an Existing Request
+
+1. Scroll down to **"Lookup Your Fund Request"**.
+2. Enter the **AppID** you received after submission.
+3. Click **"Lookup Request"** to view:
+   - Status of the request
+   - Details (title, amount, description)
+   - Email associated with the request
+
+---
+    """)
 
 def get_fund_request(app_id):
     try:
