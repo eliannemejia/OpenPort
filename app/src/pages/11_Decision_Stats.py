@@ -44,7 +44,7 @@ def get_country_list():
     return countries
 
 # set the header of the page
-st.header('Average Acceptance Rates for selected age, sex, and nationality')
+st.header('Average Acceptance Rates for Selected Age, Sex, and Nationality')
 st.write("### Select a Refugee Demographic")
 col1, col2, col3 = st.columns(3)
 
@@ -135,6 +135,7 @@ if submit:
         locations="Country_abbreviations",
         color="Probability of Acceptance",
         hover_name="Country",
+        hover_data={"Country_abbreviations": False},
         color_continuous_scale="YlOrRd",
         range_color=(0, 100),
         scope="europe",
@@ -142,6 +143,12 @@ if submit:
         width=1500,
         height=1500
     )
+
+    fig.update_traces(
+        hoverlabel=dict(
+            font_size=16 
+    )
+)
     st.plotly_chart(fig)
 
 st.markdown("""

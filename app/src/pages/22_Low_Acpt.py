@@ -17,6 +17,28 @@ API_URL = "http://web-api:4000/diplomats/accepted_applications"
 
 # set the header of the page
 st.header('Acceptance Rate of Countries per Capita')
+with st.expander("ℹ️ How to Use This Dashboard"):
+    st.write("""
+    This dashboard shows the acceptance rate of asylum applications normalized by population (per capita) for various countries.
+
+    - **Buttons:**  
+      - **Top 10:** View the 10 countries with the highest acceptance rates per capita.  
+      - **Bottom 10:** View the 10 countries with the lowest acceptance rates per capita.  
+      - **All:** View acceptance rates for all countries available in the dataset.
+
+    - **Data Source:** The acceptance rates are fetched dynamically from the API and scaled for clarity.
+
+    - **Interpreting the Chart:**  
+      - The bar chart visualizes the normalized acceptance rate per capita.  
+      - Hover over bars to see exact values.  
+      - Countries are displayed sorted by acceptance rate (lowest to highest).
+
+    - **Notes:**  
+      - The acceptance rate is scaled by a factor of 10,000 for better readability.  
+      - Some countries may not be listed if they are not available in the country reference list.
+
+    Click a button to get started.
+    """)
 
 # You can access the session state to make a more customized/personalized app experience
 #st.write(f"### Hi, {st.session_state['first_name']}.")
@@ -86,7 +108,9 @@ if selection:
         
         # Sort ascending by NormAcceptance
         accepted_df = accepted_df.sort_values(by='NormAcceptance', ascending=True)
-        
+        accepted_df['NormAcceptance'] = accepted_df['NormAcceptance'] * 10000
+        accepted_df['NormAcceptance'] = accepted_df['NormAcceptance'].round(2)
+
         if selection == 'top':
             plot_data = accepted_df.tail(10)
         elif selection == 'bottom':
@@ -101,9 +125,14 @@ if selection:
             y='NormAcceptance',
             title=f"{selection.capitalize()} Countries by Accepted Applications per Capita",
             color_discrete_sequence=['#0C406E'],
-            labels={'CountryName': 'Country', 'NormAcceptance': 'Number of Accepted Applications'}
+            labels={'CountryName': 'Country', 'NormAcceptance': 'Number of Accepted Applications per Capita <br> (Scaled by 10,000)'}
         )
         fig.update_layout(xaxis_tickangle=-45)
+        fig.update_traces(
+            hoverlabel=dict(
+                font_size=16 
+            )
+        )
         st.plotly_chart(fig)
         
         # Display list of countries below the chart

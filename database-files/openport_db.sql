@@ -4151,5 +4151,5 @@ INSERT INTO LegalAidApplication(ApplicationID,ApplicantID,AidDescription,Submiss
 
 INSERT INTO FundApp(FundRequestTitle, FundDesc,FundAmt,LawyerEmail,FundStatus)
 VALUES
-('first request','first desc', 123232.23, 'email@email.com','Pending'),
-('second request','second desc', 324235, 'email@email.com','Accepted');
+('First Request','First Desc', 123232.23, 'email@email.com','Pending'),
+('Second Request','Second Desc', 324235, 'email@email.com','Accepted');

@@ -38,7 +38,7 @@ left, center, right = st.columns([1, 2, 1])
 
 with center:
     # Use HTML to center-align text within the middle column
-    st.markdown("<h1 style='text-align: center;'>Open Port</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>OPENPORT</h1>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>Find Your Safe Haven</h3>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
