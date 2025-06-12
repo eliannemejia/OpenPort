@@ -50,6 +50,30 @@ def get_lawyer_id():
 
 
 st.title("Available Pro Bono Opporunities")
+with st.expander("ℹ️ How to Use This Dashboard"):
+    st.write("""
+             This dashboard helps **lawyers** find and accept **pro bono legal aid cases** from asylum seekers.
+
+1. **Select an Aid Type**
+   - Use the dropdown menu at the top to choose a category:
+     - *Asylum Application*
+     - *Citizenship Application*
+     - *Family Reunification*
+     - *Other*
+
+2. **Browse Available Applications**
+   - After selecting a type, cards will appear for each applicant.
+   - Each card shows:
+     - Full name
+     - Description of the aid request
+     - Date of birth
+     - Sex
+     - Current status
+
+3. **Accept a Case**
+   - Click the **"Accept Case"** button on any applicant's card.
+   - You will be assigned to the applicant, and a confirmation message will appear.
+    """)
 
 type = st.selectbox(
         "Aid Type",
