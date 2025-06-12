@@ -28,20 +28,19 @@ def get_lawyer_id():
     
     return aid.json()
 
-# def get_family():
-#     applicant_id = get_applicant_id()["ApplicantID"]
-#     url = f"{API_URL}/family/{applicant_id}"
-#     try:
-#         family = requests.get(url)
-#         if family.status_code != 200:
-#             st.error(
-#                 f"Failed to create AsylumSeeker: {family.json().get('error', 'Unknown error')}"
-#             )
-#     except requests.exceptions.RequestException as e:
-#             st.error(f"Error connecting to the API: {str(e)}")
-#             st.info("Please ensure the API server is running")
+def get_family(aid):
+    url = f"http://web-api:4000/refugees/family/{aid}"
+    try:
+        family = requests.get(url)
+        if family.status_code != 200:
+            st.error(
+                f"Failed to create AsylumSeeker: {family.json().get('error', 'Unknown error')}"
+            )
+    except requests.exceptions.RequestException as e:
+            st.error(f"Error connecting to the API: {str(e)}")
+            st.info("Please ensure the API server is running")
     
-#     return family.json()
+    return family.json()
 
 
 def get_case_assignments():
@@ -59,9 +58,11 @@ def get_case_assignments():
 st.title("View Your Profile")
 
 st.write("### Assigned Cases")
+st.markdown("---")
 cases = get_case_assignments()
 if cases:
     for idx, case in enumerate(cases, start = 1):
+        family_members = get_family(case["ApplicantID"])
         st.markdown(f"""
         **Case {idx}**
         - **Name**: {case.get("FirstName")} {case.get("LastName")}
@@ -69,20 +70,18 @@ if cases:
         - **Country of Origin**: {case.get("Country of Origin")}
         - **Current Location**: {case.get("Current Location")}
         """)
+        st.markdown("**Associated Family Members**")
+        if family_members:
+            for member in family_members:
+                st.markdown(f"""
+                - **Name**: {member.get("FirstName")} {member.get("LastName")}
+                """)
+        else:
+            st.write("No Registered Family for Applicant At This Time")
+        st.markdown("---")
+        
 else:
     st.write("No Open Applications At This Time")
-
-# st.markdown("---")
-# st.write("### Family Members")
-# family_members = get_family()
-
-# if family_members:
-#     for member in family_members:
-#         st.markdown(f"""
-#         - **Name**: {member.get("FirstName")} {member.get("LastName")}
-#         """)
-# else:
-#     st.write("No Registered Family At This Time")
 
 # st.markdown("---")
 # st.write("### Lawyer Assignment")

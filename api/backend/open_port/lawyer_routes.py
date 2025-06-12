@@ -259,7 +259,8 @@ def get_case_assignment(lid):
                     "LastName": user_table_info["LastName"],
                     "Country of Origin": citizenship["CountryName"],
                     "Current Location": current_location["CountryName"],
-                    "Email": user_table_info["Email"]
+                    "Email": user_table_info["Email"],
+                    "ApplicantID": applicant["ApplicantID"]
                 })
         cursor.close()
         return jsonify(all_info)
