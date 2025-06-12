@@ -8,7 +8,24 @@ st.set_page_config(layout='wide')
 SideBarLinks()
 
 st.header("Review Pending Aid Applications")
+with st.expander("ℹ️ How to Use This Dashboard"):
+    st.write("""
+    This dashboard allows you to review and manage pending funding requests submitted by lawyers.
 
+    - **Viewing Requests:**  
+      All pending fund requests are listed below with their details, including title, description, amount requested, lawyer's email, and current status.
+
+    - **Actions:**  
+      For each request, you can either:
+      - **Accept:** Approve the funding request.  
+      - **Reject:** Deny the funding request.
+
+    - **How to Update:**  
+      Click the **Accept** or **Reject** button next to a request to update its status. The dashboard will automatically refresh to reflect your changes.
+  
+    Use this interface to efficiently track and respond to funding requests.
+
+    """)
 API_URL = "http://web-api:4000/diplomats/fund_requests"
 
 def fetch_pending_requests():
