@@ -92,8 +92,13 @@ if switch_graph:
                 )
 
     acceptance_scores.update_traces(textposition='outside')
-
+    acceptance_scores.update_traces(
+        hoverlabel=dict(
+            font_size=16 
+        )
+    )
     st.plotly_chart(acceptance_scores, use_container_width=True)
+
 else:
     st.subheader(f"Religious Demographic Rates in {chosen_country}")
     st.write("Percentage of population practicing a given religion")
@@ -104,7 +109,11 @@ else:
                 )
 
     percent_practicing.update_traces(textposition='outside')
-
+    percent_practicing.update_traces(
+        hoverlabel=dict(
+            font_size=16 
+        )
+    )
     st.plotly_chart(percent_practicing, use_container_width=True)
 
 
