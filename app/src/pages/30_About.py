@@ -55,7 +55,7 @@ with col3:
                 """)
 
 with col4:
-    st.image("assets/Mahika.jpg", width=207)
+    st.image("assets/Mahika.jpg", width=275)
     st.markdown("""
                 Mahika Modi
                 \n3rd Year
