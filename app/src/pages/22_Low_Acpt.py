@@ -125,7 +125,7 @@ if selection:
             y='NormAcceptance',
             title=f"{selection.capitalize()} Countries by Accepted Applications per Capita",
             color_discrete_sequence=['#0C406E'],
-            labels={'CountryName': 'Country', 'NormAcceptance': 'Number of Accepted Applications per Capita <br> (Scaled by 10000)'}
+            labels={'CountryName': 'Country', 'NormAcceptance': 'Number of Accepted Applications per Capita <br> (Scaled by 10,000)'}
         )
         fig.update_layout(xaxis_tickangle=-45)
         fig.update_traces(
