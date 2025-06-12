@@ -9,7 +9,7 @@ SideBarLinks()
 
 st.header("Review Pending Aid Applications")
 
-API_URL = "http://web-api:4000/fund_requests"
+API_URL = "http://web-api:4000/diplomats/fund_requests"
 
 def fetch_pending_requests():
     try:
@@ -97,12 +97,12 @@ else:
         with col1:
             if st.button(f"Accept {app_id}", key=f"accept_{app_id}"):
                 if update_fund_status(app_id, "Accepted"):
-                    st.experimental_rerun()  # Refresh to update UI after change
+                    st.rerun()  # Refresh to update UI after change
 
         with col2:
             if st.button(f"Reject {app_id}", key=f"reject_{app_id}"):
                 if update_fund_status(app_id, "Rejected"):
-                    st.experimental_rerun()  # Refresh to update UI after change
+                    st.rerun()  # Refresh to update UI after change
 
         st.markdown('</div>', unsafe_allow_html=True)
 

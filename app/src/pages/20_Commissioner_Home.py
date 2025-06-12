@@ -14,7 +14,7 @@ st.write('')
 st.write('')
 st.write('### How would you like to help the world today?')
 
-if st.button('Find Countries with the most rejected cases to aid', 
+if st.button('View Pending Funding Requests', 
              type='primary',
              use_container_width=True):
   st.switch_page('pages/21_pending_to_aid.py')
