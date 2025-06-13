@@ -1,4 +1,4 @@
-USE openport_database
+USE openport_database;
 
 DROP TABLE IF EXISTS EducationLevel;
 

@@ -142,7 +142,7 @@ def assign_lawyer(aid):
         return jsonify({"error": str(e)}), 500
 
     
-@lawyers.route("/<int:uid>", methods = ["GET"])
+@lawyers.route("c", methods = ["GET"])
 def get_lawyer_by_user_id(uid):
     try:
         current_app.logger.info('Starting get_lawyer_by_user_id request')

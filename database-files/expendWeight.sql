@@ -1,4 +1,4 @@
-USE openport_database
+USE openport_database;
 DROP TABLE IF EXISTS TimeSeries;
 drop table if exists RawWeights;
 
@@ -9,12 +9,9 @@ CREATE TABLE IF NOT EXISTS TimeSeries(
   TValue FLOAT
 );  
 
-
-
 CREATE TABLE RawWeights (feature VARCHAR(23),
 CountryWeight DOUBLE PRECISION
 );
-
 
 
 INSERT INTO RawWeights (feature,CountryWeight) VALUES ('Countries_Austria',20.15609811845934);
