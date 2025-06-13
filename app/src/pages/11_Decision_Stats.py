@@ -72,9 +72,6 @@ It displays both a **ranked table** and a **choropleth map** highlighting which 
 
 - A **ranked table** showing the probability (in %) of acceptance for each EU country.
 - A **color-coded map** of Europe indicating how likely each country is to accept the refugee.
-    - **Red = Low probability**
-    - **Yellow = Medium**
-    - **Green = High**
 
 ---
 
