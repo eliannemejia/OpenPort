@@ -161,11 +161,8 @@ if type:
                 if st.button(f"Accept Case", key=f"button_{idx}"):
                     lawyer_id = get_lawyer_id()
                     assign_lawyer(applicant_info["ApplicantID"], lawyer_id)
-                    st.write(f"You clicked to review {fname} {lname}'s application.")
-
+        
         idx += 1
-    # Display the grid of cards
-    # st.markdown(card_html, unsafe_allow_html=True)
 
 st.markdown("""
     <style>
